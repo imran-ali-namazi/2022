@@ -1,5 +1,4 @@
 <?php
-
 am_var('tracks', [
 	'words',
 	'nom',
@@ -23,7 +22,7 @@ function after_file() {
 function site_humanize($txt) {
 	$words = [
 		'Crises' => 'CrisisForAll.org',
-		'Learn' => 'Learn new Dimensions',
+		'Learn' => 'Learn New Dimensions',
 		'Network' => 'The YML Network',
 		'Nom' => 'Project Nom for Children',
 		'Realms' => 'Manifesting Realms Project',
