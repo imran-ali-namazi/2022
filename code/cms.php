@@ -29,7 +29,7 @@ bootstrap([
 		'github' => 'https://bitbucket.org/amadeusweb/yieldmore/',
 	],
 
-	'url' => $local ? 'http://localhost/yieldmore/' : 'https://yieldmore.org/',
+	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/', 'port') : 'https://yieldmore.org/',
 	'path' => SITEPATH,
 ]);
 
