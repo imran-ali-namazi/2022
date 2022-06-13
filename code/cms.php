@@ -1,0 +1,38 @@
+<?php
+
+include_once 'functions.php';
+am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
+
+bootstrap([
+	'name' => 'YieldMore.org',
+	'byline' => 'Have Fun, Touch Lives',
+	'safeName' => 'yieldmore',
+
+	'version' => [ 'id' => '1', 'date' => '13 Jun 2022', ],
+
+	'folder' => 'content/',
+
+	'start_year' => '2013',
+
+	'contact_cta_link' => 'mailto:team@yieldmore.org',
+	'contact_cta_text' => 'Email',
+
+	'theme' => 'biz-land',
+	'uses' => 'custom-image-background',
+
+	'email' => 'team@yieldmore.org',
+	'phone' => '+919841223313',
+	'address' => 'Devakalam,<br />Chennai, India',
+
+	'social' => [
+		'linkedin' => 'https://www.linkedin.com/company/yieldmore/',
+		'github' => 'https://bitbucket.org/amadeusweb/yieldmore/',
+	],
+
+	'url' => $local ? 'http://localhost/yieldmore/' : 'https://yieldmore.org/',
+	'path' => SITEPATH,
+]);
+
+render();
+
+?>
