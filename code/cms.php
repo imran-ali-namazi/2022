@@ -19,6 +19,7 @@ bootstrap([
 
 	'theme' => 'biz-land',
 	'uses' => 'custom-image-background',
+	'og:image' => '%url%assets/yieldmore-opengraph.jpg',
 
 	'email' => 'team@yieldmore.org',
 	'phone' => '+919841223313',
