@@ -18,6 +18,7 @@ function before_file() {
 }
 
 function after_file() {
+	echo file_get_contents(SITEPATH . '/assets/speech-ui.html');
 	echo '</div>';
 }
 

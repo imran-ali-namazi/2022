@@ -1,2 +1,5 @@
 body { cursor: default; }
 #content { font-size: 140%; line-height: 2em; }
+
+#content blockquote { border-left: #666 solid 4px; padding: 10px; }
+blockquote a { background-color: #FFE792; padding: 4px 8px 4px 8px; font-weight: bold; border-radius: 10px }
