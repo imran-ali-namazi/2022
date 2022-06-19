@@ -1,5 +1,5 @@
 <?php
-am_var('sections', ['tracks', 'about']);
+am_var('sections', ['tracks', 'about', 'webring']);
 
 am_var('tracks', [
 	'words',

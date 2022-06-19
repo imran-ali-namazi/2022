@@ -6,7 +6,7 @@
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4DZDE56D5rCGXYKGtVlosV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-<a name="speak" />
+<a name="speak"></a>
 
 1. I am in command of my destiny. Life will shower its abundance on me, if only I would let go the cares and troubles of the past and not be gripped in fear with the uncertainty of the future.
 2. I love myself deeply and nourish my mind with healthy thoughts just as I lovingly look after my body, giving it rest and filling it with vibrant confidence.
