@@ -2,14 +2,14 @@
 am_var('sections', ['tracks', 'about', 'webring']);
 
 am_var('tracks', [
-	'words',
-	'nom',
-	'realms',
-	'crises',
-	'spaces',
-	'network',
-	'learn',
-	'web',
+	'words' => ['title' => 'Healing and Inspiration Through Words', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future'],
+	'nom' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA'],
+	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
+	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness and animals'],
+	'spaces' => ['title' => 'Intimate Healing Spaces', 'description' => ''],
+	'network' => ['title' => 'The YML Network', 'description' => ''],
+	'learn' => ['title' => 'Learn New Dimensions', 'description' => ''],
+	'web' => ['title' => 'Amadeus Web Builder', 'description' => ''],
 ]);
 
 function before_file() {
@@ -23,19 +23,8 @@ function after_file() {
 }
 
 function site_humanize($txt) {
-	$words = [
-		'Crises' => 'CrisisForAll.org',
-		'Learn' => 'Learn New Dimensions',
-		'Network' => 'The YML Network',
-		'Nom' => 'Project Nom for Children',
-		'Realms' => 'Manifesting Realms Project',
-		'Spaces' => 'Intimate Healing Spaces',
-		'Web' => 'Amadeus Web Builder',
-		'Words' => 'Healing and Inspiration Through Words',
-	];
-
-	if (array_key_exists($txt, $words))
-		$txt = $words[$txt];
+	if (array_key_exists($key = strtolower($txt), $tracks = am_var('tracks')))
+		return $tracks[$key]['title'];
 
 	return $txt;
 }
