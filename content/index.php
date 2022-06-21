@@ -1,11 +1,3 @@
 Welcome to YieldMore.org, where we trace a few of the ideas we've had over the years.
-<p><a name="speak"></a></p>
-<ol>
-<?php
-foreach (am_var('tracks') as $slug=>$item) {
-	echo sprintf('<li><a href="%s/">%s</a> - %s.</li>
-', am_var('url') . $slug, $item['title'], $item['description']);
-}
-?>
-</ol>
-<hr />
+
+<iframe src="<?php echo am_var('url'); ?>decks/alpha/" style="width: 100%; height: 85vh"></iframe>
