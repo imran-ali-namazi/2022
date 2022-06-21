@@ -11,6 +11,7 @@ bootstrap([
 	'version' => [ 'id' => '2', 'date' => '20 Jun 2022', ],
 
 	'folder' => 'content/',
+	'support_page_parameters' => true,
 
 	'start_year' => '2013',
 

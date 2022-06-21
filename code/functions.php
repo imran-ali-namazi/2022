@@ -13,11 +13,13 @@ am_var('tracks', [
 ]);
 
 function before_file() {
+	if (am_var('embed')) return;
 	echo '<div id="content" class="container" style="margin-top: 150px;">';
 	echo '<h1>' . humanize(am_var('node')) . '</h1>';
 }
 
 function after_file() {
+	if (am_var('embed')) return;
 	echo file_get_contents(SITEPATH . '/assets/speech-ui.html');
 	echo '</div>';
 }
@@ -30,6 +32,12 @@ function site_humanize($txt) {
 }
 
 function before_render() {
+	if (am_var('node') == 'decks') {
+		am_var('deck', SITEPATH . '/decks/' . am_var('page_parameter1') . '/index.md');
+		am_var('embed', true);
+		return;
+	}
+
 	if (am_var('node') == 'go') { include_once 'resources.php'; exit; }
 	$section = false;
 	$file = false;
@@ -48,6 +56,11 @@ function before_render() {
 }
 
 function did_render_page() {
+	if (am_var('deck')) {
+		load_amadeus_module('revealjs');
+		return true;
+	}
+
 	if ($section = am_var('section')) {
 		render_txt_or_md(am_var('file'));
 		return true;
