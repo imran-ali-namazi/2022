@@ -3,7 +3,7 @@ am_var('dont-wrap-menu-in-ul1', true);
 ?>
 <ul class="nav-menu">
 	<li class="drop-down"><a>Tracks</a>
-		<?php menu('/content/tracks/', ['files' => array_keys(am_var('tracks'))]); ?>
+		<?php menu('/content/tracks/', ['files' => am_var('tracks')]); ?>
 	</li>
 	<li class="drop-down"><a>About</a>
 		<?php menu('/content/about/'); ?>
