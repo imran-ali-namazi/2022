@@ -32,9 +32,9 @@ bootstrap([
 	],
 
 	'styles' => ['styles',
-		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css',
+		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min',
 	],
-	'scripts' => ['textToSpeech', 'content'],
+	'scripts' => ['textToSpeech', 'content', 'groups'],
 	'google-analytics' => 'UA-166048963-1',
 
 	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/', 'port') : 'https://yieldmore.org/',

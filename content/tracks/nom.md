@@ -1,6 +1,6 @@
 Inspired by the Tolkien word Nom for "Wisdom", The Nom Project makes the following observations.
 
-<a name="speak" />
+<a name="speak"></a>
 
 1. We are the world, we are its children, WE are the one's who can make a brighter day if only we start living.
 2. What the stark reality and harshness of life truly is, time will tell, but an idyllic upbringing full of joy and appreciation for life does have a purpose too. There are as they say [4 times in life](https://legacy.yieldmore.org/books/various/four-times-in-life/). We pray for more of the 3rd (the time of knowing and fighting).
