@@ -3,7 +3,9 @@ if (groupApi) {
 		.then(res => {
 			return res.json();
 		}).then(json => {
-			Array.from(json).forEach(addItem);
+			var items = Array.from(json);
+			items.sort(sortItem);
+			items.forEach(addItem);
 		});
 
 	var listItemString = $('#listItem').html();
@@ -14,5 +16,9 @@ if (groupApi) {
 		$('a', listItem).attr('href', groupUrl + item.slug).text(item.name);
 		$('.description', listItem).text(item.summary);
 		$('#dataList').append(listItem);
+	}
+	
+	function sortItem(a, b) {
+		return a.name > b.name ? 1 : -1;
 	}
 }

@@ -1,0 +1,695 @@
+[
+  {
+    "_id": "6040f5f7b4c52b32931273c7",
+    "shortId": "lq7x23",
+    "updatedAt": "2022-07-09T05:33:57.697Z",
+    "createdAt": "2021-03-04T15:00:07.682Z",
+    "slug": "who-we-are",
+    "name": "What are We - YieldMore.org",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>For posts that define us over time.</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": false
+      },
+      "email": {
+        "enabled": false
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 3,
+      "posts": 3,
+      "comments": 0,
+      "answers": 1,
+      "questions": 1
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "For posts that define us over time.",
+    "id": "6040f5f7b4c52b32931273c7",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "605ca387c02da87707c21d34",
+    "shortId": "MjGNgN",
+    "updatedAt": "2022-07-09T05:33:16.521Z",
+    "createdAt": "2021-03-25T14:51:51.582Z",
+    "slug": "conscious-evolution-core-team",
+    "name": "Conscious Evolution - Core Team",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>A private group for the Core Team</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 3,
+      "posts": 0,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "secret",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "A private group for the Core Team",
+    "id": "605ca387c02da87707c21d34",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "60406e43edfec4b176288400",
+    "shortId": "wwrkxo",
+    "updatedAt": "2022-07-08T19:17:54.029Z",
+    "createdAt": "2021-03-04T05:21:07.973Z",
+    "slug": "parenting",
+    "name": "Conscious Conception and Parenting",
+    "description": "<p>A group interested to nurture aspiring and young parents to understand the parenting responsibility from the child’s side - from conception to adulthood. </p>",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "60406b7812040ab34199ded7",
+    "__v": 0,
+    "picture": "https://app-us-east-1.t-cdn.net/603fe34ff6f6aa7f81a36327/groups/60406e43edfec4b176288400/60406e43edfec4b176288400_13458.png",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": false
+      },
+      "email": {
+        "enabled": false
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 2,
+      "posts": 6,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "A group interested to nurture aspiring and young parents to understand the parenting responsibility from the child’s side - from conception to adulthood.",
+    "id": "60406e43edfec4b176288400",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "604231589f1b673a2603b322",
+    "shortId": "okamOj",
+    "updatedAt": "2022-07-09T05:34:52.416Z",
+    "createdAt": "2021-03-05T13:25:44.374Z",
+    "slug": "curating-stuff",
+    "name": "Curating Stuff",
+    "description": "<p>To post Movies, Songs, Books and how they can uplift, motivate and make us ACT.</p>",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 1,
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [
+      {
+        "resourceType": "posts",
+        "resourceId": "60b7bd0a6788a724d156558c",
+        "_id": "60b7bd140d53f6041bf9f61c"
+      }
+    ],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 2,
+      "posts": 13,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "To post Movies, Songs, Books and how they can uplift, motivate and make us ACT.",
+    "id": "604231589f1b673a2603b322",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "60423d662430fcc4284b229d",
+    "shortId": "Dd9qYa",
+    "updatedAt": "2022-07-09T05:35:59.046Z",
+    "createdAt": "2021-03-05T14:17:10.174Z",
+    "slug": "express",
+    "name": "Expressing Ourselves",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>For Healing and [Self] Expression</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 2,
+      "posts": 9,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "For Healing and [Self] Expression",
+    "id": "60423d662430fcc4284b229d",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "6047890999b8b23beffe8aa4",
+    "shortId": "dAJ0Rw",
+    "updatedAt": "2022-07-09T05:40:19.319Z",
+    "createdAt": "2021-03-09T14:41:13.127Z",
+    "slug": "chidren",
+    "name": "Programs and Resources for Children",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>For some of our music led classes for emotional and social development, with an idea to motivate them to becoming contributing and valued members of society.</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 2,
+      "posts": 3,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "For some of our music led classes for emotional and social development, with an idea to motivate them to becoming contributing and valued members of society.",
+    "id": "6047890999b8b23beffe8aa4",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "6048fabc75fcf1080bcb43a7",
+    "shortId": "gb1Bwq",
+    "updatedAt": "2022-07-09T05:41:53.890Z",
+    "createdAt": "2021-03-10T16:58:37.368Z",
+    "slug": "conscious-living",
+    "name": "Conscious Living",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "6048f9857d7668d23eee0f4d",
+    "__v": 0,
+    "description": "<p>To discuss Self enquiry for Being and Conscious Living</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 2,
+      "posts": 4,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "To discuss Self enquiry for Being and Conscious Living",
+    "id": "6048fabc75fcf1080bcb43a7",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "603ffb598ac11ea58bf5ad3d",
+    "shortId": "2p3wkB",
+    "updatedAt": "2022-07-09T05:44:21.429Z",
+    "createdAt": "2021-03-03T21:10:49.062Z",
+    "slug": "healing",
+    "name": "Healing and Helping",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>Healing Through Words and Dialogue, Sharing time with one another.</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 1,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "Healing Through Words and Dialogue, Sharing time with one another.",
+    "id": "603ffb598ac11ea58bf5ad3d",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "60407c66c4f32f6346424984",
+    "shortId": "zYEk0p",
+    "updatedAt": "2022-07-09T05:49:34.886Z",
+    "createdAt": "2021-03-04T06:21:26.175Z",
+    "slug": "people",
+    "name": "People and Realms - Introductions",
+    "description": "<p>Introducing each other with our \"society stirring\" ideas and life's work (the Realms we want to help manifest). Inviting comment from visitors.</p>",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 3,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "Introducing each other with our \"society stirring\" ideas and life's work (the Realms we want to help manifest). Inviting comment from visitors.",
+    "id": "60407c66c4f32f6346424984",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "6048fa1d01feaf794edd3834",
+    "shortId": "zY7rBg",
+    "updatedAt": "2022-07-09T05:51:37.823Z",
+    "createdAt": "2021-03-10T16:55:57.007Z",
+    "slug": "farming",
+    "name": "Farming for Survival",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "6048f9857d7668d23eee0f4d",
+    "__v": 0,
+    "description": "<p>To discuss farming and make people more aware about how it can be done more holistically</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 0,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "To discuss farming and make people more aware about how it can be done more holistically",
+    "id": "6048fa1d01feaf794edd3834",
+    "joinStatus": "none"
+  },
+  {
+    "_id": "604c3b2f2f3291f75c858c7e",
+    "shortId": "gbzO0K",
+    "updatedAt": "2022-07-09T05:53:25.169Z",
+    "createdAt": "2021-03-13T04:10:23.421Z",
+    "slug": "spaces",
+    "name": "Healing Spaces (Joyland)",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "description": "<p>To discuss how healing spaces could spring up in our homes and at work.</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 1,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "To discuss how healing spaces could spring up in our homes and at work.",
+    "id": "604c3b2f2f3291f75c858c7e",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "604c8b158b24a26a357797c0",
+    "shortId": "qRVnV9",
+    "updatedAt": "2022-07-09T05:57:35.399Z",
+    "createdAt": "2021-03-13T09:51:17.532Z",
+    "slug": "agriculture",
+    "name": "Agriculture",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "604c83a78c371da669730d3b",
+    "__v": 0,
+    "description": "<p>For those who work as consultants / thought leaders in agriculture viz Vertigrowers, LFL.</p>",
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 0,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "For those who work as consultants / thought leaders in agriculture viz Vertigrowers, LFL.",
+    "id": "604c8b158b24a26a357797c0",
+    "joinStatus": "none"
+  },
+  {
+    "_id": "606447804922230c937bc67a",
+    "shortId": "XJMv4z",
+    "updatedAt": "2021-03-31T10:01:52.636Z",
+    "createdAt": "2021-03-31T09:57:20.178Z",
+    "slug": "classifieds",
+    "name": "Classifieds and Things Wanted",
+    "description": "<p>A list or people and things wanted by YM and its members</p>",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "synced": {
+      "searchFailed": false,
+      "search": true
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": false
+      },
+      "email": {
+        "enabled": false
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 1,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "A list or people and things wanted by YM and its members",
+    "id": "606447804922230c937bc67a",
+    "joinStatus": "joined"
+  },
+  {
+    "_id": "606ad847df90610171863df6",
+    "shortId": "xWL0DR",
+    "updatedAt": "2022-07-09T06:02:03.765Z",
+    "createdAt": "2021-04-05T09:28:39.885Z",
+    "slug": "spirituality",
+    "name": "Spirituality and Our Cosmic Lives",
+    "description": "<p>About so much more than religion / the scriptures, EnTheos  is our suggestion to \"Enthuse about God\" or the Cosmic Divine.</p><p> </p>",
+    "portal": "603fe34ff6f6aa7f81a36327",
+    "user": "603fe350f6f6aa4c19a36344",
+    "__v": 0,
+    "synced": {
+      "searchFailed": false,
+      "search": false
+    },
+    "pinned": [],
+    "topics": [],
+    "featured": {
+      "posts": [],
+      "topics": [],
+      "users": [],
+      "questions": []
+    },
+    "notificationsDefaults": {
+      "inapp": {
+        "enabled": true
+      },
+      "email": {
+        "enabled": true
+      }
+    },
+    "score": 0,
+    "counts": {
+      "members": 1,
+      "posts": 2,
+      "comments": 0,
+      "answers": 0,
+      "questions": 0
+    },
+    "registration": "open",
+    "privacy": "public",
+    "status": "active",
+    "contentTypes": [],
+    "type": "general",
+    "verified": false,
+    "summary": "About so much more than religion / the scriptures, EnTheos  is our suggestion to \"Enthuse about God\" or the Cosmic Divine.",
+    "id": "606ad847df90610171863df6",
+    "joinStatus": "joined"
+  }
+]
