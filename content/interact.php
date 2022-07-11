@@ -7,7 +7,7 @@
 
 <p><a name="speak"></a></p>
 <ol class="large" id="dataList">
-	<a href="https://groups.io/g/yieldmore/topics" target="_blank">Groups.io -> Weekly Updates</a></li>
+	<li><strong><a href="https://groups.io/g/yieldmore/topics" target="_blank">Mailing List</a></strong><div class="description">Weekly Updates from us</div></li>
 </ol>
 <hr />
 <script type="text/javascript">

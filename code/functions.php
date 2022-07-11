@@ -1,9 +1,9 @@
 <?php
 am_var('sections', ['tracks', 'about', 'webring']);
-am_var('tracks', ['words', 'nom', 'spaces', 'learn']);
+am_var('tracks', ['children', 'words', 'spaces', 'learn']);
 am_var('pages', [
 	'words' => ['title' => 'Healing and Inspiration Through Words', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future'],
-	'nom' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA'],
+	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA'],
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
 	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness and animals'],
 	'spaces' => ['title' => 'Intimate Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc'],

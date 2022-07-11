@@ -5,3 +5,13 @@ body { cursor: default; }
 blockquote a { background-color: #FFE792; padding: 4px 8px 4px 8px; font-weight: bold; border-radius: 10px }
 
 .hidden, a[name=speak] { display: none; }
+
+.img-fluid { width: 100%; }
+
+/* https://stackoverflow.com/a/24630169 */
+@media screen and (min-aspect-ratio: 13/9) { /* landscape */
+	.show-in-portrait { display: none; }
+} 
+@media screen and (max-aspect-ratio: 13/9) { /* portrait */
+	.show-in-landscape { display: none; }
+}

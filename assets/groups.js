@@ -1,4 +1,4 @@
-if (groupApi) {
+if (window.groupApi) {
 	fetch(groupApi, { mode: 'no-cors' })
 		.then(res => {
 			return res.json();

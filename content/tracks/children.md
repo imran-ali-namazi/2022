@@ -1,3 +1,8 @@
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/2jvWo6nVSLbcpJIIv35fcT?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<img src="../assets/tracks/yieldmore-project-nom-for-children.jpg" class="img-fluid show-in-landscape" />
+<img src="../assets/tracks/yieldmore-project-nom-for-children-mobile.jpg" class="img-fluid show-in-portrait" />
+
 Inspired by the Tolkien word Nom for "Wisdom", The Nom Project makes the following observations.
 
 <a name="speak"></a>
