@@ -6,8 +6,8 @@ The [YieldMore.org Archives](https://archives.yieldmore.org/), archived in 2022 
 
 
 ## Serenity
-<a name="speak"></a>
 
+<p class="speakable">Basic questions of the create-your-affirmation program</p>
 1. Meet any counsellor and ask them to help you change your thinking vocabulary. Remove the negative impressions and thoughts, think hard about your wellness in all facets namely Physical, Intellectual, Emotional, Spiritual, Professional, Financial, Environmental & Social. Lay out in clear words what motivates you, what your goals are, how your working to get them, what gives you peace of mind.
 2. Then record these words and play them back to yourself everyday until your convictions are marrow deep / you feel it in your gut. The affirmations template runs as follows:
   * My core values are...

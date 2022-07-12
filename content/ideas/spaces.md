@@ -4,10 +4,7 @@ But what do [I know about healing](https://imran.yieldmore.org/poems/category/he
 
 "Intimate Healing Spaces" - can these spring up from our houses and hearts where we invite people to come share their woes, draw strength from one another and stand at each other's side until all maladies are passed and the Kingdom is Won. Not an abstract Kingdom, with a ruler, but rather a ["Kindom" where LoveForLife springs](http://loveforlife.com.au/), not subjugating people or coercing them to do things against their will.
 
-So, what do we know about our "houses and hearts"?
-
-<a name="speak"></a>
-
+<p class="speakable">So, what do we know about our "houses and hearts"?</p>
 1. Our hearts are expansive and when tended to carefully, can engulf whole universes in them.
 2. Our houses are but temporary dwelling places for the soul.
 3. [[Our soul] burns yonder millions of miles away in the infinite reaches of Space](https://legacy.yieldmore.org/people/sri-aurobindo/power-supreme/)
@@ -19,6 +16,7 @@ So, what do we know about our "houses and hearts"?
 
 ## Core and Definitions
 
+<p class="speakable">These were our core principles and definitions back in 2019</p>
 1. That collaboratively we can share valuable insights into the human condition, roll up our sleeves and put ourselves willingly and joyously at the disposal of our brothers and sisters.
 2. That health is the right of every individual, group and species. That there are 8 facets of health - Physical / Emotional / Intellectual / Spiritual / Financial / Professional / Social / Environmental.
 3. That we are the voice of the disenchanted, misunderstood and neglected. That we will find it in ourselves to fight the good fight and carry the day, serving our deity to the best extent possible.

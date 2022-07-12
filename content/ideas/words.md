@@ -1,13 +1,10 @@
-## Our First Affirmation
-
 > Do join me on a meditation / affirmation. First **close your eyes** and play this creativity track from [Kelly Howell](https://brainsync.com/).
->
-> Now let your thoughts dwell upon good things and make an affirmation for yourself using words [such as these](https://imran.yieldmore.org/for-shobi/).
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4DZDE56D5rCGXYKGtVlosV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-<a name="speak"></a>
+> Now let your thoughts dwell upon good things and make an affirmation for yourself using words [such as these](https://imran.yieldmore.org/for-shobi/) or the ones below.
 
+<p class="speakable">A possible affirmation to inspire you to create your own</p>
 1. I am in command of my destiny. Life will shower its abundance on me, if only I would let go the cares and troubles of the past and not be gripped in fear with the uncertainty of the future.
 2. I love myself deeply and nourish my mind with healthy thoughts just as I lovingly look after my body, giving it rest and filling it with vibrant confidence.
 3. I am free to change the narrative of my life, dwelling minimally on things I cannot control - only insomuch as gives me an impetus to GO MAKE A CHANGE.
@@ -21,9 +18,7 @@
 
 > Your turn to make one :) Do **[reach out](https://groups.io/g/yieldmore/topic/prayers_and_affirmations/91748924)** if you would like us to be a part of this process.
 >
-> Some of us have been [aided greatly by these](https://archives.yieldmore.org/meditations/)
-
-<hr />
+> Some of us have been [aided greatly by these guided meditations](https://archives.yieldmore.org/meditations/)
 
 ## Tell Your Story
 

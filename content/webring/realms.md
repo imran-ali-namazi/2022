@@ -12,7 +12,7 @@ We have after all, one life to live!
 
 They say you best know a creature by knowing what gives them comfort.
 
-<a name="speak"></a>
+<p class="speakable">What members of the realms project MAY believe</p>
 
 1. I am comforted to know that there are worlds where the true value of art is understood.
 2. That there are worlds where Bright Ones choose to come back out of love to teach us.
@@ -24,8 +24,6 @@ They say you best know a creature by knowing what gives them comfort.
 8. think of enlightenment (the wall),
 9. think of all that's good in you and
 10. make you want to give it all.
-
-<hr />
 
 That 1 book of 5 novellas can call out to you thrice to action. That a simple cry of "daylight shall come again", the night is passing can bring tears to your eyes. That the sunlit path is within you if only you'll let go.
 

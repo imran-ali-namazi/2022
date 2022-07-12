@@ -1,12 +1,12 @@
 <?php
-am_var('sections', ['tracks', 'about', 'webring']);
-am_var('tracks', ['children', 'words', 'spaces', 'learn']);
+am_var('sections', ['ideas', 'about', 'webring']);
 am_var('pages', [
-	'words' => ['title' => 'Healing and Inspiration Through Words', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future'],
 	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA'],
+	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc'],
+	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future'],
+
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
 	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness and animals'],
-	'spaces' => ['title' => 'Intimate Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc'],
 	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition'],
 	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus'],
 	'web' => ['title' => 'Amadeus Web Builder', 'description' => 'A powerful system for creating simple, content oriented sites'],
@@ -25,8 +25,8 @@ function after_file() {
 }
 
 function site_humanize($txt) {
-	if (array_key_exists($key = strtolower($txt), $tracks = am_var('pages')))
-		return $tracks[$key]['title'];
+	if (array_key_exists($key = strtolower($txt), $pages = am_var('pages')))
+		return $pages[$key]['title'];
 
 	return $txt;
 }

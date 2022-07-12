@@ -1,4 +1,4 @@
-<p><a name="speak"></a></p>
+<p class="speakable">Pages on this website</p>
 <ol>
 <?php
 foreach (am_var('pages') as $slug=>$item) {
