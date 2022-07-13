@@ -7,4 +7,6 @@ foreach (am_var('pages') as $slug=>$item) {
 }
 ?>
 </ol>
-<hr />
+
+<a class="btn-large" href="https://legacy.yieldmore.org/sitemap" target="_blank">Legacy Sitemap</a>
+<a class="btn-large" href="https://archives.yieldmore.org/sitemap" target="_blank">Archives Sitemap</a>

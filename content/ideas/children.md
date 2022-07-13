@@ -6,7 +6,10 @@
 Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
 
 <p class="speakable">Why another Educational Programme?</p>
-1. TODO: Lorem ipsum dolor sit amet consectetuer habitasse.
+1. Not too many places offer structured emotional and social development for children. While we are certainly no experts in this field, rather a group of individuals with our children's best interests at heart.
+2. The [first program](#curation) deals with exploring the world through music and art and children beginning to identify themes of importance to themselves and their environment.
+3. Language and an appreciation for the finer and subtler things in life are developed in the [second program](#expression).
+4. In the absence of conflict, children gain a deeper understanding of society and become sensitive to it's sufferings and maladies. We then encourage them to write about this and then go into public seeking action. This forms the [third program](#arya).
 
 <p class="speakable">For Students and Parents</p>
 1. TODO: Purus malesuada sed eros.
@@ -16,6 +19,8 @@ Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
 
 <p class="speakable">The Nom Project FAQs</p>
 1. TODO: Proin sagittis ut.
+5. How do you deal with the subject of Religion?<p class="answer">Older generations miss "moral instruction" and there is no place for theological learning and spiritual harmony in "religion averse or independant" societies. We encourage a discussion and appreciation for all religions as the [Universal Life Church](https://ulc.org) does.</p>
+
 
 <p class="speakable">The Nom Project makes the following observations</p>
 1. We are the world, we are its children, WE are the one's who can make a brighter day if only we start living.

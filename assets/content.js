@@ -1,13 +1,24 @@
 $(document).ready(function() {
+	$('<a class="toggleQuestion">show answer</a>').insertBefore('p.answer');
+	$('p.answer').hide();
+	$('a.toggleQuestion').click(toggleQuestion);
+	function toggleQuestion() {
+		var btn = $(this);
+		var toShow = btn.text() == 'show answer';
+		btn.text(toShow ? 'hide answer' : 'show answer');
+		var answer = btn.next('p');
+		if (toShow) answer.show(); else answer.hide();
+	}
+
 	var speakIn = $('textarea.form-control');
 	if (speakIn.length) $(window).on("unload", function() { $('#cancel').trigger('click'); }); //stop playing and unload on close / navigate away
 
-	$('p.speakable').click(expandSpeakable).append('<button class="toggleRead">READ</button>').next('ol, ul').addClass('speak').hide();
+	$('p.speakable').click(expandSpeakable).append('<a class="toggleRead">READ</a>').next('ol, ul').addClass('speak').hide();
 	$('#speech').hide();
 
 	function expandSpeakable(ev) {
 		var list = $(this).next('ol, ul');
-		if (list.length == 0) list = list.next('ol, ul');
+		if (list.length == 0) list = $(this).next().next('ol, ul');
 
 		var playClicked = $(ev.originalEvent.target).hasClass('toggleRead');
 
