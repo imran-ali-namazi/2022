@@ -5,6 +5,18 @@
 
 Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
 
+<p class="speakable">Why another Educational Programme?</p>
+1. TODO: Lorem ipsum dolor sit amet consectetuer habitasse.
+
+<p class="speakable">For Students and Parents</p>
+1. TODO: Purus malesuada sed eros.
+
+<p class="speakable">For Teachers / Facilitators</p>
+1. TODO: Ante congue nibh Nulla justo vitae libero.
+
+<p class="speakable">The Nom Project FAQs</p>
+1. TODO: Proin sagittis ut.
+
 <p class="speakable">The Nom Project makes the following observations</p>
 1. We are the world, we are its children, WE are the one's who can make a brighter day if only we start living.
 2. What the stark reality and harshness of life truly is, time will tell, but an idyllic upbringing full of joy and appreciation for life does have a purpose too. There are as they say [4 times in life](https://legacy.yieldmore.org/books/various/four-times-in-life/). We pray for more of the 3rd (the time of knowing and fighting).
@@ -21,14 +33,17 @@ Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
 
 <iframe src="https://express.adobe.com/video/1iOkOPl8zjomp/embed" style="width: 100%; height: 80vh;" frameborder="0" allowfullscreen></iframe>
 
-<a name="curation" />
-## Curation Based Education (CBE)
-A Music-led classroom discussion conceived circa 2019 and [initiated in 2021](https://archives.yieldmore.org/curation-based-education/), Curation Based Education could be the next coolest thing.
+<a name="curation"></a>
+<p class="speakable">#1 Curation Based Education (CBE)</p>
 
-<a name="expression" />
-## Creative Expression Program
-Initiated in 2022 and developed as a parallel program to CBE, [Creative Expression](https://archives.yieldmore.org/creative-expression/) starts with writing but could go on to so many activities and hobbies.
+1. A Music-led classroom discussion conceived circa 2019 and [initiated in 2021](https://archives.yieldmore.org/curation-based-education/), Curation Based Education could be the next coolest thing.
 
-<a name="arya" />
-## Project ARYA
-An awareness program where children work on advocating social causes, we see this a coming full circle of their emotional and social development. [ARYA = **Awareness Resulting in Your Action**](../act-now/#arya).
+<a name="expression"></a>
+<p class="speakable">#2 Creative Expression Program</p>
+
+1. Initiated in 2022 and developed as a parallel program to CBE, [Creative Expression](https://archives.yieldmore.org/creative-expression/) starts with writing but could go on to so many activities and hobbies.
+
+<a name="arya"></a>
+<p class="speakable">#3 Project ARYA</p>
+
+1. An awareness program where children work on advocating social causes, we see this a coming full circle of their emotional and social development. [ARYA = **Awareness Resulting in Your Action**](../act-now/#arya).
