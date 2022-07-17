@@ -8,7 +8,7 @@ The [YieldMore.org Legacy](https://legacy.yieldmore.org/), archived in 2019 Nov 
 
 Below is an excerpt from our first video dated Mar 2017.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTIqjpkF5Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/PTIqjpkF5Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <p class="speakable">What we had to say in 2017</p>
 1. Not sure what we do? We are a network of people passionate about life and who want to share what has worked for us.

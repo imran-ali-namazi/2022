@@ -1,15 +1,20 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring']);
 am_var('pages', [
-	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA'],
-	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc'],
-	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future'],
+	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
+	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
+	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
+	'ideas' => ['title' => 'Applied Spirituality', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
+
+	'model' => ['title' => 'The YieldMore Business Model', 'description' => 'A "share everything equally after compensation" approach to business and implementing YM ideas and programs.'],
+	'spirit' => ['title' => 'The Spirit of YieldMore.org', 'description' => 'A candid look at why YieldMore.org exists and Imran\s intentions.'],
+	'imrans resume' => ['title' => 'Resume of Imran Ali Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
 
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
-	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness and animals'],
-	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition'],
-	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus'],
-	'web' => ['title' => 'Amadeus Web Builder', 'description' => 'A powerful system for creating simple, content oriented sites'],
+	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
+	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition.'],
+	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus.'],
+	'web' => ['title' => 'Amadeus Web Builder', 'description' => 'A powerful system for creating simple, content oriented sites. Especially to enable spiritual communes.'],
 ]);
 
 function before_file() {

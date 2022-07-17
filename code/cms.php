@@ -27,8 +27,10 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
-		'linkedin' => 'https://www.linkedin.com/company/yieldmore/',
-		'github' => 'https://bitbucket.org/amadeusweb/yieldmore/',
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/c/YieldmoreOrgAM', 'name' => 'youtube: legacy' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces' ],
+		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/yieldmore/' ],
+		[ 'type' => 'github', 'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
 	],
 
 	'styles' => ['styles',

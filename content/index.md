@@ -4,7 +4,7 @@
 > Believe that another tomorrow is possible&hellip; now reach out and **help us to dream, live and make it**.<br />
 > ~ Imran, Jul 2022
 
-<a href="./chlidren/">
+<a href="./children/">
 <img src="./assets/tracks/yieldmore-project-nom-for-children.jpg" class="img-fluid show-in-landscape" />
 <img src="./assets/tracks/yieldmore-project-nom-for-children-mobile.jpg" class="img-fluid show-in-portrait" />
 </a>

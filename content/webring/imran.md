@@ -6,7 +6,7 @@ I hope October sees me with a steady income and in a better position to "make ev
 
 I read now from a video I made in Apr 2018, the first of many
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MWAK3K7A6_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/MWAK3K7A6_Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <p class="speakable">What Imran had to say in 2018</p>
 1. YieldMore is trying to streamline the way we use the internet.

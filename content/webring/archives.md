@@ -4,6 +4,9 @@ The [YieldMore.org Archives](https://archives.yieldmore.org/), archived in 2022 
 * [A writeup from Mar 2020](https://archives.yieldmore.org/creative-abundance/)
 * [A list on Alternate Healing](https://archives.yieldmore.org/alternate-healing/)
 
+This video of our launch in March 2018.
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/EiJErn0LPYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ## Serenity
 
