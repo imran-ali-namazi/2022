@@ -27,3 +27,7 @@ It is with these thoughts that our programs are designed and which guides our in
 Personally, I've been smitten by [Sri Aurobindo](https://archives.yieldmore.org/sri-aurobindo/), [his works](https://legacy.yieldmore.org/works/), [his legacy](https://legacy.yieldmore.org/people/sri-aurobindo/) and the [proponents of Aurobindonian thought](http://sri-aurobindo.in/workings/disciples_e.htm).
 
 In time, [Tolkienese](https://legacy.yieldmore.org/books/the-silmarillion/) philosophy will be expounded here.
+
+Remember, as atheism and rationalism keep gaining ground, that, I believe, as scripture says:
+
+> Would Ye measure the distance between the stars and forget He that holds them in the palm of His hand.

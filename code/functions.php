@@ -1,20 +1,29 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring']);
 am_var('pages', [
+//ideas
 	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
 	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
 	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
 	'ideas' => ['title' => 'Applied Spirituality', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
 
+//about
 	'model' => ['title' => 'The YieldMore Business Model', 'description' => 'A "share everything equally after compensation" approach to business and implementing YM ideas and programs.'],
 	'spirit' => ['title' => 'The Spirit of YieldMore.org', 'description' => 'A candid look at why YieldMore.org exists and Imran\s intentions.'],
 	'imrans resume' => ['title' => 'Resume of Imran Ali Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
 
+//webring
+	'archives' => ['title' => 'YieldMore Archives', 'description' => 'YieldMore as developed in 2021/22 with a lot of publishing going on'],
+	'legacy' => ['title' => 'YieldMore Legacy', 'description' => 'YieldMore as developed from 2013 to 2019 with plenty of compiled resources'],
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
+	'imran' => ['title' => 'Writer site of Imran', 'description' => 'The 400+ poems and new age writing of Imran Ali Namazi.'],
+
+//further ideas
 	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
 	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition.'],
 	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus.'],
 	'web' => ['title' => 'Amadeus Web Builder', 'description' => 'A powerful system for creating simple, content oriented sites. Especially to enable spiritual communes.'],
+	'marketplace' => ['title' => 'A Conscious Marketplace', 'description' => 'Ideas to start a marketplace for people to promote their products and services in a sustainable ecosystem.'],
 ]);
 
 function before_file() {
