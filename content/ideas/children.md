@@ -1,9 +1,6 @@
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/2jvWo6nVSLbcpJIIv35fcT?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5OMyZ7YMXpkizLZeeKqBzL?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-<img src="../assets/tracks/yieldmore-project-nom-for-children.jpg" class="img-fluid show-in-landscape" />
-<img src="../assets/tracks/yieldmore-project-nom-for-children-mobile.jpg" class="img-fluid show-in-portrait" />
-
-Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
+Inspired by the Sanskrit Word "Rahasyam" for "Secret", We call this the "Life's Secrets for Children series of Programs".
 
 <p class="speakable">Why another Educational Programme?</p>
 1. Not too many places offer structured emotional and social development for children. While we are certainly no experts in this field, rather a group of individuals with our children's best interests at heart.
@@ -11,17 +8,17 @@ Inspired by the Tolkien word Nom for "Wisdom" - Nomin = wise.
 3. Language and an appreciation for the finer and subtler things in life are developed in the [second program](#expression).
 4. In the absence of conflict, children gain a deeper understanding of society and become sensitive to it's sufferings and maladies. We then encourage them to write about this and then go into public seeking action. This forms the [third program](#arya).
 
-<p class="speakable">The Nom Project FAQs</p>
-1. How  will Nom benefit  my  child? <p class="answer">Emotional Development is critical for a childs stability. Inner growth, social work and balance with the environment creates a sense of purpose and is very fulfilling.</p>
-2. Will Nom encourage  my child's desires and dreams? <p class="answer">We will first sensitize them to the world around and encourage / nurture their dreams to fruition. But they must develop faith, not be deterred and be ready to make the effort.</p>
-3. Will Nom contribute towards  making  my child an independent, thinking, and confident individual? <p class="answer">We aim to make them aware of the depth of thought availabe in the gamut of stories we draw them into. We lean more towards progressive thinking and harmonious social contribution. Confidence once they know themselves and what they want is automatic.</p>
-4. What is  Nom's mission? What are it's short and long term goals? <p class="answer">We believe in possibilities unlimited, a brighter, more meaningful future for mankind and a new age spectrum of activities that uplift and liberate. Our short term goal is to demonstrate that people want and can benefit from all of this, making their lives richer. Long term we want our students to become a living example of our philosophy and for our "tribe" to grow ever larger until it encompasses the world.</p>
-5. How can NOM help parents who wish to support and help their wards? <p class="answer">We WANT parents on board on this journey, augmenting our classroom discussions, following up with their children and bonding with them emotionally and spiritually. Ultimately we want them to understand the spirit of things and lead their own classrooms. This is a joint undertaking to bring up "Children of the Kindom" and we're ready to go all out for your health, social and spiritual goals.</p>
-6. As a teacher how do I benefit from NOM? <p class="answer">We do not deal in "bookish" knowledge, intellectual stuff or specific skills. We believe in well rounded, healed, inspired children who FEEL the world around them and then set out to discover their calling - what work would give them joy. So be prepared for a very different kind of roller-coaster ride, one that is infinitely more fulfillng and rewarding. Yes we have a fee structure, encouraging you to take the bulk of remuneration and will help you become a hub for other teachers in good time.</p>
+<p class="speakable">Frequently Asked Questions</p>
+1. How  will the programs benefit  my  child? <p class="answer">Emotional Development is critical for a childs stability. Inner growth, social work and balance with the environment creates a sense of purpose and is very fulfilling.</p>
+2. Will the programs encourage  my child's desires and dreams? <p class="answer">We will first sensitize them to the world around and encourage / nurture their dreams to fruition. But they must develop faith, not be deterred and be ready to make the effort.</p>
+3. Will the programs contribute towards  making  my child an independent, thinking, and confident individual? <p class="answer">We aim to make them aware of the depth of thought availabe in the gamut of stories we draw them into. We lean more towards progressive thinking and harmonious social contribution. Confidence once they know themselves and what they want is automatic.</p>
+4. What is  the programs's mission? What are it's short and long term goals? <p class="answer">We believe in possibilities unlimited, a brighter, more meaningful future for mankind and a new age spectrum of activities that uplift and liberate. Our short term goal is to demonstrate that people want and can benefit from all of this, making their lives richer. Long term we want our students to become a living example of our philosophy and for our "tribe" to grow ever larger until it encompasses the world.</p>
+5. How can the programs help parents who wish to support and help their wards? <p class="answer">We WANT parents on board on this journey, augmenting our classroom discussions, following up with their children and bonding with them emotionally and spiritually. Ultimately we want them to understand the spirit of things and lead their own classrooms. This is a joint undertaking to bring up "Children of the Kindom" and we're ready to go all out for your health, social and spiritual goals.</p>
+6. As a teacher how do I benefit from the programs? <p class="answer">We do not deal in "bookish" knowledge, intellectual stuff or specific skills. We believe in well rounded, healed, inspired children who FEEL the world around them and then set out to discover their calling - what work would give them joy. So be prepared for a very different kind of roller-coaster ride, one that is infinitely more fulfillng and rewarding. Yes we have a fee structure, encouraging you to take the bulk of remuneration and will help you become a hub for other teachers in good time.</p>
 5. How do you deal with the subject of Religion?<p class="answer">Older generations miss "moral instruction" and there is no place for theological learning and spiritual harmony in "religion averse or independant" societies. We encourage a [discussion and appreciation for all religions](../ideas/) as the [Universal Life Church](https://ulc.org) does.</p>
 
 
-<p class="speakable">The Nom Project Spirit</p>
+<p class="speakable">The Spirit</p>
 1. We are the world, we are its children, WE are the one's who can make a brighter day if only we start living.
 2. What the stark reality and harshness of life truly is, time will tell, but an idyllic upbringing full of joy and appreciation for life does have a purpose too. There are as they say [4 times in life](https://legacy.yieldmore.org/books/various/four-times-in-life/). We pray for more of the 3rd (the time of knowing and fighting).
 3. All of existence is Karmically Linked and the sooner we learn to walk the Sunlit Path, the sooner we can be a beacon and hope to one another.
@@ -37,7 +34,7 @@ Dear Parent, We want you to feel safe leaving your children in our care. We want
 
 We want to pique their curiosity for the world around, make them sensitive to things that are happening, help them introspect, feel free talking about fears and concerns, life's plans and doubts.
 
-<p class="speakable">The Nom Project Approach</p>
+<p class="speakable">The Approach</p>
 1. Make students feel comfortable and supported
 2. Help them choose learning and development activities
 3. Guide their thinking process

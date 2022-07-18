@@ -2,7 +2,7 @@
 am_var('sections', ['ideas', 'about', 'webring']);
 am_var('pages', [
 //ideas
-	'children' => ['title' => 'Project Nom for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
+	'children' => ['title' => 'Rahasyam (Life\'s Secret) - Programs for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
 	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
 	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
 	'ideas' => ['title' => 'Applied Spirituality', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
@@ -29,6 +29,7 @@ am_var('pages', [
 function before_file() {
 	if (am_var('embed')) return;
 	echo '<div id="content" class="container" style="margin-top: 150px;">';
+	include 'header-content.php';
 	echo '<h1>' . humanize(am_var('node')) . '</h1>';
 }
 

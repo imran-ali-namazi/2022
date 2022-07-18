@@ -1,3 +1,5 @@
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2VHRvUbiPWg28PbV4jaaqz?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
 Someone I knew wrote a book called the Grandeur of Spirit and it's only as I write this that I realize that that spontaneous expression of His Play (or Lila) is the highest humanity can reach.
 
 We are indeed heading back to our illimitable origins, for it's time our Mother wakes us from our stupor and guides us from our adolescent folly back into the Light.
@@ -11,10 +13,6 @@ In this spirit of things, I have chosen to be a catalyst, with the hope that one
 Lets espouse our causes more dearly, being ever mindful of the company we keep, and let our children keep.
 
 I stand for peace - so much more pregnant than just the absence of malice and discord.
-
-[Slide, May 2021](https://docs.google.com/presentation/d/15HUt-gC3SjTaiASujJcLCnqyeVMr5_PyAD8GJ1QoppY/edit?usp=sharing)
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5nNkpuxtqqz3ETK5H4XfphMhOx94Bb1p8o6nA9c6npXujzRz0vTrB09eXdnaP-SSpDdEJ1ZH8xNxC/embed?start=true&loop=true&delayms=10000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%; height: 85vh"></iframe>
 
 # Concern
 
@@ -46,6 +44,6 @@ I wish to remain acknowledged for the ideas I've had and [remunerated for them](
 
 Finally feeling brave, I wish now, to come into my own as a creator of content and collaborator on issues of international concern.
 
-I choose to begin with [Education](../children/) and Conscious Conception, two subjects I would like dearly to know more about.
+I choose to begin with [Education](../children/), [Healing](../words/) and the creation of [Spaces](../spaces/) where we can accelerate these and I would like dearly to know more about where this baby can go.
 
 <em>Imran Ali Namazi, 28 Sep 2021</em>

@@ -3,8 +3,3 @@
 > We are oft self absorbed or preoccupied and **forget that a simple smile or a kindly word** or a graceful act can TOUCH someone's life.<br />
 > Believe that another tomorrow is possible&hellip; now reach out and **help us to dream, live and make it**.<br />
 > ~ Imran, Jul 2022
-
-<a href="./children/">
-<img src="./assets/tracks/yieldmore-project-nom-for-children.jpg" class="img-fluid show-in-landscape" />
-<img src="./assets/tracks/yieldmore-project-nom-for-children-mobile.jpg" class="img-fluid show-in-portrait" />
-</a>
