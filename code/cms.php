@@ -31,6 +31,7 @@ bootstrap([
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces' ],
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/yieldmore/' ],
 		[ 'type' => 'github', 'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
+		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
 	],
 
 	'styles' => ['styles',
