@@ -8,7 +8,7 @@ bootstrap([
 	'byline' => 'Have Fun, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '5', 'date' => '16 Jul 2022' ],
+	'version' => [ 'id' => '6', 'date' => '19 Jul 2022' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -36,6 +36,8 @@ bootstrap([
 
 	'styles' => ['styles',
 		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min',
+		'https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap',
+		'https://fonts.googleapis.com/css2?family=Pattaya&display=swap',
 	],
 	'scripts' => ['textToSpeech', 'groups', 'content'],
 	'google-analytics' => 'UA-166048963-1',

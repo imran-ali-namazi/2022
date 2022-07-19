@@ -29,8 +29,8 @@ am_var('pages', [
 
 function before_file() {
 	if (am_var('embed')) return;
-	echo '<div id="content" class="container" style="margin-top: 150px;">';
 	include 'header-content.php';
+	echo '<div id="content" class="container">';
 	echo '<h1>' . humanize(am_var('node')) . '</h1>';
 }
 

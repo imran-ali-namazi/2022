@@ -1,4 +1,18 @@
 $(document).ready(function() {
+  // http://snook.ca/archives/javascript/simplest-jquery-slideshow
+  // http://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+  $("#slideshow div:gt(0)").hide();
+  setInterval(function() 
+  {
+    $('#slideshow > div:first').hide() // give 100ms else both are seen together
+      .next().fadeIn(300)
+      .end().appendTo('#slideshow');
+  },  5000);
+});
+
+
+//speakable and questions
+$(document).ready(function() {
 	$('<a class="toggleQuestion">show answer</a>').insertBefore('p.answer');
 	$('p.answer').hide();
 	$('a.toggleQuestion').click(toggleQuestion);
