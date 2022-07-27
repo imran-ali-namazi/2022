@@ -43,7 +43,7 @@
 </div>
 <hr />
 <?php } else if (am_var('node') == 'index') { ?>
-<a href="./pages/">
+<a href="./children/">
 <img src="./assets/pages/yieldmore-children1.jpg" class="img-fluid" />
 </a>
 <?php } ?>

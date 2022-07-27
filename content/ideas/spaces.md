@@ -68,3 +68,14 @@ But what do [I know about healing](https://imran.yieldmore.org/poems/category/he
 2. Our houses are but temporary dwelling places for the soul.
 3. [[Our soul] burns yonder millions of miles away in the infinite reaches of Space](https://legacy.yieldmore.org/people/sri-aurobindo/power-supreme/)
 4. We house each other's hurts and dreams carefully as a parent does.
+
+## In the Workplace
+
+<p class="speakable">Consolidated Ideas for the Workplace</p>
+1. Productivity Articles and Tidbits
+2. Cooperative Consulting
+3. Interviews that Catalyse
+4. Internal Quality Initiatives
+5. Assisted Skilling Programs (Sunlight)
+6. Community Centres at Office
+7. Hosting Training / Incubators
