@@ -8,7 +8,7 @@ bootstrap([
 	'byline' => 'Have Fun, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '6', 'date' => '19 Jul 2022' ],
+	'version' => [ 'id' => '7', 'date' => '28 Jul 2022' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,

@@ -1,6 +1,6 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring', 'interact']);
-am_var('idea-sections', ['children' => 'for', 'spaces' => 'at', 'words' => 'by']);
+am_var('idea-sections', ['children' => 'in', 'spaces' => 'at', 'words' => 'by']);
 am_var('pages', [
 //ideas
 	'children' => ['title' => 'Rahasyam (Life\'s Secret) - Programs for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
@@ -35,7 +35,9 @@ function before_file() {
 	if (am_var('embed')) return;
 	include 'header-content.php';
 	echo '<div id="content" class="container">';
-	echo '<h1>' . humanize(am_var('node')) . '</h1>';
+	$ideas = am_var('idea-sections');
+	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
+	echo '<h1>' . $prefix . humanize(am_var('node')) . '</h1>';
 }
 
 function after_file() {

@@ -47,11 +47,11 @@ p.answer { font-size: 80%; margin-left: 15px; border-left: #999 solid 4px; paddi
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 .g-doc, .g-slide, .g-sheet, .yt, .legacy,
-	a[href^="https://legacy.yieldmore.org"], a[href^="https://imran.yieldmore.org"]
+	a[href^="https://legacy.yieldmore.org"], a[href^="https://imran.yieldmore.org"]:not(.no-icon)
 { background:  left center no-repeat!important; padding-left: 20px!important; padding-right: 0px!important; }
 .g-doc { background-image: url(https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.document)!important; }
 .g-slide { background-image: url(https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.presentation)!important; }
 .g-sheet { background-image: url(https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.spreadsheet)!important; }
 .yt { background-image: url(https://s.ytimg.com/yts/img/favicon_32-vflOogEID.png)!important; padding-left: 38px; }
 .legacy, a[href^="https://legacy.yieldmore.org"] { background-image: url(icons/ym-legacy.png)!important;  }
-.imran, a[href^="https://imran.yieldmore.org"] { background-image: url(icons/imran.png)!important; }
+.imran, a[href^="https://imran.yieldmore.org"]:not(.no-icon) { background-image: url(icons/imran.png)!important; }

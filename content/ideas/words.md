@@ -2,7 +2,7 @@
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4DZDE56D5rCGXYKGtVlosV?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
-> Now let your thoughts dwell upon good things and make an affirmation for yourself using words [such as these](https://imran.yieldmore.org/for-shobi/) or the ones below.
+> Now let your thoughts dwell upon good things and make an affirmation for yourself using words [such as these](https://imran.yieldmore.org/for-a-mother/) or the ones below.
 
 <p class="speakable">A possible affirmation to inspire you to create your own</p>
 1. I am in command of my destiny. Life will shower its abundance on me, if only I would let go the cares and troubles of the past and not be gripped in fear with the uncertainty of the future.

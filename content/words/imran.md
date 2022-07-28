@@ -18,5 +18,5 @@ I read now from a video I made in Apr 2018, the first of many
 7. Join us as we inspire others to "treat every day as you would your last".
 8. An action packed lifestyle full of learning, healing, sharing and LIVING!
 
-<a href="https://imran.yieldmore.org/" target="_blank"><img style="width: 100%;" src="https://imran.yieldmore.org/imran-logo@2x.png" /></a>
+<a href="https://imran.yieldmore.org/" class="no-icon" target="_blank"><img style="width: 100%;" src="https://imran.yieldmore.org/imran-logo@2x.png" /></a>
 <iframe src="https://imran.yieldmore.org/tags/poems/embed/" style="width: 100%; height: 95vh"></iframe>
