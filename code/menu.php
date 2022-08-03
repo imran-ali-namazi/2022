@@ -6,7 +6,7 @@ am_var('dont-wrap-menu-in-ul1', true);
 		<?php menu('/content/ideas/'); ?>
 	</li>
 	<li class="drop-down"><a>In Action</a>
-		<ul class="nav-menu">
+		<ul>
 			<?php menu('/content/', ['files' => ['interact'], 'no-ul' => true]); ?>
 			<?php foreach(am_var('idea-sections') as $item => $prefix) menu('/content/' . $item . '/', ['prefix' => ucwords($item) . ' ' . $prefix, 'no-ul' => true]); ?>
 		</ul>

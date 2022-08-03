@@ -1,3 +1,9 @@
+> Joyland, an idea from 2019 for promoting wellness is now replaced by:
+>
+> <a class="btn-large" href="#">Growth and Healing Spaces</a>.
+>
+> The contents below are left here for historic interest.
+
 12 years ago, I read these words -"[a dream by Mirra Alfassa](https://legacy.yieldmore.org/books/beyond-man/25-auroville/#_851)" written in 1952, materialized as Auroville in 1968 and still counting as "the place" in 2022 - the place of an unending education, of constant progress, and a youth that never ages.
 
 But what do [I know about healing](https://imran.yieldmore.org/poems/category/healing/), or building or of gathering people? I know my [heart speaks with a certain passion](https://imran.yieldmore.org/poems/). [For reason, ruling alone, is a force confining; and passion, unattended, is a flame that burns to its own destruction](https://legacy.yieldmore.org/works/the-prophet/chapter15/).
@@ -5,7 +11,7 @@ But what do [I know about healing](https://imran.yieldmore.org/poems/category/he
 "Intimate Healing Spaces" - can these spring up from our houses and hearts where we invite people to come share their woes, draw strength from one another and stand at each other's side until all maladies are passed and the Kingdom is Won. Not an abstract [Kingdom](https://common-planet.org/), with a ruler, but rather a ["Kindom" where LoveForLife springs](http://loveforlife.com.au/), not subjugating people or coercing them to do things against their will.
 
 <p class="speakable">Spaces (Joyland) in a Nutshell (Introduction), 2019</p>
-1. I built a self growing repository of information called yieldmore.org and managed to seed it with 100 odd articles of various use to mankind.
+1. I built a self growing repository of information called yieldmore.org and managed to seed it with 100 odd articles of various use to mankind.
 2. It's network encourages educators, writers, healers, philanthropists and their teams to collaborate in a close knit social experiment for the larger good.
 3. We promote good health and healing through a series of articles, specialists, videos, programs, thought and healing systems, people, institutions and movements.
 4. All content and programs do not originate with us, rather we repost information from the internet and slowly include the thoughts and topics of interest from our ever growing community.
