@@ -5,7 +5,7 @@ am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
 
 bootstrap([
 	'name' => 'YieldMore.org',
-	'byline' => 'Have Fun, Touch Lives',
+	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore',
 
 	'version' => [ 'id' => '7', 'date' => '28 Jul 2022' ],

@@ -3,10 +3,10 @@ am_var('sections', ['ideas', 'about', 'webring', 'interact']);
 am_var('idea-sections', ['children' => 'in', 'spaces' => 'at', 'words' => 'by']);
 am_var('pages', [
 //ideas
-	'children' => ['title' => 'Rahasyam (Life\'s Secret) - Programs for Children', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
-	'spaces' => ['title' => 'Growth and Healing Spaces', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
-	'words' => ['title' => 'Inspiration and Healing by Interaction', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
-	'ideas' => ['title' => 'Applied Spirituality', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
+	'children' => ['title' => 'Children for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
+	'spaces' => ['title' => 'Spaces for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
+	'words' => ['title' => 'Words for Inspiration and Healing', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
+	'ideas' => ['title' => 'Instituting a Spirituality that Liberates', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
 
 //in action
 	'interact' => ['title' => 'Interact with Us', 'description' => 'Links to our groups on tribe.so.'],
