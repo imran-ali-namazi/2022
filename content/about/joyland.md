@@ -1,6 +1,6 @@
 > Joyland, an idea from 2019 for promoting wellness is now replaced by:
 >
-> <a class="btn-large" href="#">Growth and Healing Spaces</a>.
+> <a class="btn-large" href="../spaces/">Growth and Healing Spaces</a>.
 >
 > The contents below are left here for historic interest.
 

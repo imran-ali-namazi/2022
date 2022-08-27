@@ -1,7 +1,7 @@
 First conceived as a "ticketing system" to manage aid efforts during lockdown 2, now planned as
 
 * Crowdfunding with #DirectDonations
-* Further the cause of hunger, homelessness and animals
+* Further the cause of hunger, [homelessness](https://chennaicorporation.gov.in/gcc/night-shelter/) and animals
 * Place to network those already doing work on these fronts
 
 ## The Concept Note (April 23rd)

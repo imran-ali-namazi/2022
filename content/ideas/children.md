@@ -63,3 +63,9 @@ We want to pique their curiosity for the world around, make them sensitive to th
 <p class="speakable">#3 Project ARYA</p>
 
 1. An awareness program where children work on advocating social causes, we see this a coming full circle of their emotional and social development. [ARYA = **Awareness Resulting in Your Action**](../act-now/#arya).
+
+<a name="curriculum"></a>
+<p class="speakable">Curriculum</p>
+
+1. <a class="btn-large" href="https://docs.google.com/document/d/1gM-SVYgkrtnkdGaY3mIcXLvlmv6AU5mZhzV7qEjHxvY/edit?usp=sharing">Music Based Education (English) - 2021, Imran</a>.<br /><br />
+2. <a class="btn-large" href="https://docs.google.com/document/d/1Re-K9o0Yu_P_NN-Cy9mB4JfW8lX2MFyauPojYaEbQIc/edit?usp=sharing">Creative Expression (English) - 2022, Imran</a>.
