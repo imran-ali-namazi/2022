@@ -25,6 +25,7 @@ am_var('pages', [
 	'legacy' => ['title' => 'YieldMore Legacy', 'description' => 'YieldMore as developed from 2013 to 2019 with plenty of compiled resources'],
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
 	'help' => ['title' => 'Help by Kindly Acts', 'description' => '#DirectDonations to the friends weve made and our various centers.'],
+	'vidzi heals' => ['title' => 'Vidzeal - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
 
 //further ideas
 	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
@@ -65,7 +66,7 @@ function before_render() {
 
 	if (am_var('node') == 'go') { include_once 'resources.php'; exit; }
 
-	am_var('description', site_humanize(am_var('node'), 'description'));
+	am_var('description', humanize(am_var('node'), 'description'));
 
 	$sections = array_merge(am_var('sections'), array_keys(am_var('idea-sections')));
 	foreach ($sections as $slug) {
