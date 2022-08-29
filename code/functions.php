@@ -24,6 +24,7 @@ am_var('pages', [
 	'archives' => ['title' => 'YieldMore Archives', 'description' => 'YieldMore as developed in 2021/22 with a lot of publishing going on'],
 	'legacy' => ['title' => 'YieldMore Legacy', 'description' => 'YieldMore as developed from 2013 to 2019 with plenty of compiled resources'],
 	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
+	'help' => ['title' => 'Help by Kindly Acts', 'description' => '#DirectDonations to the friends weve made and our various centers.'],
 
 //further ideas
 	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
@@ -75,6 +76,9 @@ function before_render() {
 			am_var('section', $slug);
 			am_var('file', $file);
 			break;
+		} else if (file_exists($file = $path . am_var('node') . '.php')) {
+			am_var('file', $file);
+			break;
 		}
 	}
 }
@@ -88,9 +92,24 @@ function did_render_page() {
 	if ($section = am_var('section')) {
 		render_txt_or_md(am_var('file'));
 		return true;
+	} else if (am_var('file')) {
+		include_once am_var('file');
+		return true;
 	}
 
 	return false;
 }
 
+function item_r($col, $item, $return = false) {
+	$cols = am_var('sectionColumns');
+
+	$r = $item[$cols[$col]];
+
+	$r = str_replace('|', '<br />', $r);
+	$r = simplify_encoding($r);
+	$r = replace_vars($r);
+	if ($return) return $r;
+
+	echo $r;
+}
 ?>
