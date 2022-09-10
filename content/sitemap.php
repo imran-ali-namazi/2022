@@ -8,5 +8,39 @@ foreach (am_var('pages') as $slug=>$item) {
 ?>
 </ol>
 
-<a class="btn-large" href="https://legacy.yieldmore.org/sitemap/" target="_blank">Legacy Sitemap</a>
-<a class="btn-large" href="https://archives.yieldmore.org/sitemap/" target="_blank">Archives Sitemap</a>
+<h2>Websites over the years</h2>
+<ol>
+	<li><a class="btn-large" href="https://legacy.yieldmore.org/sitemap/" target="_blank">Legacy Site - Sitemap</a><br /><br /></li>
+	<li><a class="btn-large" href="https://archives.yieldmore.org/sitemap/" target="_blank">Archives Site - Sitemap</a><br /><br /></li>
+	<li><a class="btn-large" href="https://2021.yieldmore.org/" target="_blank">2021 Home Page</a> - Thanks to Vinod especially for bringing our first rich home page to life<br /><br /></li>
+	<li><a class="btn-large" href="https://2020-ivy.yieldmore.org/" target="_blank">2020 AMW Precursor - Using IVY Web</a> - Thanks to all those trips to Bangalore and the inspiration of Joypreneurs / ONE<br /><br /></li>
+	<li><a class="btn-large" href="https://2020-ivy.yieldmore.org/library/" target="_blank">2020 Library</a> - with Deepak Chopra's progressive access <a href="https://2020-ivy.yieldmore.org/library/21-days-abundance/" target="_blank">21 Day abundance course</a><br /><br /></li>
+	<li><a class="btn-large" href="https://2020.yieldmore.org/media/" target="_blank">MEDIA / CURATION - Using IVY Web, circa 2017/18</a> - The labours of an illegal curator<br /><br /></li>
+	<li><a class="btn-large" href="https://2020.yieldmore.org/sitemap/" target="_blank">2020 Sitemap</a> - Many thanks for Vinod for the lovely work on the banners<br /><br /></li>
+	<li><a class="btn-large" href="https://2011.cselian.com/" target="_blank">Publishing 2011 - 2013 and learning PHP</a><br /><br /></li>
+	<li><a class="btn-large" href="https://blog.cselian.com/" target="_blank">Learning to share and write - 2007 to 2013 and the birthplace of "YIELD"</a> (site still not imported from wordpress)<br /><br /></li>
+	<li><a class="btn-large" href="https://2005.cselian.com/" target="_blank">The coming of age of an Engineer</a> - hoping to revisit as we empower technical trainers</li>
+</ol>
+
+<h2>Credits</h2>
+
+<h3>2017/18</h3>
+To Rahul for supporting me through this 2017 and 2018 avatar:<br /><br />
+
+<img src="../assets/mixed/2017-style-visiting-card.jpg" class="img-fluid" />
+
+<hr />
+
+<h3>2020</h3>
+To Abigail for this never shown Joyland Design<br /><br />
+
+<img src="../assets/mixed/2020-lockdown-joyland-design.jpg" class="img-fluid" />
+
+<hr />
+
+<h3>2020</h3>
+To Vinod for our current design<br /><br />
+
+<img src="../assets/mixed/2020-logo-visiting-card.jpg" class="img-fluid" />
+
+<hr />

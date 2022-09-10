@@ -42,8 +42,25 @@
 	<p class="text-center">Here, we intend to give children social causes projects to work on and make them advocates and workers for change.</p>
 </div>
 <hr />
-<?php } else if (am_var('node') == 'index') { ?>
-<a href="./children/">
-<img src="./assets/pages/yieldmore-children1.jpg" class="img-fluid" />
-</a>
-<?php } ?>
+<?php } else {
+
+	$ideas = ['children', 'words', 'spaces', 'crises', 'earth', 'serenity', 'spirit'];
+	$pages = am_var('pages');
+	echo '<div id="quick-lines" class="container" style="background-color: #FFDD9C; padding: 20px">' . am_var('nl');
+	echo '<h2>Ideas at a Glance</h2>' . am_var('nl');
+	
+	foreach ($ideas as $item) {
+		echo '<h3><a href="' . am_var('url') . $item . '/">' . humanize($item) . '</a></h3>' . am_var('nl');
+		$page = $pages[$item];
+		echo '<p class="'.$item.'">' . $page['description'] . '</h3>' . am_var('nl');
+	}
+	echo '</div><hr />' . am_var('nl');
+
+	if (am_var('node') == 'index') {
+	 ?>
+	<a href="./children/">
+	<img src="./assets/pages/yieldmore-children1.jpg" class="img-fluid" />
+	</a>
+	<?php
+	}
+} ?>

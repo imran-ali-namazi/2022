@@ -36,6 +36,41 @@ Remember, as atheism and rationalism keep gaining ground, that, I believe, as sc
 
 ----
 
+# Unspoken Prayer by Shasa in 2017
+
+Dear God, give man the fortitude to listen to the words of peace and love in his heart and not be swayed by the evil forces that abound in the world around him and incite him to commit acts against the very principles that his religion and beliefs are founded upon.
+Grant him the understanding that each man is free to choose his religion, that none is superior to the other, that each man understands the will of God according to his own nature and the truth of his being.
+If he must talk of his religion, let it be with an openness to understand his brother?s religion as well, for as Lord Krishna says - All paths lead to me.
+Let us hold hands and stand against the spread of ignorance and conflict. Let us embrace one another and truly accept each other?s faults and limitations as our Lord accepts us.
+
+A minutes silence for contemplation and thoughts for world peace.
+
+# Rolling the Dice
+
+While it is true that God does not play dice with the universe and that there is somewhere a method and intelligence amidst all the madness, the story is obfuscated from us for the delight of facing each new thought, feeling, idea and experience with ever fresh eyes. Such is the manner of the Lila or Cosmic play. So lets [dance the Divine Ball](https://imran.yieldmore.org/daivism/) be a part of the [Daivic Cycle](https://imran.yieldmore.org/all/category/daivic/) and be intimate with [it's expression](https://imran.yieldmore.org/all/category/daivic/)... That said, let us very randonmly list these thoughts that may trigger more random learnings and insights.
+
+<p class="speakable">Random Selections</p>
+
+1. [Faith](https://legacy.yieldmore.org/heal/articles/have-faith-the-game-is-not-over-yet/) seen from the eyes of a youth.
+2. The condensed wisdom of [the Upanishads](https://2020.yieldmore.org/media/books/ideas/The-Ten-Principal-Upanishads/).
+3. The acceptance of the [process of evolution, the divine in all](https://archives.yieldmore.org/uttarpara/), and the true meaning of the [Eternal Law or Sanatana Dharma](https://legacy.yieldmore.org/works/essays-on-the-gita/) and [it's treatise on Metaphysics](https://archives.yieldmore.org/sri-aurobindos-gita/).
+4. Nature and her seemingly crude ways seen from the standpoint of the [Divine Plan, her never making mistakes](https://youtu.be/uLJ6vLaRJow) as vindicated by a Theodicy that has had revealed unto it the [Uttamam Rahasyam](https://incarnateword.in/dict/sans/uttamam-rahasyam).
+5. The mysteries that abound on a [starry starry night](https://en.wikipedia.org/wiki/Vincent_(Don_McLean_song)).
+6. Thoughts on the [Ages and Periods in our history](https://2020.yieldmore.org/media/books/ideas/The-Holy-Science/) to help us [enter more fully into the story](https://en.wikipedia.org/wiki/The_NeverEnding_Story_(film)) as we [harmonize](https://legacy.yieldmore.org/movements/harmony/2016-speech/) it's [schools of thought](https://ulc.org/).
+7. A wizened and grizzly adventurer [voyaging on the sea of Philosophy](https://lifeexplained.com/).
+8. A swan bringing the [message to integrate and harmonize](https://legacy.yieldmore.org/practices/yoga/swan/) our [head, heart and hands](https://legacy.yieldmore.org/works/essays-on-the-gita/series2-chapter6/).
+9. A Prophet sharing wisdom on the [topic of Children](https://legacy.yieldmore.org/works/the-prophet/chapter4/).
+10. A [painter designing the heavens themselves](https://legacy.yieldmore.org/works/leaf-by-niggle/) and it's gardens.
+11. The Upanishads reminding us of our [power supreme](https://legacy.yieldmore.org/people/sri-aurobindo/power-supreme/) that wove the necklace of the suns by Yoga and that can create and destroy worlds with a breath.
+12. A [lay reminding us of what love can dare to do](https://legacy.yieldmore.org/works/lay-of-leithian/) when we are united in intent and body with [the Divine](https://imran.yieldmore.org/poems/category/spirit/).
+
+<p class="speakable">Even more Random Insights from the Friary</p>
+
+1. Delight in everything we see and do and learn, slowly of mindfulness and patience, daring to walk boldly towards our Divine Destiny that's waiting if only we throw all our melancholy, meanderings and diffused thoughts away.
+2. Guru is the process never the one who guides... and we only have to look to our past to know how far we have come and look with our hearts to the stars to find the way. There is also a bunch of heroes whose names we can take, that give us courage.
+3. There is never ONE guru rather wisdom brimming all around and permeating the atmosphere. We just need to cut through the clutter and embrace change and all our aspects.
+ 
+
 # The Metaphysics of Quality
 
 Two young boys lives were changed by the book ["Lila: An Enquiry into Morality"](https://en.wikipedia.org/wiki/Lila:_An_Inquiry_into_Morals). Just to reinforce the universality of its philosophy, one was of Christian origin, brought up a Buddhist and one a half Hindu half Muslim who used to believe he was pagan - both thinkers and very passionate about ["Liberty, Equality, Fraternity"](https://en.wikipedia.org/wiki/Libert%C3%A9,_%C3%A9galit%C3%A9,_fraternit%C3%A9) and basic human kindness.

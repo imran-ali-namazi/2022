@@ -7,6 +7,9 @@ am_var('pages', [
 	'spaces' => ['title' => 'Spaces for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
 	'words' => ['title' => 'Words for Inspiration and Healing', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
 	'ideas' => ['title' => 'Instituting a Spirituality that Liberates', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
+	'earth' => ['title' => 'Dare we Save our Planet Earth', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
+	'crises' => ['title' => 'Champion Causes and Avert Crises', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
+	'serenity' => ['title' => 'Serenity, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
 
 //in action
 	'interact' => ['title' => 'Interact with Us', 'description' => 'Links to our groups on tribe.so.'],
@@ -28,7 +31,6 @@ am_var('pages', [
 	'vidzi heals' => ['title' => 'Vidzeal - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
 
 //further ideas
-	'crises' => ['title' => 'CrisisForAll.org', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
 	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition.'],
 	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus.'],
 	'web' => ['title' => 'Amadeus Web Builder', 'description' => 'A powerful system for creating simple, content oriented sites. Especially to enable spiritual communes.'],
