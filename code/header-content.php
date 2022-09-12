@@ -1,5 +1,25 @@
 <hr class="above-header-content" />
-<?php if (am_var('node') == 'children') { ?>
+<?php
+if (array_search(am_var('node'), [
+		//single image horizontal only page banners
+		'crises',
+		'earth',
+		'enabler',
+		'eric',
+		'help',
+		'ideas',
+		'imran',
+		'interact',
+		'marketplace',
+		'model',
+		'nuggets',
+		'serenity',
+		'spaces',
+		'words',
+	]) !== false) { ?>
+	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
+<hr />
+<?php } else if (am_var('node') == 'children') { ?>
 <div id="slideshow">
 	<div><img src="../assets/pages/yieldmore-children1.jpg" class="img-fluid" /></div>
 	<div><img src="../assets/pages/yieldmore-children2.jpg" class="img-fluid" /></div>
@@ -44,7 +64,7 @@
 <hr />
 <?php } else {
 
-	$ideas = ['children', 'words', 'spaces', 'crises', 'earth', 'serenity', 'spirit'];
+	$ideas = ['children', 'words', 'spaces', 'serenity', 'ideas', 'crises', 'earth'];
 	$pages = am_var('pages');
 	echo '<div id="quick-lines" class="container" style="background-color: #FFDD9C; padding: 20px">' . am_var('nl');
 	echo '<h2>Ideas at a Glance</h2>' . am_var('nl');

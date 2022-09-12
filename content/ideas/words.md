@@ -28,6 +28,6 @@ Would you like that? A story of love and romance and with battles and of people,
 
 > [WRITE TO ME](mailto:team@yieldmore.org?subject=words:+writing+with+imran) or [see these poetry tags](https://imran.yieldmore.org/tags/poems)
 
-<a href="https://imran.yieldmore.org/" target="_blank"><img style="width: 100%;" src="https://imran.yieldmore.org/imran-logo@2x.png" /></a>
+<a href="https://imran.yieldmore.org/" target="_blank" class="no-icon"><img style="width: 100%;" src="https://imran.yieldmore.org/imran-logo@2x.png" /></a>
 <iframe src="https://imran.yieldmore.org/tags/poems/embed/" style="width: 100%; height: 95vh"></iframe>
 

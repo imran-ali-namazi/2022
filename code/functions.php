@@ -20,7 +20,7 @@ am_var('pages', [
 	'joyland' => ['title' => 'The Proliferation of Joyland', 'description' => 'Old 2019/20 notes on how Joyous Lands could be setup, the forerunner to Spaces for Growth and Healing'],
 	'model' => ['title' => 'The YieldMore Business Model', 'description' => 'A "share everything equally after compensation" approach to business and implementing YM ideas and programs.'],
 	'future' => ['title' => 'The Future for Humankind', 'description' => 'A compelling essay of what the future could be.'],
-	'spirit' => ['title' => 'The Spirit of YieldMore.org', 'description' => 'A candid look at why YieldMore.org exists and Imran\s intentions.'],
+	'spirit' => ['title' => 'The Spirit of YieldMore.org', 'description' => 'A candid look at why YieldMore.org exists and Imran\'s intentions.'],
 	'imrans resume' => ['title' => 'Resume of Imran Ali Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
 
 //webring

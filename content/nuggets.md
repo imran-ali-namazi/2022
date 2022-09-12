@@ -12,3 +12,10 @@
 * The Need for the Social Worker
 * Values and Ties
 * Wellness and Health
+
+<hr />
+<a class="btn-large" href="#/docs.google.com/">Notes and Nuggets</a> by <a class="btn-large" href="https://legacy.yieldmore.org/speak/veena/">longtime supporter Veena</a> on topics such as:
+
+* __one__
+* __two__
+* __three__

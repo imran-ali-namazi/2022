@@ -27,8 +27,9 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/c/YieldmoreOrgAM', 'name' => 'youtube: legacy' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/c/YieldmoreOrgAM', 'name' => 'youtube: legacy / imran' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces / 2018 and 2019' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCOmK_qgPh2sNQxGNxFh7mnQ', 'name' => 'youtube: love / new' ],
 		[ 'type' => 'linkedin', 'link' => 'https://www.linkedin.com/company/yieldmore/' ],
 		[ 'type' => 'github', 'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
 		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
