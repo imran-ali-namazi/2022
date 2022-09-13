@@ -1,6 +1,18 @@
 <hr class="above-header-content" />
 <?php
 if (array_search(am_var('node'), [
+		//portrait + horizontal resolution based banners
+		'earth',
+		'ideas',
+		'online',
+		'words',
+	]) !== false) { ?>
+	<div>
+		<img src="../assets/pages/<?php echo am_var('node');?>-portrait.jpg" class="img-fluid show-in-portrait" />
+		<img src="../assets/pages/<?php echo am_var('node');?>.jpg?fver=2" class="img-fluid show-in-landscape" />
+	</div>
+<hr />
+<?php } else if (array_search(am_var('node'), [
 		//single image horizontal only page banners
 		'crises',
 		'earth',
@@ -13,12 +25,11 @@ if (array_search(am_var('node'), [
 		'marketplace',
 		'model',
 		'nuggets',
-		'online',
 		'serenity',
 		'spaces',
 		'words',
 	]) !== false) { ?>
-	<div><img src="../assets/pages/<?php echo am_var('node');?><?php if (am_var('node') == 'online') echo '-portrait';?>.jpg" class="img-fluid" /></div>
+	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
 <hr />
 <?php } else if (am_var('node') == 'children') { ?>
 <div id="slideshow">
