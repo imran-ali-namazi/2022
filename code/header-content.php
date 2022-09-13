@@ -13,11 +13,12 @@ if (array_search(am_var('node'), [
 		'marketplace',
 		'model',
 		'nuggets',
+		'online',
 		'serenity',
 		'spaces',
 		'words',
 	]) !== false) { ?>
-	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
+	<div><img src="../assets/pages/<?php echo am_var('node');?><?php if (am_var('node') == 'online') echo '-portrait';?>.jpg" class="img-fluid" /></div>
 <hr />
 <?php } else if (am_var('node') == 'children') { ?>
 <div id="slideshow">

@@ -109,3 +109,23 @@ Join any one of the [1000 loving movements](https://imran.yieldmore.org/dear-bro
 > Kindly check out [the 10 videos here](https://www.youtube.com/watch?v=kHPzHXMNAqs&list=PLWsnhdZKqEqxY0u7jXrWBqo7yKfcLJlXN) by [hindu-academy.com](https://hindu-academy.com/), sent in Feb 2021.
 > 
 > See also their book [Hinduism in Schools](https://drive.google.com/file/d/1vUbM0p4mZZL8vTy3Ixl_pAvBrLFRcwoA/view?usp=sharing) which [ought to be registered for](https://docs.google.com/document/d/1Rw3H1ZZP9GJvVRlBqpzLjBzXHiGrLOxc_-pDFFCvRqM/edit?usp=sharing).
+
+# Thus Spake The Christ
+
+<p class="speakable">Notes on Christianity by Imran</p>
+
+1. It is said that the Christ's message is most faithfully enshrined in the [Gospel of Saint Thomas](https://achives.yieldmore.org/saint-thomas/).
+2. Also, that he [Lived in India](https://en.wikipedia.org/wiki/Holger_Kersten), somewhere near Srinagar, Kashmir.
+3. Because English has become the ["Lingua Franca"](https://en.wikipedia.org/wiki/Lingua_franca) of the world and their [Missionary's Fervour](https://en.wikipedia.org/wiki/Alexander_Duff_(missionary)) to spread Christianity awoke Jesus' timeless message in [cultures across the world](https://en.wikipedia.org/wiki/Inglorious_Empire), I believe ["**There was never law, or sect, or opinion did so much magnify goodness, as the Christian religion doth.**"](https://legacy.yieldmore.org/topics/religion/)
+
+
+----
+
+<p class="speakable">Pluralism and a Genuine Enthusiasm for All Religions</p>
+
+1. Swami Vivekananda: The present convention, which is one of the most august assemblies ever held, is in itself a vindication, a declaration to the world of the wonderful doctrine preached in the Gita: "Whosoever comes to Me, through whatsoever form, I reach him; all men are struggling through paths which in the end lead to me.", [Introduction speech at the World Parliament of Religions, 1893](https://legacy.yieldmore.org/people/swami-vivekananda/wpr-welcome/)
+2. Upon the banner of every religion will soon be written in spite of resistance: "Help and not fight," [___](../notes/#assimilation) "Harmony and Peace and not Dissension." - [Swami Vivekananda Again](https://legacy.yieldmore.org/people/swami-vivekananda/wpr-conclusion/).
+3. [Jiddu Krishnamurti](https://legacy.yieldmore.org/people/jiddu-krishnamurti/): Again, you have the idea that only certain people hold the key to the Kingdom of Happiness. No one holds it. No one has the authority to hold that key. That key is your own self, and in the development and the purification and in the incorruptibility of that self alone is the Kingdom of Eternity.
+4. [Khalil GIbran](http://gutenberg.net.au/ebooks05/0500621h.html): Oh Liberty, awaken but one heart with the rustling of thy wings, for from one cloud alone comes the lightning which illuminates the pits of the valleys and the tops of the mountains. Disperse with thy power these black clouds and descend like thunder and destroy the thrones that were built upon the bones and skulls of our ancestors.
+
+<div class="video-container"><iframe src="https://www.youtube.com/embed/rZ18J4jyy3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

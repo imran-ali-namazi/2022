@@ -64,6 +64,12 @@ We want to pique their curiosity for the world around, make them sensitive to th
 
 1. An awareness program where children work on advocating social causes, we see this a coming full circle of their emotional and social development. [ARYA = **Awareness Resulting in Your Action**](../act-now/#arya).
 
+<a name="entheos"></a>
+<p class="speakable">#4 ENTHEOS for Youngsters</p>
+
+1. Aimed at a healthy, explorative and enquiring mindset that can be cultivated among youth by exposing them to various devotional prayers, songs and hymns.
+2. [Christianity](https://www.hclutheran.net/) always reminds me of the power of it's Hymns like [Make Me a Channel of Your Peace](https://www.youtube.com/watch?v=2svZhZT6Pro) and [All Things Bright and Beautiful](https://en.wikipedia.org/wiki/All_Things_Bright_and_Beautiful).
+
 <a name="curriculum"></a>
 <p class="speakable">Curriculum</p>
 

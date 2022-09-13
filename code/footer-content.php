@@ -1,3 +1,8 @@
+<?php
+if (am_var('node') == 'ideas')
+	echo file_get_contents(__DIR__ . '/imran-religious.html');
+?>
+
 <div id="footer-content" style="margin-top: 30px; background-color: #DDA3B8;">
 	<div class="container">
 		<br /><br />
