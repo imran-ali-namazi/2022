@@ -5,6 +5,9 @@ am_var('dont-wrap-menu-in-ul1', true);
 	<li class="drop-down"><a>Ideas</a>
 		<?php menu('/content/ideas/'); ?>
 	</li>
+	<li class="drop-down"><a>Programs</a>
+		<?php menu('/content/possibilities/'); ?>
+	</li>
 	<li class="drop-down"><a>In Action</a>
 		<ul>
 			<?php menu('/content/', ['files' => ['interact', 'nuggets'], 'no-ul' => true]); ?>

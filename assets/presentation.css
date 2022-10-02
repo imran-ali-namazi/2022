@@ -1,0 +1,4 @@
+body { background-color: #B571B1!important; font-weight: 900; }
+.reveal *, .reveal h1, .reveal h2, .reveal h3 { color: #fff; }
+
+#topbar { background-color: #B571B1; position: sticky; color: #B571B1; }

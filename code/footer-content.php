@@ -1,5 +1,5 @@
 <?php
-if (am_var('node') == 'ideas')
+if (am_var('node') == 'spirit')
 	echo file_get_contents(__DIR__ . '/imran-religious.html');
 ?>
 

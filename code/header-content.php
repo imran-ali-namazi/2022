@@ -3,7 +3,7 @@
 if (array_search(am_var('node'), [
 		//portrait + horizontal resolution based banners
 		'earth',
-		'ideas',
+		'spirit',
 		'online',
 		'words',
 	]) !== false) { ?>
@@ -19,7 +19,6 @@ if (array_search(am_var('node'), [
 		'enabler',
 		'eric',
 		'help',
-		'ideas',
 		'imran',
 		'interact',
 		'marketplace',
@@ -27,6 +26,7 @@ if (array_search(am_var('node'), [
 		'nuggets',
 		'serenity',
 		'spaces',
+		'sri-bagavath',
 		'words',
 	]) !== false) { ?>
 	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
@@ -76,7 +76,7 @@ if (array_search(am_var('node'), [
 <hr />
 <?php } else {
 
-	$ideas = ['children', 'words', 'spaces', 'serenity', 'ideas', 'crises', 'earth'];
+	$ideas = ['children', 'words', 'spaces', 'serenity', 'spirit', 'crises', 'earth'];
 	$pages = am_var('pages');
 	echo '<div id="quick-lines" class="container" style="background-color: #FFDD9C; padding: 20px">' . am_var('nl');
 	echo '<h2>Ideas at a Glance</h2>' . am_var('nl');
