@@ -6,8 +6,8 @@
 </section>
 
 <section id="picture-of-facilitators">
-	<img src="../../assets/mixed/church-the-baptized-speaketh.jpg" style="width: 60%;" />
-	<h3>Imran the Rebaptized Speaketh! <3</h3>
+	<img src="../../assets/mixed/church-the-baptized-speaketh.jpg" style="width: 60%;">
+	<p>Imran the Annually Rebaptized Speaketh! <3</p>
 </section>
 
 <section id="purpose">
@@ -17,8 +17,9 @@
 </section>
 
 <section id="objectives">
-	<p>Tickling the Emotional Body and Trusting the Inner Expression through practice with words, sounds and art.</p>
+	<p>Tickling the Emotional Body and Trusting the Inner Expression through words, sounds and art.</p>
 	<hr>
+	SESSIONS FORESEEN
 	<ul style="text-align: center; list-style-type: none;">
 		<li>(1) Inspiring Stories by Others (Curation)</li>
 		<li>(2) Abundance and Mindset</li>
@@ -28,7 +29,8 @@
 </section>
 
 <section id="picture-of-healees">
-	<img src="../../assets/mixed/intimate-gatherings-invication-niggles mountains-by-maria.jpg" style="width: 60%;" />
+	<p><a href="https://legacy.yieldmore.org/works/leaf-by-niggle/">The Importance of ART</a> and it's<br> INTEGRALITY TO DAILY LIVING</p>
+	<img src="../../assets/mixed/intimate-gatherings-invocation-niggles-mountains-by-maria.jpg" style="width: 60%;">
 </section>
 
 <section id="invocation">
@@ -84,8 +86,32 @@
 	<h2>(4) Nature themed Poetry Writing</h2>
 	<ul style="text-align: center; list-style-type: none;">
 		<li>That <a href="https://imran.yieldmore.org/niggle/">HUMAN TURNED GOD / PARASISE BUILDER - Niggle</a> by JRR Tolkien</li>
+		<li><hr></li>
 		<li>Our Own Nature</li>
 		<li>The Nature of People</li>
 		<li>Mother Nature</li>
 	</ul>
+</section>
+
+<section id="program-summary">
+	<p>Likely in Egmore, Chennai in Oct 2022</p>
+	<ul style="text-align: center;">
+		<li>Rs 10,000 for a 8 hour workshop over 2 days. Discounting Possible</li>
+		<li>Invitations for <a href="../../growth/">participants to become facilitators</a></li>
+		<li><a href="https://chat.whatsapp.com/EdW15h72Grt70t25Oa2lIk">Join Our WhatsApp Group</a> to find it's suitability / have updates</li>
+		<li>Think of a Life Long Association with <a href="https://yieldmore.org/">YieldMore.org</a></li>
+		<li>Read this with your children - <a href="https://imran.yieldmore.org/keep-smiling/">Keep Smiling</a></li>
+	</ul>
+</section>
+
+<section id="imran-yieldmore-purpose-2017">
+	<h3>NO ONE TOLD YOU when to run - NOW DONT MISS THE STARTING GUN</h3>
+	<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/T2LUl9C_Yfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</section>
+
+<section id="program-preview">
+	<h3>YM -> Possibilities:</h3>
+	<h1><a href="../../intimate-gatherings/">Intimate Gatherings</a></h1>
+	<h2>I Sincerely LOVE all of Humanity</h2>
+	<!-- TODO: pic of Imran Saify and Heir forming a triangular driving wheel -->
 </section>

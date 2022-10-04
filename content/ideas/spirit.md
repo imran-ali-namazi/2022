@@ -8,6 +8,13 @@ I believe that there is a balance between religion and science, spirituality and
 
 [Friar](https://legacy.yieldmore.org/topics/religion/universal-life-church/) Imran (sometimes known as [Shasa](https://imran.yieldmore.org/imagine/)), July 2022
 
+> Religion is like learning to ride a bicycle. Once you learn to love GOD, you are pedalling away on your own. Once you start loving your fellow beings, you start to take the training wheels off. When there is no distinction in creed, race, status and ability is when you are certified as having taken the training wheels off.
+> 
+> You then get to lose your religion and start to appreciate bikers from other streets, variations of the bicycle like buses, trains, tractors and aeroplanes - not to mention space vehicles and travelling at the speed of thought.
+>
+> Imran [aka Shasa Ferret](https://imran.yieldmore.org/curious-lives/), 20 Nov 2013, Bellevue America.
+
+----
 <p class="speakable">Some quotes to set your thinking.</p>
 
 1. Progress has never been a bargain. You have to pay for it. Sometimes I think there's a man who sits behind a counter and says, "All right, you can have a telephone, but you lose privacy and the charm of distance. Madam, you may vote but at a price: you lose the right to retreat behind the powder puff or your petticoat. Mister, you may conquer the air, but the birds will lose their wonder and the clouds will smell of gasoline."<br />[Henry Drummond, Inherit the Wind](https://www.imdb.com/title/tt0053946/characters/nm0000075)

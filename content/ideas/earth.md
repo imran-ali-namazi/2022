@@ -13,3 +13,14 @@ So think greatly of the company you keep, find it in your heart to heal and stre
 As [Philip Wollen says, MEAT is the new asbestos](https://legacy.yieldmore.org/movements/loving-nature/philip-wollen/), and whereas for some time, [I championed vegetarianism](https://legacy.yieldmore.org/topics/vegetarianism/), the [double standard here](https://legacy.yieldmore.org/movements/loving-nature/vegan-activist/) is, I'm now a [part time non vegetarian](https://www.meat.org/).
 
 Don't let the contradictions sway you, [find your cause](https://imran.yieldmore.org/catalyst/) and rally forth to establish your truth, one of [Ahimsa or non violence](https://www.mkgandhi.org/articles/ahimsa-Its-theory-and-practice-in-Gandhism.html) as I believe it must turn out to be.
+
+Imran, 11 Sep 2022
+
+----
+
+# List of Songs / Profound Curations
+* We are the world - Michael Jackson
+* Grey Owl - Movie
+* Redford Center
+* Captain Planet Foundation
+* Chinmaya Mission Pledge (for humanity)

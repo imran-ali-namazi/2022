@@ -1,5 +1,32 @@
 <hr class="above-header-content" />
 <?php
+$pages = am_var('pages');
+if (true) {
+	//NOTE: sticky bar at of everything
+	echo '<div id="all-programs" class="container" style="background-color: #EEB7EF; padding: 20px; margin-bottom: 30px;">' . am_var('nl');
+	echo '<img class="img-fluid" src="' . am_var('url') . 'yieldmore-rectangle.jpg" /><br /><br />' . am_var('nl');
+
+	//programs and their presentations
+	$presentBaseUrl = am_var('url') . 'present/';
+	echo '<p class="speakable">Workshops and Programs to be ENACTED</p>';
+	echo '<ol>' . am_var('nl');
+	echo '<li><a href="' . $presentBaseUrl . 'growth/">Stipulations for Growth of Facilitators and Participants</a></li>' . am_var('nl');
+	menu('/content/possibilities', ['parent-slug' => 'present/', 'no-ul' => true]); //TODO: add $page['description'] lookup dictionary
+	echo '</ol>' . am_var('nl');
+
+	$ideas = ['children', 'words', 'spaces', 'serenity', 'spirit', 'crises', 'earth'];
+	echo '<p class="speakable">Core Ideas to Liberate Humanity</p>';
+	echo '<ol>' . am_var('nl');
+
+	//ideas and their descriptions
+	foreach ($ideas as $item) {
+		echo '<li><a href="' . am_var('url') . $item . '/">' . humanize($item) . '</a></li>' . am_var('nl');
+		$page = $pages[$item]; //todo - add banners
+		echo '<p class="'.$item.'">' . $page['description'] . '</h3>' . am_var('nl');
+	}
+	echo '</ol>' . am_var('nl') . '</div>' . am_var('nl');
+}
+
 if (array_search(am_var('node'), [
 		//portrait + horizontal resolution based banners
 		'earth',
@@ -74,25 +101,4 @@ if (array_search(am_var('node'), [
 	<p class="text-center">Here, we intend to give children social causes projects to work on and make them advocates and workers for change.</p>
 </div>
 <hr />
-<?php } else {
-
-	$ideas = ['children', 'words', 'spaces', 'serenity', 'spirit', 'crises', 'earth'];
-	$pages = am_var('pages');
-	echo '<div id="quick-lines" class="container" style="background-color: #FFDD9C; padding: 20px">' . am_var('nl');
-	echo '<h2>Ideas at a Glance</h2>' . am_var('nl');
-	
-	foreach ($ideas as $item) {
-		echo '<h3><a href="' . am_var('url') . $item . '/">' . humanize($item) . '</a></h3>' . am_var('nl');
-		$page = $pages[$item];
-		echo '<p class="'.$item.'">' . $page['description'] . '</h3>' . am_var('nl');
-	}
-	echo '</div><hr />' . am_var('nl');
-
-	if (am_var('node') == 'index') {
-	 ?>
-	<a href="./children/">
-	<img src="./assets/pages/yieldmore-children1.jpg" class="img-fluid" />
-	</a>
-	<?php
-	}
-} ?>
+<?php } ?>
