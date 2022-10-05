@@ -24,3 +24,7 @@ Imran, 11 Sep 2022
 * Redford Center
 * Captain Planet Foundation
 * Chinmaya Mission Pledge (for humanity)
+
+----
+
+> My GURU [Sannyasi Krishna Yogam](https://legacy.yieldmore.org/wp-content/data/print/people/sky.jpg) of [BSY](http://archives.yieldmore.org/yoga/) confirms that linear seed plantation if the beginning of conformity, the setting of boundaries, deviation from our True Nature and the beginnings of all of our INSANITY. ~ Sep 2022

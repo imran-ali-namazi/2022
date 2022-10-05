@@ -1,4 +1,9 @@
 body { cursor: default; }
+
+.page-heading { padding: 10px; background-color: #5CB08E; }
+.page-description { padding: 10px; background-color: #EBBB6E; }
+.page-heading-separator { border-bottom: 2px dashed #333; }
+
 #content { font-size: 140%; line-height: 2em; }
 
 #sections-with-images .col-12 { padding: 15px; }
