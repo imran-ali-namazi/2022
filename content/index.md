@@ -13,6 +13,8 @@
 > I hope some day you will join us, and the world will be as one.<br />
 > ~ John Lennon, [Imagine](https://legacy.yieldmore.org/songs/imagine/)
 
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/NzjZA3XX4HM" title="Invitation to God's PEACE and LOVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 # Vision and Plans
 
 > We want to be a [link between the past and the future](https://legacy.yieldmore.org/books/beyond-man/25-auroville/),<br />
@@ -39,3 +41,7 @@
 * Establish [classes](./children/) and [centers](./spaces/) - teachers and hosts sought.
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/SdGMcm_d-_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+----
+
+[PRACTICE SET OF VIDEOS: DEC 2019](https://www.youtube.com/watch?v=CDWKB7FFZYI&list=PLsuI89eMBnMEc8K61fB1t1R4VfjwdK982)

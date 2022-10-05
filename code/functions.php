@@ -2,6 +2,9 @@
 am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities']);
 am_var('idea-sections', ['children' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
 am_var('pages', [
+
+//	'' => ['title' => '', 'description' => ''],
+
 //ideas
 	'children' => ['title' => 'Children for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
 	'spaces' => ['title' => 'Spaces for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
@@ -10,6 +13,15 @@ am_var('pages', [
 	'earth' => ['title' => 'Dare we Save our Planet Earth', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
 	'crises' => ['title' => 'Champion Causes and Avert Crises', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
 	'serenity' => ['title' => 'Serenity, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
+
+//possibilities
+	'collective-parenting' => ['title' => 'Curricular and Co-curricular fun as groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods'],
+	'growth' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'Blueprints for TIGHTLY KNIT TEAMS OF UPTO 20. 20 Teams to be INITIATED by 2025 Oct 15th'],
+	'imaginative-communities' => ['title' => 'Model Groups, Towns and Organizations whose Examples can Lead the world from POVERTY of SOUL', 'description' => 'Based on the Robert Govers book of the same name'],
+	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.'],
+	'prem' => ['title' => 'Field of Love and Dreams', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares.'],
+	'sunlight-and-moonlight' => ['title' => 'Evolving Sunlight and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.'],
+	'work-and-cancer' => ['title' => 'The Cancerous environments at school, work, streets and home', 'description' => 'When we work with passion, we can heal anything. Loka Samastha Sukhino Bhavantu.'],
 
 //in action
 	'interact' => ['title' => 'Interact with Us', 'description' => 'Links to our groups on tribe.so.'],

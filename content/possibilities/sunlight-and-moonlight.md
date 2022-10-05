@@ -22,7 +22,7 @@ IT and Capitalism wielded by the Supreme Lord for Spiritual Transformation of Hu
 
 # Spiritual Transformation (not DIGITAL)
 
-In all of our families and all of our collective endeavours, the RESOURCE THAT IS THE MOST MISUSED AND MALIGNED IS THE INVIVIDUAL. He/She needs the following:
+<p class="speakable">Needs of the Contributing Individual Team Member</p>
 
 1. Situational Awareness
 2. Personal Stability
@@ -58,7 +58,7 @@ Train the Leaders to have their weekly planning meetings, take ownership of driv
 
 This was an impulsive decision to assume command and improvise on the spot. Knowing full well [Pirsig's Metaphysics of Quality](../spirit/) and still revering the STATIC MUD ENCRUSTED System that robs us of initiative, I Chose STILL TO FLOUT EVERY RULE.
 
-The proper means on enacting change is
+<p class="speakable">The proper means of enacting change</p>
 
 1. Observer
 2. Record
@@ -71,4 +71,4 @@ The proper means on enacting change is
 9. ENACT on the FIELD
 10. Have a way to track each sprint / week and Keep Revising the Plans, Process and Training
 
-<!--TODO-->
+<!-- TODO: BRING IN OLDER STUFF -->

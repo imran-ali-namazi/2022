@@ -42,9 +42,9 @@
 		* With a Barbaric YAWP and a Sankalpa / VOW for SELF, let us begin
 	-->
 	<h3>(0) Invocation and Bonding</h3>
-	<ol style="text-align: center;">
+	<ol>
 		<li><a href="https://archives.yieldmore.org/our-gajananam/">Prayer to the Old Indic Lord Ganesha</a></li>
-		<li>JRR Tolkien says <a href="../earth/">save the Earth</a>
+		<li>JRR Tolkien says <a href="../earth/">Save the Earth</a>
 		<li>Replenish your SOULS in Niggle's Parish <3</li>
 		<li>Dedicated to ALL MOTHERs EVERYWHERE</li>
 		<li><a href="https://imran.yieldmore.org/niggle/">imran.yieldmore.org/niggle/</a></li>
@@ -54,7 +54,7 @@
 
 <section id="session-on-cuation">
 	<h2>(1) Some Inspired Music and Books</h2>
-	<ul style="text-align: center; list-style-type: none;">
+	<ul>
 		<li>Short and Sweet - Our Anthem</li>
 		<li>Curious Lives - Richard Bach</li>
 		<li>Tolkien's Creation Myth and Case for Art</li>
@@ -63,7 +63,7 @@
 
 <section id="session-on-abundance">
 	<h2>(2) Programs and Discussion on Abundance</h2>
-	<ul style="text-align: center; list-style-type: none;">
+	<ul>
 		<li>11 Minute Vacation</li>
 		<li>Serenity Chapter</li>
 		<li>Sacred Body Prayer</li>
@@ -74,7 +74,7 @@
 
 <section id="session-on-share-and-heal">
 	<h2>(3) Sharing Openly and Healing</h2>
-	<ul style="text-align: center; list-style-type: none;">
+	<ul>
 		<li>Understanding our Needs and Feelings</li>
 		<li>Releasing Past Pains</li>
 		<li>Exploring Similarities</li>
@@ -84,7 +84,7 @@
 
 <section id="session-on-nature">
 	<h2>(4) Nature themed Poetry Writing</h2>
-	<ul style="text-align: center; list-style-type: none;">
+	<ul>
 		<li>That <a href="https://imran.yieldmore.org/niggle/">HUMAN TURNED GOD / PARASISE BUILDER - Niggle</a> by JRR Tolkien</li>
 		<li><hr></li>
 		<li>Our Own Nature</li>
@@ -95,11 +95,11 @@
 
 <section id="program-summary">
 	<p>Likely in Egmore, Chennai in Oct 2022</p>
-	<ul style="text-align: center;">
+	<ul>
 		<li>Rs 10,000 for a 8 hour workshop over 2 days. Discounting Possible</li>
 		<li>Invitations for <a href="../../growth/">participants to become facilitators</a></li>
-		<li><a href="https://chat.whatsapp.com/EdW15h72Grt70t25Oa2lIk">Join Our WhatsApp Group</a> to find it's suitability / have updates</li>
-		<li>Think of a Life Long Association with <a href="https://yieldmore.org/">YieldMore.org</a></li>
+		<li><a href="https://chat.whatsapp.com/EdW15h72Grt70t25Oa2lIk">Join Our WhatsApp Group</a> to find it's suitability / receive updates</li>
+		<li>Think of a Life Long Association with <a href="https://yieldmore.org/growth/">YieldMore.org</a></li>
 		<li>Read this with your children - <a href="https://imran.yieldmore.org/keep-smiling/">Keep Smiling</a></li>
 	</ul>
 </section>

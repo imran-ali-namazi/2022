@@ -10,12 +10,19 @@
 	<h3>Ego or False Identity</h3>
 </section>
 
+<!--
+<section id="picture-of-treehugging">
+	<img src="../../assets/mixed/nature-imran-hugs-tree.jpg" style="width: 60%;">
+	<p>Imran hugs tree at tryagri.com, Esayanur</p>
+</section>
+-->
+
 <section id="peaceful-fighting">
-	<h2>PACIFISTS TREE HUGGERS and PEACEFUL WARRIORS</h2>
+	<h2>PACIFISTS, TREE HUGGERS and PEACEFUL WARRIORS</h2>
 	<ol>
 		<li>FIGHT FOR HUMAN RIGHTS</li>
 		<li>FIGHT AS PACIFISTS</li>
-		<li><a href="https://imran.yieldmore.org/my-will/">REMOVE THEIR ABILITY TO MAIM AND ENRAGE</a></li>
+		<li><a href="https://imran.yieldmore.org/my-will/">STOP MAIMING AND ENRAGING</a></li>
 	</ol>
 </section>
 
@@ -23,7 +30,7 @@
 	<h2>FIGHT HATRED with WORLD MUSIC</h2>
 	<ol>
 		<li>Imran -> Lists -> 10 Profound Songs</li>
-		<li>Man in Black - Johhny Cash</li>
+		<li>Man in Black - Johnny Cash</li>
 		<li>Affirmation - Australia</li>
 		<li>I Want to Give it All - Australia</li>
 		<li>Sarvam __ Gatchami - Buddhism</li>
@@ -31,10 +38,10 @@
 </section>
 
 <section id="the-teachings-of-war">
-    WAR | MALICE | PREJUDICE
+	<h2>WAR | MALICE | PREJUDICE</h2>
 	<ol>
-		<li>Peaceful Warrior Movie</li>
-        <li>Every Man a TIGER - Chuck Horner</li>
+		<li>Peaceful Warrior - Movie</li>
+		<li>Every Man a TIGER - Chuck Horner</li>
 	</ol>
 </section>
 
@@ -43,8 +50,8 @@
 	<ol>
 		<li>Ali Horriyat</li>
 		<li>Remzi Bajrami</li>
-		<li>Imran - <a href="https://imran.yieldmore.org/jump-with-faith/">SAVE THE INDOCTRINATED SOUL, AFRAID AND TIMID</a></li>
-		<li>Chuck Horner and the DECEITS OF VIETNAM</li>
+		<li>Imran - <a href="https://imran.yieldmore.org/jump-with-faith/">Help Fellow Beings</a></li>
+		<li>The DECEITS OF VIETNAM</li>
 	</ol>
 </section>
 

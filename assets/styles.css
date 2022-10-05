@@ -11,6 +11,10 @@ body { cursor: default; }
 #content blockquote { border-left: #666 solid 4px; padding: 10px; }
 blockquote a { background-color: #FFE792; padding: 4px 8px 4px 8px; font-weight: bold; border-radius: 10px }
 
+
+ol.possibilities { background-color: #D6FFC8; }
+ol.ideas { background-color: #FFCDD2; }
+
 .hidden, a[name=speak] { display: none; }
 p.speakable, a.btn-large { border: teal solid; border-width: 1px 6px 1px 6px; padding: 8px; border-radius: 12px; cursor: pointer; background-color: #CAE8FF; }
 p.speakable:after, a.btn-large:after { content:'\21CA'; font-weight: 900; color: teal; }
@@ -22,7 +26,7 @@ a.btn-large:after { content: '\2197'; padding-left: 15px; }
 
 .speak { background-color: #eee; }
 ol.speak { border: 1px solid red; padding: 18px 18px 18px 35px; border-radius: 12px; }
-ol.speak > li { border-bottom: 1px solid #666;  }
+ol.speak > li:not(.no-speakable-item-underline li) { border-bottom: 1px solid #666;  }
 
 a.toggleQuestion { float: right; }
 p.answer { font-size: 80%; margin-left: 15px; border-left: #999 solid 4px; padding-left: 8px; margin-bottom: 0; }
