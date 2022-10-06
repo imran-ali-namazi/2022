@@ -70,6 +70,16 @@ We want to pique their curiosity for the world around, make them sensitive to th
 1. Aimed at a healthy, explorative and enquiring mindset that can be cultivated among youth by exposing them to various devotional prayers, songs and hymns.
 2. [Christianity](https://www.hclutheran.net/) always reminds me of the power of it's Hymns like [Make Me a Channel of Your Peace](https://www.youtube.com/watch?v=2svZhZT6Pro) and [All Things Bright and Beautiful](https://en.wikipedia.org/wiki/All_Things_Bright_and_Beautiful).
 
+<a name="physical-education"></a>
+<p class="speakable">#5 PHYSICAL EDUCATION and TEAM SPIRIT</p>
+
+1. Full Control of the BODY, it's strengthening, reflexes and muscle memory in a variety of sports.
+2. Movies of Bruce Lee, Jackie Chan, Jet Li, Chow Yun Fat and other's like the 36th Chamber of Shaolin
+3. One Armed Boxer, Hannie Caulder, High Lonesome, Raging Bull (Jake La Motta), Rocky I to VI
+5. Teenage Mutant Ninja Turtles, Kung Fu Panda, Karate Kid, Million Dollar Baby
+6. Meditation and Leaning OUT IN THE FIELD the way Michelangelo Buonarrotti did with his PIETRA SERENA
+7. Make the fingers deft by doing sewing and knitting, giving massage to one another, engineering work etc.
+
 <a name="curriculum"></a>
 <p class="speakable">Curriculum</p>
 

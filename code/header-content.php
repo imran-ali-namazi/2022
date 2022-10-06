@@ -44,6 +44,7 @@ if (array_search(am_var('node'), [
 <hr />
 <?php } else if (array_search(am_var('node'), [
 		//single image horizontal only page banners
+		'common-planet',
 		'crises',
 		'earth',
 		'enabler',

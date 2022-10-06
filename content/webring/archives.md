@@ -20,3 +20,9 @@ This video of our launch in March 2018.
   * I am unique in that I...
   * My relation to a higher purpose or God is that...
 3. When you affirm life, you will realize that we live not alone. We live in the lap of God. And God has many children, both sentient and non-sentient.
+
+
+<div style="text-align: center">
+	(Picture of Archives' Sitemap)<br>
+	<a href="https://archives.yieldmore.org/sitemap/"><img src="../assets/pages/archives.jpg" class="img-fluid" /></a>
+</div>
