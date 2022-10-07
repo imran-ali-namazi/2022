@@ -126,7 +126,14 @@ function site_humanize($txt, $field = 'title') {
 
 function before_render() {
 	if (am_var('node') == 'present') {
-		am_var('deck', SITEPATH . '/decks/' . am_var('page_parameter1') . '.md');
+		$deck = am_var('page_parameter1');
+
+		if (!$deck) {
+			am_var('deck-listing', true);
+			return;
+		}
+
+		am_var('deck', SITEPATH . '/decks/' . $deck . '.md');
 		am_var('deck-name', am_var('page_parameter1'));
 		am_var('embed', true);
 		return;
@@ -164,9 +171,25 @@ function did_render_page() {
 	} else if (am_var('file')) {
 		include_once am_var('file');
 		return true;
+	} else if (am_var('deck-listing')) {
+		list_decks();
 	}
 
 	return false;
+}
+
+function list_decks() {
+	echo '<h1>Presentations @ ' . am_var('name') . '</h1>';
+
+	$items = scandir(SITEPATH .'/decks/');
+	natsort($items);
+
+	foreach ($items as $item) {
+		if (!endsWith($item, '.md')) continue;
+		$item = str_replace('.md', '', $item);
+		echo '<hr />';
+		echo '<iframe src="' . am_var('url') . 'present/' . $item . '/" style="height: 100vh; width: 100%"></iframe>' . am_var('nl') . am_var('nl');
+	}
 }
 
 function item_r($col, $item, $return = false) {
