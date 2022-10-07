@@ -1,6 +1,6 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities']);
-am_var('idea-sections', ['children' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
+am_var('idea-sections', ['children' => 'in', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
 am_var('pages', [
 
 //	'' => ['title' => '', 'description' => ''],
@@ -54,22 +54,67 @@ am_var('pages', [
 
 function before_file() {
 	if (am_var('embed')) return;
-	include 'header-content.php';
-	echo '<div id="content" class="container">';
+
+	echo '<hr class="above-header-content" />' . am_var('nl');
+
+	echo '<div id="pre-content-wrapper" class="header-bgd">' . am_var('nl');
+
+	echo '  <header id="pre-content" class="container no-speakable-item-underline">' . am_var('nl');
+
+	echo '    <div class="page-heading">' . am_var('nl');
+	//#1 - heading
 	$ideas = am_var('idea-sections');
 	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
 	$suffix = '';
 	if (am_var('section') == 'possibilities')
 		$suffix = sprintf(' | <a href="%spresent/%s/">See Presentation</a>', am_var('url'), am_var('node'));
-	echo '<h1 class="page-heading">' . $prefix . humanize(am_var('node')) . $suffix . '</h1>';
+	echo '      <h1 class="page-title">' . $prefix . humanize(am_var('node')) . $suffix . '</h1>' . am_var('nl');
+
+	//#2 - description
 	$pages = am_var('pages');
-	if (isset($pages[am_var('node')])) echo sprintf('<p class="page-description">%s</p><hr class="page-heading-separator" />', $pages[am_var('node')]['description']);
+	if (isset($pages[am_var('node')])) echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $pages[am_var('node')]['description']);
+	echo '    </div>' . am_var('nl');
+
+	//#3 - speakable menus
+	menu_speakables();
+	echo '    <img class="img-fluid" src="' . am_var('url') . 'yieldmore-rectangle.jpg" /><br /><br />' . am_var('nl');
+
+	echo '  </header>' . am_var('nl');
+	echo '</div>' . am_var('nl');
+
+	include 'header-content.php';
+	echo '<hr class="page-heading-separator" />';
+	echo '<div id="content" class="container">';
 }
 
 function after_file() {
 	if (am_var('embed')) return;
 	echo file_get_contents(SITEPATH . '/assets/speech-ui.html');
 	echo '</div>';
+}
+
+function menu_speakables() {
+	$pages = am_var('pages');
+	$possibilities = ['intimate-gatherings', 'growth', 'collective-parenting', 'sunlight-and-moonlight', 'imaginative-communities', 'work-and-cancer', 'prem'];
+
+	echo '    <p class="speakable">Workshops and Programs to be ENACTED</p>' . am_var('nl');
+	echo '    <ol class="possibilities centered">' . am_var('nl');
+	foreach ($possibilities as $item) {
+		echo '      <li><a href="' . am_var('url') . 'present/' . $item . '/">' . humanize($item) . '</a></li>' . am_var('nl');
+		$page = $pages[$item]; //todo - add banners
+		echo '      <p class="description">' . $page['description'] . '</p>' . am_var('nl');
+	}
+	echo '    </ol>' . am_var('nl') . am_var('nl');
+
+	$ideas = ['children', 'words', 'spaces', 'serenity', 'spirit', 'crises', 'earth'];
+	echo '    <p class="speakable">Core Ideas to Liberate Humanity</p>' . am_var('nl');
+	echo '    <ol class="ideas centered">' . am_var('nl');
+	foreach ($ideas as $item) {
+		echo '      <li><a href="' . am_var('url') . $item . '/">' . humanize($item) . '</a></li>' . am_var('nl');
+		$page = $pages[$item]; //todo - add banners
+		echo '      <p class="description">' . $page['description'] . '</p>' . am_var('nl');
+	}
+	echo '    </ol>' . am_var('nl') . am_var('nl');
 }
 
 function site_humanize($txt, $field = 'title') {

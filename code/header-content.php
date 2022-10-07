@@ -1,34 +1,4 @@
-<hr class="above-header-content" />
 <?php
-$pages = am_var('pages');
-if (true) {
-	echo '<div id="all-programs-and-ideas" class="container no-speakable-item-underline" style="background-color: #EEB7EF; padding: 20px; margin-bottom: 30px;">' . am_var('nl');
-
-	echo '<img class="img-fluid" src="' . am_var('url') . 'yieldmore-rectangle.jpg" /><br /><br />' . am_var('nl');
-
-	$possibilities = ['intimate-gatherings', 'growth', 'collective-parenting', 'sunlight-and-moonlight', 'imaginative-communities', 'work-and-cancer', 'prem'];
-	echo '<p class="speakable">Workshops and Programs to be ENACTED</p>';
-	echo '<ol class="possibilities">' . am_var('nl');
-	foreach ($possibilities as $item) {
-		echo '<li><a href="' . am_var('url') . 'present/' . $item . '/">' . humanize($item) . '</a></li>' . am_var('nl');
-		$page = $pages[$item]; //todo - add banners
-		echo '<p class="'.$item.'">' . $page['description'] . '</h3>' . am_var('nl');
-	}
-	echo '</ol>' . am_var('nl');
-
-	$ideas = ['children', 'words', 'spaces', 'serenity', 'spirit', 'crises', 'earth'];
-	echo '<p class="speakable">Core Ideas to Liberate Humanity</p>';
-	echo '<ol class="ideas">' . am_var('nl');
-	foreach ($ideas as $item) {
-		echo '<li><a href="' . am_var('url') . $item . '/">' . humanize($item) . '</a></li>' . am_var('nl');
-		$page = $pages[$item]; //todo - add banners
-		echo '<p class="'.$item.'">' . $page['description'] . '</h3>' . am_var('nl');
-	}
-	echo '</ol>' . am_var('nl');
-
-	echo '</div>' . am_var('nl');
-}
-
 if (array_search(am_var('node'), [
 		//portrait + horizontal resolution based banners
 		'earth',
