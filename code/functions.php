@@ -1,10 +1,12 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities']);
 am_var('idea-sections', ['children' => 'in', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
+am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
+
 am_var('pages', [
 
 //	'' => ['title' => '', 'description' => ''],
-	'index' => ['title' => 'YieldMore.org to HEAL and TOUCH LIVES with ENTHUSIASM', 'description' => 'Ideas UNLIMITED and Possibilities UNMANIFEST'],
+	'index' => ['title' => 'YieldMore.org for Children, Growth and Healing', 'description' => am_var('footer-message')],
 
 //ideas
 	'children' => ['title' => 'Children for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
@@ -173,6 +175,7 @@ function did_render_page() {
 		return true;
 	} else if (am_var('deck-listing')) {
 		list_decks();
+		return true;
 	}
 
 	return false;
