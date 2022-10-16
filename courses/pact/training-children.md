@@ -1,0 +1,1 @@
+We want to equip you to train children in our various curriculums for emotional and social empowerment

@@ -1,6 +1,7 @@
 <?php
 
-include_once 'functions.php';
+if (!am_var('sub-site'))
+	include_once 'functions.php';
 am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
 
 bootstrap([
@@ -43,5 +44,6 @@ bootstrap([
 	'path' => SITEPATH,
 ]);
 
-render();
+if (!am_var('sub-site'))
+	render();
 ?>

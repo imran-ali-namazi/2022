@@ -19,8 +19,8 @@ am_var('pages', [
 
 //possibilities
 	'collective-parenting' => ['title' => 'Curricular and Co-curricular fun as groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
-	'divinity' => ['title' => 'The DIVINE wishes a level playing field for all', 'description' => 'Help the WORKING CLASS - STOP treating them like they don\'t deserve life and all the breaks.'],
-	'growth' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'A Blueprint that "shares everything equally after compensation" - for tightly knit teams of upto 20. 20 such teams to be INITIATED by 2025 Oct 15th'],
+	'inherent-divinity' => ['title' => 'The DIVINE wishes a level playing field for all', 'description' => 'Help the WORKING CLASS - STOP treating them like they don\'t deserve life and all the breaks.', 'video' => 'KiT63DB1m30'],
+	'growing-together' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'A Blueprint that "shares everything equally after compensation" - for tightly knit teams of upto 20. 20 such teams to be INITIATED by 2025 Oct 15th', 'video' => 'DM_xGyzcYxI'],
 	'imaginative-communities' => ['title' => 'Model Groups, Towns and Organizations whose Examples can Lead the world from POVERTY of SOUL', 'description' => 'Based on the Robert Govers book of the same name'],
 	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
 	'prem' => ['title' => 'Field of Love and Dreams, powered by Amadeus', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares. Starting with Amadeus that helps create simple, content oriented sites. enabling spiritual communes.'],
@@ -70,7 +70,7 @@ function before_file() {
 	$ideas = am_var('idea-sections');
 	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
 	$suffix = '';
-	if (am_var('section') == 'possibilities')
+	if (am_var('section') == 'possibilities' || am_var('section') == 'grow')
 		$suffix = sprintf(' | <a href="%spresent/%s/">See Presentation</a>', am_var('url'), am_var('node'));
 	echo '      <h1 class="page-title">' . $prefix . humanize(am_var('node')) . $suffix . '</h1>' . am_var('nl');
 

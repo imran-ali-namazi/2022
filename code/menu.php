@@ -23,6 +23,7 @@ am_var('dont-wrap-menu-in-ul1', true);
 			<?php menu('/content/grow/', ['no-ul' => true, 'exclude-files' => ['growing-together']]); ?>
 		</ul>
 	</li>
+	<li><a href="<?php echo am_var('url');?>courses/">Courses</a></li>
 	<li>|</li>
 	<li class="drop-down"><a>Act With Us</a>
 		<?php menu('/content/action/'); ?>
