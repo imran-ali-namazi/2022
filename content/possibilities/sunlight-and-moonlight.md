@@ -52,6 +52,23 @@ Train the Leaders to have their weekly planning meetings, take ownership of driv
 
 <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/5XR0HGG_iws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
+Here's me outlining the Corporate Vision for Spiritual Transformation, I'm so tired of today's manthra #DigitalTransformation...
+
+The wave of love and MY MISSION to uplift the workers that serve the families enmeshed in Conventional IT, Capitalism and Colonialism is enshrined in ye
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8ymOhsv9rgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+This is Guerrila Warfare in The Concrete Jungles and ever more twisted Concrete Structures...
+
+HAVE ENTHUSIASM AND TOUCH LIVES
+
+The new manthra of my reforged in May 2022 YieldMore.org
+
+It uses PREMASTHRA technology at amadeusweb.com that will use LOVE as the driving force... I have the love and support of countless lightworkers and I will see you on the PREMAKSHETRE or Field of Love and Dreams where our Karmas and Cosmic Debts are soon to be cleared out.
+
+Ever Yours
+Imran Ali Namazi
+
 ----
 
 # How to Use Skills and Intuition

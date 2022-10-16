@@ -22,9 +22,10 @@ Visit [vidzeal.yieldmore.org/order/](https://vidzeal.yieldmore.org/order/) to se
 
 <img class="img-fluid" src="../assets/friends/vidzeal-catalogue.jpg" />
 
-Read and read about this wonderful woman here:
+Read about this wonderful woman here:
 
 * [womensweb.in -> trust-instincts-ahead](https://www.womensweb.in/2020/05/trust-instincts-ahead-srividya-brand-vidzeal-may20wk1mad/)
 * [the calm beauty, 2015](https://legacy.yieldmore.org/freestyle/the-calm-beauty/)
+* [everything I do - SONG, 2019](https://2020.yieldmore.org/media/music/srividya/everything-i-do/)
 
 <div style="text-align: center"><a href="https://vidzeal.yieldmore.org/order/"><img src="https://vidzeal.yieldmore.org/logo-vidzeal.png" /></a></div>

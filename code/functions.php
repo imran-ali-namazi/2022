@@ -1,5 +1,5 @@
 <?php
-am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities']);
+am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow']);
 am_var('idea-sections', ['children' => 'in', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
@@ -22,7 +22,7 @@ am_var('pages', [
 	'divinity' => ['title' => 'The DIVINE wishes a level playing field for all', 'description' => 'Help the WORKING CLASS - STOP treating them like they don\'t deserve life and all the breaks.'],
 	'growth' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'A Blueprint that "shares everything equally after compensation" - for tightly knit teams of upto 20. 20 such teams to be INITIATED by 2025 Oct 15th'],
 	'imaginative-communities' => ['title' => 'Model Groups, Towns and Organizations whose Examples can Lead the world from POVERTY of SOUL', 'description' => 'Based on the Robert Govers book of the same name'],
-	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.'],
+	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
 	'prem' => ['title' => 'Field of Love and Dreams, powered by Amadeus', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares. Starting with Amadeus that helps create simple, content oriented sites. enabling spiritual communes.'],
 	'sunlight-and-moonlight' => ['title' => 'Evolving Sunlight and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.'],
 	'work-and-cancer' => ['title' => 'The Cancerous environments at school, work, streets and home', 'description' => 'When we work with passion, we can heal anything. Loka Samastha Sukhino Bhavantu.'],
@@ -53,6 +53,8 @@ am_var('pages', [
 	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus.'],
 	'marketplace' => ['title' => 'A Conscious Marketplace', 'description' => 'Ideas to start a marketplace for people to promote their products and services in a sustainable ecosystem.'],
 ]);
+
+am_var('video-template', '<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/%videoid%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
 
 function before_file() {
 	if (am_var('embed')) return;
@@ -163,6 +165,12 @@ function before_render() {
 
 function did_render_page() {
 	if (am_var('deck')) {
+		$pages = am_var('pages');
+		$deck = am_var('deck-name');
+
+		if (isset($pages[$deck]) && isset($pages[$deck]['video']))
+			am_var('video', $pages[$deck]['video']);
+
 		load_amadeus_module('revealjs');
 		return true;
 	}
@@ -174,25 +182,11 @@ function did_render_page() {
 		include_once am_var('file');
 		return true;
 	} else if (am_var('deck-listing')) {
-		list_decks();
+		include_once 'present.php';
 		return true;
 	}
 
 	return false;
-}
-
-function list_decks() {
-	echo '<h1>Presentations @ ' . am_var('name') . '</h1>';
-
-	$items = scandir(SITEPATH .'/decks/');
-	natsort($items);
-
-	foreach ($items as $item) {
-		if (!endsWith($item, '.md')) continue;
-		$item = str_replace('.md', '', $item);
-		echo '<hr />';
-		echo '<iframe src="' . am_var('url') . 'present/' . $item . '/" style="height: 100vh; width: 100%"></iframe>' . am_var('nl') . am_var('nl');
-	}
 }
 
 function item_r($col, $item, $return = false) {
