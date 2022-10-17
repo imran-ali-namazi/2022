@@ -1,3 +1,5 @@
+The "Yield More Love Network" is a website to promote ideas for improving the human condition.
+
 <p class="speakable">Pages on this website</p>
 <ol>
 <?php
@@ -21,6 +23,23 @@ foreach (am_var('pages') as $slug=>$item) {
 	<li><a class="btn-large" href="https://blog.cselian.com/" target="_blank">Learning to share and write - 2007 to 2013 and the birthplace of "YIELD"</a> (site still not imported from wordpress)<br /><br /></li>
 	<li><a class="btn-large" href="https://2005.cselian.com/" target="_blank">The coming of age of an Engineer</a> - hoping to revisit as we empower technical trainers</li>
 </ol>
+
+<hr />
+
+<h2>Archives and Legacy Sites</h2>
+
+<p>The site mainly are a compendium of useful and inspiring information</p>
+
+<h3>ARCHIVES</h3>
+
+<?php render_txt_or_md(__DIR__ . '/_archives.md'); ?>
+
+<hr />
+<h3>LEGACY</h3>
+
+<?php render_txt_or_md(__DIR__ . '/_legacy.md'); ?>
+
+<hr />
 
 <h2>Credits</h2>
 

@@ -1,13 +1,14 @@
 <?php
 function before_render() {
 	$fwe = SITEPATH . '/' . am_var('all_page_parameters');
-
+	$index = false;
+	if (am_var('node') == 'index') { $fwe .= 'index'; $index = true; }
 	if (is_dir($fwe . '/') && count(am_var('page_parameters')) > 1) {
 		am_var('md-file', $fwe . '.md');
-		am_var('course-folder', '/' . am_var('all_page_parameters') . '/');
+		if ($index == false) am_var('course-folder', '/' . am_var('all_page_parameters') . '/');
 	} else if (is_file($fwe . '.md')) {
 		am_var('md-file', $fwe . '.md');
-		am_var('course-folder', '/' . am_var('node') . '/' . am_var('page_parameter1') . '/');
+		if ($index == false) am_var('course-folder', '/' . am_var('node') . '/' . am_var('page_parameter1') . '/');
 	}
 }
 

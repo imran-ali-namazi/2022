@@ -1,6 +1,6 @@
 <?php
-am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow']);
-am_var('idea-sections', ['children' => 'in', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
+am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow', 'action']);
+am_var('idea-sections', ['children' => 'and', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
 am_var('pages', [
@@ -23,8 +23,8 @@ am_var('pages', [
 	'growing-together' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'A Blueprint that "shares everything equally after compensation" - for tightly knit teams of upto 20. 20 such teams to be INITIATED by 2025 Oct 15th', 'video' => 'DM_xGyzcYxI'],
 	'imaginative-communities' => ['title' => 'Model Groups, Towns and Organizations whose Examples can Lead the world from POVERTY of SOUL', 'description' => 'Based on the Robert Govers book of the same name'],
 	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
-	'prem' => ['title' => 'Field of Love and Dreams, powered by Amadeus', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares. Starting with Amadeus that helps create simple, content oriented sites. enabling spiritual communes.'],
-	'sunlight-and-moonlight' => ['title' => 'Evolving Sunlight and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.'],
+	'tech-and-web' => ['title' => 'Field of Love and Dreams, powered by Amadeus', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares. Starting with Amadeus that helps create simple, content oriented sites. enabling spiritual communes.'],
+	'sunlight-and-moonlight' => ['title' => 'Evolving Sunlight and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.', 'video' => '5XR0HGG_iws'],
 	'work-and-cancer' => ['title' => 'The Cancerous environments at school, work, streets and home', 'description' => 'When we work with passion, we can heal anything. Loka Samastha Sukhino Bhavantu.'],
 
 //in action
@@ -99,7 +99,7 @@ function after_file() {
 
 function menu_speakables() {
 	$pages = am_var('pages');
-	$possibilities = ['intimate-gatherings', 'growth', 'collective-parenting', 'sunlight-and-moonlight', 'imaginative-communities', 'work-and-cancer', 'prem'];
+	$possibilities = ['intimate-gatherings', 'growing-together', 'collective-parenting', 'sunlight-and-moonlight', 'imaginative-communities', 'work-and-cancer', 'tech-and-web'];
 
 	echo '    <p class="speakable">Workshops and Programs to be ENACTED</p>' . am_var('nl');
 	echo '    <ol class="possibilities centered">' . am_var('nl');
