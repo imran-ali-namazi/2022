@@ -11,7 +11,7 @@
 	$course = humanize(str_replace('/', ' :: ', $course));
 	?>
 	<li class="drop-down"><a href="<?php echo am_var('url');?>courses<?php echo am_var('course-folder');?>"><?php echo $course;?></a>
-		<?php menu(am_var('course-folder'), ['parent-slug' => 'courses/' . am_var('course-folder')]); ?>
+		<?php menu(am_var('course-folder'), ['parent-slug' => 'courses' . am_var('course-folder')]); ?>
 	</li>
 	<?php } ?>
 </ul>

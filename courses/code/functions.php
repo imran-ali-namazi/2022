@@ -1,16 +1,13 @@
 <?php
 function before_render() {
 	$fwe = SITEPATH . '/' . am_var('all_page_parameters');
-	if (is_dir($fwe . '/')) {
+
+	if (is_dir($fwe . '/') && count(am_var('page_parameters')) > 1) {
 		am_var('md-file', $fwe . '.md');
 		am_var('course-folder', '/' . am_var('all_page_parameters') . '/');
 	} else if (is_file($fwe . '.md')) {
 		am_var('md-file', $fwe . '.md');
-
-		$slugs = am_var('page_parameters');
-		$fol = '/' . str_replace($slugs[count($slugs) - 1], '', am_var('all_page_parameters'));
-
-		am_var('course-folder', $fol);
+		am_var('course-folder', '/' . am_var('node') . '/' . am_var('page_parameter1') . '/');
 	}
 }
 
