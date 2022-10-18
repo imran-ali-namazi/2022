@@ -1,0 +1,1 @@
+Reserch all the curriculums in Academia and how outdated they are
