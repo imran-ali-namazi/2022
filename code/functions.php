@@ -69,10 +69,7 @@ function before_file() {
 	//#1 - heading
 	$ideas = am_var('idea-sections');
 	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
-	$suffix = '';
-	if (am_var('section') == 'possibilities' || am_var('section') == 'grow')
-		$suffix = sprintf(' | <a href="%spresent/%s/">See Presentation</a>', am_var('url'), am_var('node'));
-	echo '      <h1 class="page-title">' . $prefix . humanize(am_var('node')) . $suffix . '</h1>' . am_var('nl');
+	echo '      <h1 class="page-title">' . $prefix . humanize(am_var('node')) . '</h1>' . am_var('nl');
 
 	//#2 - description
 	$pages = am_var('pages');
@@ -88,7 +85,12 @@ function before_file() {
 
 	include 'header-content.php';
 	echo '<hr class="page-heading-separator" />';
+
 	echo '<div id="content" class="container">';
+
+	$deckExists = file_exists(SITEPATH . '/decks/' . am_var('node') . '.md');
+	if ($deckExists)
+		echo sprintf('<div class="video-container"><iframe src="%spresent/%s/embed/"></iframe></div>', am_var('url'), am_var('node'));
 }
 
 function after_file() {
@@ -170,6 +172,9 @@ function did_render_page() {
 
 		if (isset($pages[$deck]) && isset($pages[$deck]['video']))
 			am_var('video', $pages[$deck]['video']);
+			
+		if (am_var('page_parameter2') == 'embed')
+			am_var('no-detail-link', true);
 
 		load_amadeus_module('revealjs');
 		return true;

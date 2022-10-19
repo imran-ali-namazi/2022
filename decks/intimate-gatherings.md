@@ -6,7 +6,7 @@
 </section>
 
 <section id="picture-of-facilitators">
-	<img src="../../assets/mixed/church-the-baptized-speaketh.jpg" style="width: 60%;">
+	<img src="[assets]/mixed/church-the-baptized-speaketh.jpg" style="width: 60%;">
 	<p>Imran the Annually Rebaptized Speaketh! <3</p>
 </section>
 
@@ -30,7 +30,7 @@
 
 <section id="picture-of-healees">
 	<p><a href="https://legacy.yieldmore.org/works/leaf-by-niggle/">The Importance of ART</a> and it's<br> INTEGRALITY TO DAILY LIVING</p>
-	<img src="../../assets/mixed/intimate-gatherings-invocation-niggles-mountains-by-maria.jpg" style="width: 60%;">
+	<img src="[assets]/mixed/intimate-gatherings-invocation-niggles-mountains-by-maria.jpg" style="width: 60%;">
 </section>
 
 <section id="invocation">
