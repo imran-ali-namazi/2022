@@ -14,7 +14,7 @@ foreach ($items as $item) {
 	echo '<h2>' . humanize($item) . ': ' . $page['title'] . '</h2>';
 	echo '<p>' . $page['description'] . '</p>';
 	//if (isset($page['video'])) echo replace_dictionary(am_var('video-template'), [ 'videoid' => $page['video'] ]); //vide is on slide 1 anyhow
-	echo '<iframe src="' . am_var('url') . 'present/' . $item . '/" style="height: 100vh; width: 100%"></iframe>' . am_var('nl') . am_var('nl');
+	echo '<iframe src="' . am_var('url') . 'present/' . $item . '/embed/" style="height: 100vh; width: 100%"></iframe>' . am_var('nl') . am_var('nl');
 }
 
 ?>

@@ -7,7 +7,9 @@ am_var('dont-wrap-menu-in-ul1', true);
 	</li>
 	<li class="drop-down"><a>Possibilities</a>
 		<ul>
-			<a href="<?php echo am_var('url');?>present/">ALL These Workshops</a>
+			<a href="<?php echo am_var('url');?>present/">All Possible Workshops</a>
+			<li><a href="<?php echo am_var('url');?>courses/">All Planned Courses</a></li>
+			<li><hr /></li>
 			<?php menu('/content/possibilities/', ['no-ul' => true]); ?>
 		</ul>
 	</li>
@@ -23,11 +25,7 @@ am_var('dont-wrap-menu-in-ul1', true);
 			<?php menu('/content/grow/', ['no-ul' => true, 'exclude-files' => ['growing-together']]); ?>
 		</ul>
 	</li>
-	<li><a href="<?php echo am_var('url');?>courses/">Courses</a></li>
 	<li>|</li>
-	<li class="drop-down"><a>Act With Us</a>
-		<?php menu('/content/action/'); ?>
-	</li>
 	<li class="drop-down"><a>About</a>
 		<?php menu('/content/about/'); ?>
 	</li>
