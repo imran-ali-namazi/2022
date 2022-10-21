@@ -2,7 +2,7 @@ body { cursor: default; }
 
 :root {
 	--amw-hf-bgd: #CAE8FF;
-	--amw-hf-heading-bgd: #A1CF64;
+	--amw-hf-heading-bgd: #106EEA;
 }
 
 .header-bgd, .footer-bgd { background-color: var(--amw-hf-bgd); }
@@ -12,12 +12,18 @@ body { cursor: default; }
 .page-heading { text-align: center; padding: 20px; background-color: var(--amw-hf-heading-bgd); color: #fff!important; margin-bottom: 25px; }
 #pre-content li { font-size: 30px; line-height: 36px; }
 
-.page-title, .page-description { font-size: 40px; line-height: 46px; }
-.page-title { letter-spacing: 2px; }
-.page-description { font-size: 26px; font-style: italic; font-weight: bold; }
+.page-title, .page-description { font-size: 18pt; line-height: 20pt; }
+.page-title { letter-spacing: 2px; text-decoration: underline; }
+.page-description { font-size: 14pt; font-style: italic; font-weight: bold; }
 
 #pre-content p.speakable { text-align: center; background-color: var(--amw-hf-heading-bgd);  font-weight: bold; }
 #pre-content p.description { font-size: 90%; margin-top: 6px; }
+
+#hero .container { opacity: .7; background-color: #C3D7E7; padding: 15px!important; }
+#hero.custom-image-background {
+  background: url('mixed/intimate-gatherings-invocation-niggles-mountains-by-maria.jpg') top right;
+  background-size: cover;
+}
 
 ol.possibilities, ol.ideas, #pre-content ol { background-color: var(--amw-hf-heading-bgd); text-align: center; }
 

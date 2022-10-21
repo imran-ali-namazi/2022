@@ -121,7 +121,7 @@ Join any one of the [1000 loving movements](https://imran.yieldmore.org/dear-bro
 
 <p class="speakable">Notes on Christianity by Imran</p>
 
-1. It is said that the Christ's message is most faithfully enshrined in the [Gospel of Saint Thomas](https://achives.yieldmore.org/saint-thomas/).
+1. It is said that the Christ's message is most faithfully enshrined in the [Gospel of Saint Thomas](https://archives.yieldmore.org/gospel-of-saint-thomas/).
 2. Also, that he [Lived in India](https://en.wikipedia.org/wiki/Holger_Kersten), somewhere near Srinagar, Kashmir.
 3. Because English has become the ["Lingua Franca"](https://en.wikipedia.org/wiki/Lingua_franca) of the world and their [Missionary's Fervour](https://en.wikipedia.org/wiki/Alexander_Duff_(missionary)) to spread Christianity awoke Jesus' timeless message in [cultures across the world](https://en.wikipedia.org/wiki/Inglorious_Empire), I believe ["**There was never law, or sect, or opinion did so much magnify goodness, as the Christian religion doth.**"](https://legacy.yieldmore.org/topics/religion/)
 

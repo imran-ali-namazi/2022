@@ -76,9 +76,11 @@ function before_file() {
 	if (isset($pages[am_var('node')])) echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $pages[am_var('node')]['description']);
 	echo '    </div>' . am_var('nl');
 
+	/*
 	//#3 - speakable menus
 	menu_speakables();
 	echo '    <img class="img-fluid" src="' . am_var('url') . 'yieldmore-rectangle.jpg" /><br /><br />' . am_var('nl');
+	*/
 
 	echo '  </header>' . am_var('nl');
 	echo '</div>' . am_var('nl');
@@ -202,6 +204,7 @@ function item_r($col, $item, $return = false) {
 	$r = str_replace('|', '<br />', $r);
 	$r = simplify_encoding($r);
 	$r = replace_vars($r);
+	$r = str_replace('<a href', '<a target="_blank" href', $r);
 	if ($return) return $r;
 
 	echo $r;
