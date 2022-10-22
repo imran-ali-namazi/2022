@@ -92,7 +92,7 @@ function before_file() {
 
 	$deckExists = file_exists(SITEPATH . '/decks/' . am_var('node') . '.md');
 	if ($deckExists)
-		echo sprintf('<div class="video-container"><iframe src="%spresent/%s/embed/"></iframe></div>', am_var('url'), am_var('node'));
+		echo sprintf('<div class="deck-container"><iframe src="%spresent/%s/embed/"></iframe></div>', am_var('url'), am_var('node'));
 }
 
 function after_file() {
