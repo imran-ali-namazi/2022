@@ -1,3 +1,13 @@
+<p class="speakable start-expanded">Our Wishes for Children, August 2022</p>
+
+1. With good intentions, we wish to catalyse classroom environments and community centers using the best learnings from you, our collaborators.
+2. For children, we are interested in their emotional, spiritual and social development, to act as mentors as they explore and develop skills, interact with peers, find a life's purpose and people to work alongside, sharing sensitivities, ambitions and paths.
+3. Thus far, we have tried the music led discussion in a small classroom and followed it up with the creative expression initiative with a focus on writing.
+4. They are both intended to make children comfortable with discussing feelings and worldviews in the classroom from which a desire to be good and do good may follow.
+5. They may seek for Awareness Resulting in Your Action - or Project ARYA - our 3rd program that will involve them in social causes initiatives, until the last of humanity is Healed and given a place to Grow.
+6. We invite collaborators to join us and take these ideas to new heights by working with children and creating spaces of their own.
+
+
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5OMyZ7YMXpkizLZeeKqBzL?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 Inspired by the Sanskrit Word "Rahasyam" for "Secret", We call this the "Life's Secrets for Children series of Programs".

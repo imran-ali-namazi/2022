@@ -6,7 +6,7 @@ am_var('footer-message', 'Connect people, share ideas, create a platform for col
 am_var('pages', [
 
 //	'' => ['title' => '', 'description' => ''],
-	'index' => ['title' => 'YieldMore.org for Children, Growth and Healing', 'description' => am_var('footer-message')],
+	'index' => ['title' => 'YieldMore.org for Children, Growth and Healing', 'description' => am_var('footer-message'), 'video' => 'PTIqjpkF5Ss'],
 
 	'ideas', //section
 	'children' => ['title' => '<strong>Children</strong> for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],

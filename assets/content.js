@@ -27,7 +27,8 @@ $(document).ready(function() {
 	var speakIn = $('textarea.form-control');
 	if (speakIn.length) $(window).on("unload", function() { $('#cancel').trigger('click'); }); //stop playing and unload on close / navigate away
 
-	$('p.speakable').click(expandSpeakable).append(' <a class="toggleRead">READS AS</a> ').next('ol, ul').addClass('speak').hide();
+	const items = $('p.speakable').click(expandSpeakable).append(' <a class="toggleRead">READS AS</a> ').next('ol, ul').addClass('speak');
+	$.each(items, (idx, itm) => { if (!$(itm).prev('p.speakable').hasClass('start-expanded')) $(itm).hide(); });
 	$('#speech').hide();
 
 	function expandSpeakable(ev) {
