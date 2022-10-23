@@ -4,8 +4,10 @@ The "Yield More Love Network" is a website to promote ideas for improving the hu
 <ol>
 <?php
 foreach (am_var('pages') as $slug=>$item) {
-	echo sprintf('<li><a href="%s/">%s</a> - %s</li>
-', am_var('url') . $slug, $item['title'], $item['description']);
+	if (is_string($item))
+		echo sprintf('<h3>Section: %s</h3>' . am_var('nl'), humanize($item));
+	else
+		echo sprintf('<li><a href="%s/">%s</a> - %s</li>' . am_var('nl'), am_var('url') . $slug, $item['title'], $item['description']);
 }
 ?>
 </ol>

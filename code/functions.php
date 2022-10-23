@@ -8,50 +8,45 @@ am_var('pages', [
 //	'' => ['title' => '', 'description' => ''],
 	'index' => ['title' => 'YieldMore.org for Children, Growth and Healing', 'description' => am_var('footer-message')],
 
-//ideas
-	'children' => ['title' => 'Children for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
-	'spaces' => ['title' => 'Spaces for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
-	'words' => ['title' => 'Words for Inspiration and Healing', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
-	'spirit' => ['title' => 'Instituting a Spirituality that Liberates', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
-	'earth' => ['title' => 'Dare we Save our Planet Earth', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
-	'crises' => ['title' => 'Champion Causes and Avert Crises', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
-	'serenity' => ['title' => 'Serenity, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
+	'ideas', //section
+	'children' => ['title' => '<strong>Children</strong> for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
+	'spaces' => ['title' => '<strong>Spaces</strong> for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
+	'words' => ['title' => '<strong>Words</strong> for Inspiration and Healing', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
+	'spirit' => ['title' => 'Instituting a <strong>Spirituality</strong> that Liberates', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
+	'earth' => ['title' => 'Dare we Save our Planet <strong>Earth</strong>', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
+	'crises' => ['title' => 'Champion Causes and Avert <strong>Crises</strong>', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
+	'serenity' => ['title' => '<strong>Serenity</strong>, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
 
-//possibilities
-	'collective-parenting' => ['title' => 'Curricular and Co-curricular fun as groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
-	'inherent-divinity' => ['title' => 'The DIVINE wishes a level playing field for all', 'description' => 'Help the WORKING CLASS - STOP treating them like they don\'t deserve life and all the breaks.', 'video' => 'KiT63DB1m30'],
-	'growing-together' => ['title' => 'Growth of Facilitators and Participants', 'description' => 'A Blueprint that "shares everything equally after compensation" - for tightly knit teams of upto 20. 20 such teams to be INITIATED by 2025 Oct 15th', 'video' => 'DM_xGyzcYxI'],
-	'imaginative-communities' => ['title' => 'Model Groups, Towns and Organizations whose Examples can Lead the world from POVERTY of SOUL', 'description' => 'Based on the Robert Govers book of the same name'],
-	'intimate-gatherings' => ['title' => 'Inspiration, Abundance, Vulnerability in Healing and Poetic Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
-	'tech-and-web' => ['title' => 'Field of Love and Dreams, powered by Amadeus', 'description' => 'Let\'s cherish our youth full of dreams and use every tool and skill we have to heal those still in nightmares. Starting with Amadeus that helps create simple, content oriented sites. enabling spiritual communes.'],
+	'possibilities', //section
+	'collective parenting' => ['title' => '<strong>Collective Parenting</strong> as meaningful activity for groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
+	'imaginative communities' => ['title' => '<strong>Imaginative Communities</strong> in Model Groups, Towns and Organizations', 'description' => 'Based on the Robert Govers book of the same name'],
+	'inherent divinity' => ['title' => '<strong>Inherent Divinity</strong> means a level playing field for all', 'description' => 'When we recognize everyone\'s Inherent Divinity we will help the WORKING CLASS Rise in Stature', 'video' => 'KiT63DB1m30'],
+	'intimate gatherings' => ['title' => '<strong>Intimate Gatherings</strong> for Inspiration, Abundance, Healing and Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
+	'leadership' => ['title' => '<strong>Leadership</strong> Workshop by Mustafa', 'description' => 'Participants must be passionate, dedicated, commited to self, family and community development'],
+//unorganized
 	'sunlight-and-moonlight' => ['title' => 'Evolving Sunlight and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.', 'video' => '5XR0HGG_iws'],
-	'work-and-cancer' => ['title' => 'The Cancerous environments at school, work, streets and home', 'description' => 'When we work with passion, we can heal anything. Loka Samastha Sukhino Bhavantu.'],
+	'work and cancer' => ['title' => 'The Cancerous environments at school, work, streets and home', 'description' => 'When we work with passion, we can heal anything. Loka Samastha Sukhino Bhavantu.'],
 
-//in action
-	'interact' => ['title' => 'Interact with Us', 'description' => 'Links to our groups on tribe.so.'],
-	'nuggets' => ['title' => 'Nuggets on a Smorgasbord (platter)', 'description' => 'A smattering of tidbits / nuggets of wisdom from our team.'],
-  //words
-	'imran' => ['title' => 'Imran, Founder', 'description' => 'The 400+ poems and new age writing of Imran Ali Namazi.'],
+	'ideas in action', //section
+	'imran' => ['title' => '<strong>Imran</strong>, Founder', 'description' => 'The 400+ poems and new age writing of Imran Ali Namazi.'],
 
-//about
-	'joyland' => ['title' => 'The Proliferation of Joyland', 'description' => 'Old 2019/20 notes on how Joyous Lands could be setup, the forerunner to Spaces for Growth and Healing'],
-	'future' => ['title' => 'The Future for Humankind', 'description' => 'A compelling essay of what the future could be.'],
-	'about us' => ['title' => 'About YieldMore.org and it\'s Spirit', 'description' => 'A candid look at why YieldMore.org exists, it\'s Spirit and Imran\'s intentions.'],
-	'imrans resume' => ['title' => 'Resume of Imran Ali Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
-	'online' => ['title' => 'YieldMore.org on the Web', 'description' => 'Places where we are featured and backlinks to publishings of Team YM.'],
+	'global growth', //section
+	'alliances' => ['title' => '<strong>Alliances</strong> - A Global Network of forward thinking Organizations and Leaders', 'description' => 'LOVE is the force that will bring us to a brighter tomorrow'],
+	'growing together' => ['title' => '400 people <strong>Growing Together</strong> in 2 years', 'description' => 'A Blueprint that "shares everything equally after compensation"', 'video' => 'DM_xGyzcYxI'],
+	'help' => ['title' => '<strong>Help</strong> by Kindly Acts', 'description' => '#DirectDonations to the friends we\'ve made and our various families and their centers.'],
+	'interact' => ['title' => '<strong>Interact</strong> with Us Online and Physically', 'description' => 'Links to our groups on tribe.so and groups.io and google groups.'],
+	'realms' => ['title' => 'Manifesting <strong>Realms</strong> Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
+	'tech and web' => ['title' => '<strong>Tech and Web</strong> powered by AmadeusWeb.com', 'description' => 'Use AmadeusWeb to build a Field of Love (Premakshetre) and Dreams enabling your dreams of a spiritual commune.'],
+	'vidzi heals' => ['title' => '<strong>Vidzeal</strong> - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
+
+	'about', //section
+	'about us' => ['title' => '<strong>About YieldMore.org</strong> and it\'s Spirit', 'description' => 'A candid look at why YieldMore.org exists, it\'s Spirit and Imran\'s intentions.'],
+	'imrans resume' => ['title' => 'Resume of <strong>Imran Ali</strong> Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
+	'joyland' => ['title' => 'The Proliferation of <strong>Joyland</strong>', 'description' => 'Old 2019/20 notes on how Joyous Lands could be setup, the forerunner to Spaces for Growth and Healing'],
+	'marketplace' => ['title' => 'A Conscious <strong>Marketplace</strong>', 'description' => 'Ideas to start a marketplace for people to promote their products and services in a sustainable ecosystem.'],
+
 //TODO: Notes, deterrents, nuances, criticisms etc
 
-//webring
-	'archives' => ['title' => 'YieldMore Archives', 'description' => 'YieldMore as developed in 2021/22 with a lot of publishing going on'],
-	'legacy' => ['title' => 'YieldMore Legacy', 'description' => 'YieldMore as developed from 2013 to 2019 with plenty of compiled resources'],
-	'realms' => ['title' => 'Manifesting Realms Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
-	'help' => ['title' => 'Help by Kindly Acts', 'description' => '#DirectDonations to the friends we\'ve made and our various families and their centers.'],
-	'vidzi heals' => ['title' => 'Vidzeal - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
-
-//further ideas
-	'network' => ['title' => 'The YML Network', 'description' => 'our website to promote ideas for improving the human condition.'],
-	'learn' => ['title' => 'Learn New Dimensions', 'description' => 'A peer-peer learning platform using Amadeus.'],
-	'marketplace' => ['title' => 'A Conscious Marketplace', 'description' => 'Ideas to start a marketplace for people to promote their products and services in a sustainable ecosystem.'],
 ]);
 
 am_var('video-template', '<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/%videoid%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
@@ -69,11 +64,16 @@ function before_file() {
 	//#1 - heading
 	$ideas = am_var('idea-sections');
 	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
-	echo '      <h1 class="page-title">' . $prefix . humanize(am_var('node')) . '</h1>' . am_var('nl');
+
+	$pages = am_var('pages');
+	$pageName = strip_hyphens(am_var('node'));
+	$page = isset($pages[$pageName]) ? $pages[$pageName] : [ 'title' => ucwords($pageName), 'description' => '...Description...' ];
+
+	echo '      <h1 class="page-name">' . $prefix . $page['title'] . '</h1>' . am_var('nl');
 
 	//#2 - description
-	$pages = am_var('pages');
-	if (isset($pages[am_var('node')])) echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $pages[am_var('node')]['description']);
+	echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $page['description']);
+
 	echo '    </div>' . am_var('nl');
 
 	/*
