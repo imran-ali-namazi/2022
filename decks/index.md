@@ -72,7 +72,7 @@
 </section>
 
 <section id="growing-together" style="font-size: 75%">
-    <h2>DNA for 20 20member teams</h2>
+    <h2>DNA for 20 20-member teams</h2>
     <ol>
         <li>Imran backs 20 founders for 20 organizations that all share the same team chemistry and web technology</li>
         <li>The profits are distributed to the team members (who have equal stake) and an emergency fund is present</li>

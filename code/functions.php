@@ -1,6 +1,13 @@
 <?php
 am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow', 'action']);
-am_var('idea-sections', ['children' => 'and', 'serenity' => 'in', 'spaces' => 'at', 'spirit' => 'from', 'words' => 'from']);
+am_var('idea-sections', [
+	'children' => 'and',
+	'serenity' => 'in',
+	'spaces' => 'at',
+	'spirit' => 'from',
+	'words' => 'from',
+	'work' => 'in',
+]);
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
 am_var('pages', [
@@ -16,6 +23,7 @@ am_var('pages', [
 	'earth' => ['title' => 'Dare we Save our Planet <strong>Earth</strong>', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
 	'crises' => ['title' => 'Champion Causes and Avert <strong>Crises</strong>', 'description' => 'Crowdfunding with #DirectDonations. Further cause of hunger, homelessness, animals and education for lower income strata.'],
 	'serenity' => ['title' => '<strong>Serenity</strong>, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
+	'work' => ['title' => '<strong>Work</strong> in Companies and Charities', 'description' => 'Evolving Sunlight is our programs for Industries and IT companies and Soulful Moonlight is the taking of Ideas and Practices to NGOs and Charities.'],
 
 	'possibilities', //section
 	'collective parenting' => ['title' => '<strong>Collective Parenting</strong> as meaningful activity for groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
