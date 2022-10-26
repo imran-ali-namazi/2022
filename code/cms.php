@@ -9,7 +9,7 @@ bootstrap([
 	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '12', 'date' => '24 Oct 2022' ],
+	'version' => [ 'id' => '12b', 'date' => '24 Oct 2022' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -24,6 +24,9 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
+		[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
+		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
+		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/c/YieldmoreOrgAM', 'name' => 'youtube: legacy / imran' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces / 2018 and 2019' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCOmK_qgPh2sNQxGNxFh7mnQ', 'name' => 'youtube: love / new' ],

@@ -43,7 +43,7 @@ am_var('pages', [
 	'growing together' => ['title' => '400 people <strong>Growing Together</strong> in 2 years', 'description' => 'A Blueprint that "shares everything equally after compensation"', 'video' => 'DM_xGyzcYxI'],
 	'help' => ['title' => '<strong>Help</strong> by Kindly Acts', 'description' => '#DirectDonations to the friends we\'ve made and our various families and their centers.'],
 	'interact' => ['title' => '<strong>Interact</strong> with Us Online and Physically', 'description' => 'Links to our groups on tribe.so and groups.io and google groups.'],
-	'realms' => ['title' => 'Manifesting <strong>Realms</strong> Project', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s "dreamt of realm" to manifest sooner...'],
+	'community' => ['title' => '<strong>Community</strong> - Home for Collaborators, Well Wishers and Allies', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s dreams to manifest sooner...'],
 	'tech and web' => ['title' => '<strong>Tech and Web</strong> powered by AmadeusWeb.com', 'description' => 'Use AmadeusWeb to build a Field of Love (Premakshetre) and Dreams enabling your dreams of a spiritual commune.'],
 	'vidzi heals' => ['title' => '<strong>Vidzeal</strong> - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
 

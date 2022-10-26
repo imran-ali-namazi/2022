@@ -10,5 +10,8 @@ if (am_var('node') == 'spirit')
 		<br /><br />
 		<p class="footer-message"><?php echo am_var('footer-message'); ?></p>
 		<br /><br />
+		<div class="social-links"><?php foreach(am_var('social') as $item) { ?>
+			<a target="_blank" href="<?php echo $item['link']; ?>" title="<?php echo isset($item['name']) ? $item['name'] : $item['type']; ?>" class="<?php echo $item['type']; ?>"><i class="icofont-<?php echo $item['type']; ?>"></i></a><?php } ?>
+		</div>
 	</div>
 </div>
