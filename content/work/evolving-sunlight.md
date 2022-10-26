@@ -1,6 +1,6 @@
 Evolving Sunlight is a series of programs, workshops and activities that help companies improve their technical skills and motivational levels, processes and team dynamics. 
 
-We are a group of trainers and facilitators who want to make companies independent of us as early as possible. Our approach is to get middle level and junior employees to take ownership of and drive the sharing of subjects or topics and make them present it with guidance from their seniors. 
+We will one day be a group of trainers and facilitators who want to make companies independent of us as early as possible. Our approach is to get middle level and junior employees to take ownership of and drive the sharing of subjects or topics and make them present it with guidance from their seniors. 
 
 Programs we institute should be self-propelled by the 3rd or 6th month. 
 
@@ -77,7 +77,16 @@ recycling?
 faculty there?
 24. Can you host events at your office for employee bonding, programs for family, social
 welfare etc?
-
 25. What is your commitment to helping them declutter their lives, disengage from gadgets,
 support public causes and refuse to get polarized by the media?
 26. Would you have a library and creativity workshops?
+
+
+<p class="speakable">Spaces for the Workplace</p>
+1. Productivity Articles and Tidbits
+2. Cooperative Consulting
+3. Interviews that Catalyse
+4. Internal Quality Initiatives
+5. Assisted Skilling Programs (Sunlight)
+6. Community Centres at Office
+7. Hosting Training / Incubators
