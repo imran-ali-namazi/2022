@@ -11,6 +11,92 @@ $(document).ready(function() {
 });
 
 
+//engage and fill
+$(document).ready(function() {
+	var div = $('.engage');
+	if (div.length == 0) return;
+	if (div.length > 1) { console.error('2 or more .engage divs found, supports only 1'); return; }
+
+	$('.engage li').each(checkboxAdd);
+	var emailTo = div.data('to');
+	var emailCc = div.data('cc');
+	var allyName = div.data('name');
+	var submissionCount = 0;
+
+    $('<input type="text" class="name" placeholder="[My Name]" />').appendTo(div);
+	$('<button class="btn-large">Send to ' + allyName + '</button>').click(prepareEmail).appendTo(div);
+
+	function prepareEmail() {
+		var ta = $('.engage textarea');
+		if (ta.length == 0)
+			ta = $('<textarea rows="8" style="width: 100%; background-color: #aaf"></textarea>').appendTo(div);
+
+		var items = $('.engage input[type=checkbox]:checked');
+		if (items.length == 0) {
+			ta.text('No Items Ticked');
+		} else {
+			var headings = {}, firstHeading = true, output = '';
+
+			items.each(function() {
+				var item = $(this).closest('li');
+				var note = $('input[type=text]', item);
+				var ul = item.closest('ul');
+				var hx = ul.prev('h1, h2, h3').text();
+				if (!headings[hx]) {
+					if (!firstHeading) output += "\r\n\r\n";
+					firstHeading = false;
+					output += "# " + hx;
+					headings[hx] = true;
+				}
+				output += "\r\n" + item.text() + "\r\n -> " + note.val();
+			});
+
+			ta.text(output);
+			prepareEmailLink(output);
+		}
+	}
+
+	function prepareEmailLink(body) {
+		var email = emailTo.replace(';', '%3B%20');
+
+		var name = $('.engage .name').val();
+
+		var subject = '[YM / Alliances] Note from Enthusiast "%name%" for Ally: %ally%'
+				.replace('%name%', name)
+				.replace('%ally%', allyName);
+
+		body += "\r\n\r\n\r\n" + 'Enthusiast Form for ' + allyName + ' filled by ' + name + ' at' + "\r\n -> " + location.href;
+
+		body = encodeURIComponent(body).replace(':', '%3A');
+
+		var link = 'mailto:%email%?cc=%cc%&subject=%subject%&body=%body%'
+			.replace('%email%', emailTo)
+			.replace('%cc%', emailCc)
+			.replace('%subject%', encodeURIComponent(subject))
+			.replace('%body%', body);
+
+		var tag = jQuery('<a target="_blank" />')
+		.text('Send Email:' + ++submissionCount)
+		.appendTo(div)
+		.attr('href', link);
+		//TODO: why doesnt email trigger click work?
+		//setTimeout(function () { tag.trigger('click') }, 200);
+	}
+
+	function checkboxAdd(ix, el) {
+		el = $(el);
+		el.html('<label>' + el.text() + '</label>');
+		var label = $('label', el);
+		$('<input type="checkbox" />').on('change', checkboxToggle).prependTo(label);
+		$('<br/><input type="text" style="display: none; width: 100%" />').appendTo(el);
+	}
+
+	function checkboxToggle() {
+		const txt = $('input[type=text]', $(this).closest('li'));
+		if($(this).is(':checked')) txt.show(); else  txt.hide();
+	}
+});
+
 //speakable and questions
 $(document).ready(function() {
 	$('<a class="toggleQuestion">show answer</a>').insertBefore('p.answer');
