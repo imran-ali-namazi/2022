@@ -4,7 +4,10 @@
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5IX4TbIR5mMHGE4wiWwKW0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8ymOhsv9rgM" title="Fojju Chotu - His being displaced from Assam and the climate there" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+The wave of love and MY MISSION to uplift the workers that serve the families enmeshed in Conventional IT, Capitalism and Colonialism is enshrined in ye
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8ymOhsv9rgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 
 ----
 
@@ -38,5 +41,3 @@ How many SHARIRAS or SHEATHS of your body would you discard truly to see the **W
 Like [SATPREM](https://en.wikipedia.org/wiki/Satprem) said, everything is collapsing since we are on the verge of BECOMING SOMETHING NEW.
 
 HUMANITY!!! The time has come for the last [renaissance that will truly leave us](https://imran.yieldmore.org/the-neverending-story/) empowered, uplifted and united.
-
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/Xw38pGhPXIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

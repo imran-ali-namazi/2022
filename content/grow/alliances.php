@@ -5,9 +5,15 @@ menu('/content/allies/', ['parent-slug' => 'alliances/']);
 echo '<hr />';
 $ally = am_var('page_parameter1');
 
+$items = [
+	'common-planet' => [ 'email' => 'future@common-planet.org' ],
+	'love-for-life' => [ 'email' => 'action@loveforlife.com.au' ],
+];
+
 if ($ally) {
+	$item = $items[$ally];
 	echo '<h1>Ally: ' . humanize($ally) . '</h1><hr />';
-	echo '<div class="engage" data-to="future@common-planet.org"data-cc="team@yieldmore.org" data-name="' . humanize($ally) . '">';
+	echo '<div class="engage" data-to="' . $item['email'] . '" data-cc="team@yieldmore.org" data-name="' . humanize($ally) . '">';
 	render_txt_or_md(SITEPATH . '/content/allies/' . $ally . '.md');
 	echo '</div>';
 } else {

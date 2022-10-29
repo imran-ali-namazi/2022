@@ -7,6 +7,8 @@
 5. For those striving to gradually increase the functioning of their Kundalini by WILL and CONSECRATED EFFORT.
 6. Those who would participate in the "[Grand Worker Class Uprisings of the 2020s](../inherent-divinity/)"
 
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/NzjZA3XX4HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 > Imagine all the world, living life in peace,<br />
 > You may say I'm a dreamer, but im not the only one.<br />
 > I hope some day you will join us, and the world will be as one.<br />

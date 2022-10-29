@@ -46,25 +46,8 @@
 
 # Evolving Sunlight - Videos
 
-Here's me outlining the Corporate Vision for Spiritual Transformation, I'm so tired of today's manthra #DigitalTransformation...
+<a href="https://www.youtube.com/watch?v=5XR0HGG_iws">Here will be</a> me outlining the Corporate Vision for Spiritual Transformation, I'm so tired of today's mantra #DigitalTransformation...
 
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/5XR0HGG_iws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-----
-
-The wave of love and MY MISSION to uplift the workers that serve the families enmeshed in Conventional IT, Capitalism and Colonialism is enshrined in ye
-
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/8ymOhsv9rgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-----
-
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/SQJR_h1dEoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-# Spiritual Transformation (not DIGITAL)
-
-IT and Capitalism wielded by the Supreme Lord for Spiritual Transformation of Humanity. See the [Growth Model](../growing-together/) for more.
-
-----
 
 # How to Use Skills and Intuition
 

@@ -92,3 +92,11 @@ We then took that idea back to the drafting board in 2020 mid with #Panishq, dev
 2. A one time fee is charged by Imran, Yield More or any of his asssigns for access to the material, training and expert pool.
 3. The person is free to set their charges and be affiliated to seniors / organizations.
 4. Comissions are kept low. 20% to Imran or Yield More and 20% to the organization (if there is one)
+
+----
+
+# Spiritual Transformation (not DIGITAL)
+
+<a class="yt" href="https://www.youtube.com/watch?v=SQJR_h1dEoY">IT and Capitalism wielded by the Supreme Lord for Spiritual Transformation of Humanity</a>.
+
+[Transcripts and further thoughts to follow]
