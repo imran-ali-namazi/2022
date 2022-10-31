@@ -22,6 +22,9 @@ am_var('dont-wrap-menu-in-ul1', true);
 	<li class="drop-down"><a>Global Growth</a>
 		<?php menu('/content/grow/'); ?>
 	</li>
+	<li class="drop-down"><a>Webring</a>
+		<?php menu('/content/webring/'); ?>
+	</li>
 	<li>|</li>
 	<li class="drop-down"><a>About</a>
 		<?php menu('/content/about/'); ?>
