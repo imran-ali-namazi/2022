@@ -3,14 +3,8 @@
 	<li class="drop-down"><a>Enabler</a>
 		<?php menu('/enabler/', ['parent-slug' => 'courses/enabler/']); ?>
 	</li>
-	<li class="drop-down"><a>Healing</a>
-		<?php menu('/serenity/', ['parent-slug' => 'courses/serenity/']); ?>
-	</li>
 	<li class="drop-down"><a>Education</a>
 		<?php menu('/pact/', ['parent-slug' => 'courses/pact/']); ?>
-	</li>
-	<li class="drop-down"><a>Tech</a>
-		<?php menu('/ivy/', ['parent-slug' => 'courses/ivy/']); ?>
 	</li>
 	<?php if (am_var('course-folder')) {
 	$course = substr(substr(am_var('course-folder'), 1), 0, -1);
