@@ -20,7 +20,11 @@ am_var('dont-wrap-menu-in-ul1', true);
 		</ul>
 	</li>
 	<li class="drop-down"><a>Global Growth</a>
-		<?php menu('/content/grow/'); ?>
+		<ul>
+			<?php menu('/content/grow/', ['no-ul' => true]); ?>
+			<li><a>TEAMS INCUBATING at GROW.YM</a></li>
+			<?php menu('/content/grow-teams/', ['no-ul' => true]); ?>
+		</ul>
 	</li>
 	<li class="drop-down"><a>Webring</a>
 		<?php menu('/content/webring/'); ?>

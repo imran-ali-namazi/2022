@@ -24,12 +24,14 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
+		[ 'type' => 'email', 'link' => 'mailto:team@yieldmore.org', 'name' => 'Imran\'s Email' ],
+		[ 'type' => 'phone', 'link' => 'tel:+919841223313', 'name' => 'Imran\'s Mobile (India)' ],
 		[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
 		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
 		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/c/YieldmoreOrgAM', 'name' => 'youtube: legacy / imran' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCESPy4vMsnv3htBqvHJh51Q/', 'name' => 'youtube: faces / 2018 and 2019' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/channel/UCOmK_qgPh2sNQxGNxFh7mnQ', 'name' => 'youtube: love / new' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@YieldMoreLove', 'name' => 'youtube: main channel love / new' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@FacesOfYieldMore', 'name' => 'youtube: faces / 2018 and 2019' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@ImranYieldsMore', 'name' => 'youtube: legacy / imran' ],
 		[ 'type' => 'linkedin','link' => 'https://www.linkedin.com/company/yieldmore/' ],
 		[ 'type' => 'github',  'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
 		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
