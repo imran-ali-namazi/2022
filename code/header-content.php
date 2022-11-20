@@ -1,11 +1,12 @@
 <?php
 if (array_search(am_var('node'), [
 		//portrait + horizontal resolution based banners
+		'alliances',
 		'earth',
-		'spirit',
 		'online',
-		'words',
 		'our-masters',
+		'spirit',
+		'words',
 	]) !== false) { ?>
 	<div>
 		<img src="../assets/pages/<?php echo am_var('node');?>-portrait.jpg" class="img-fluid show-in-portrait" />

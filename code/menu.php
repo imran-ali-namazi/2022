@@ -1,16 +1,11 @@
-<?php
-am_var('dont-wrap-menu-in-ul1', true);
-?>
 <ul class="nav-menu">
 	<li class="drop-down"><a>Ideas</a>
 		<?php menu('/content/ideas/'); ?>
 	</li>
-	<li class="drop-down"><a>Possibilities</a>
+	<li class="drop-down"><a>Incubating</a>
 		<ul>
 			<li><a href="<?php echo am_var('url');?>present/">All Possible Workshops</a></li>
-			<li><a href="<?php echo am_var('url');?>courses/">All Planned Courses</a></li>
-			<li><hr /></li>
-			<?php menu('/content/possibilities/', ['no-ul' => true]); ?>
+			<?php foreach(am_var('incubating') as $item) echo sprintf('<a href="%s" target="_blank">%s</a>', $item['url'], $item['name']); ?>
 		</ul>
 	</li>
 	<li>|</li>
@@ -22,8 +17,6 @@ am_var('dont-wrap-menu-in-ul1', true);
 	<li class="drop-down"><a>Global Growth</a>
 		<ul>
 			<?php menu('/content/grow/', ['no-ul' => true]); ?>
-			<li><a>TEAMS INCUBATING at GROW.YM</a></li>
-			<?php menu('/content/grow-teams/', ['no-ul' => true]); ?>
 		</ul>
 	</li>
 	<li class="drop-down"><a>Webring</a>

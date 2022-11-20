@@ -1,1 +1,0 @@
-I spent from 9th Grade till a year after my undergrad working on nearly 10 electronice projects

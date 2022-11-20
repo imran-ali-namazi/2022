@@ -8,6 +8,8 @@ function before_file() {
 
 	echo '<hr class="above-header-content" />' . am_var('nl');
 
+	include 'header-content.php';
+
 	echo '<div id="pre-content-wrapper" class="header-bgd">' . am_var('nl');
 
 	echo '  <header id="pre-content" class="container no-speakable-item-underline">' . am_var('nl');
@@ -37,7 +39,6 @@ function before_file() {
 	echo '  </header>' . am_var('nl');
 	echo '</div>' . am_var('nl');
 
-	include 'header-content.php';
 	echo '<hr class="page-heading-separator" />';
 
 	echo '<div id="content" class="container">';

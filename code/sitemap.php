@@ -1,13 +1,18 @@
 <?php
-am_var('sections', ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow', 'action']);
+$var_sections = ['ideas', 'about', 'webring', 'interact', 'possibilities', 'grow', 'grow-teams', 'action'];
+if (am_var('local')) $var_sections[] = 'private'; //imrans private notes, excluded from FTPSync. Needs local to be defined before functions.php is included
+
+am_var('sections', $var_sections);
+
 am_var('idea-sections', [
 	'children' => 'and',
 	'serenity' => 'in',
 	'spaces' => 'at',
 	'spirit' => 'from',
 	'words' => 'from',
-	'work' => 'in',
+	//moved to course => professional 'work' => 'in',
 ]);
+
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
 am_var('pages', [
@@ -49,6 +54,9 @@ am_var('pages', [
 	'interact' => ['title' => '<strong>Interact</strong> with Us Online and Physically', 'description' => 'Links to our groups on tribe.so and groups.io and google groups.'],
 	'community' => ['title' => '<strong>Community</strong> - Home for Collaborators, Well Wishers and Allies', 'description' => 'Meant to magnify goodness and get forward thinking individuals and groups to acknowledge and support one another, helping each other\'s dreams to manifest sooner...'],
 	'tech and web' => ['title' => '<strong>Tech and Web</strong> powered by AmadeusWeb.com', 'description' => 'Use AmadeusWeb to build a Field of Love (Premakshetre) and Dreams enabling your dreams of a spiritual commune.'],
+	
+	'webring', //section
+	'delta school' => ['title' => '<strong>Delta</strong> Nursery and Primary School', 'description' => 'Knowledge is Power. Discipline and Diligence.'],
 	'vidzi heals' => ['title' => '<strong>Vidzeal</strong> - Healing and Skincare', 'description' => 'Beg to be healed by this lovely woman through her skin-tingling creations.'],
 
 	'about', //section

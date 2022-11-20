@@ -1,1 +1,0 @@
-From 3rd Year College till the year after I graduated, I built 4 microcontroller projects

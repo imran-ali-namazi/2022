@@ -1,15 +1,14 @@
 <?php
+am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost')); //NOTE: declare before including functions as used by sitemap
 
-if (!am_var('sub-site'))
-	include_once 'functions.php';
-am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost'));
+include_once 'functions.php';
 
 bootstrap([
 	'name' => 'YieldMore.org',
 	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '13', 'date' => '28 Oct 2022' ],
+	'version' => [ 'id' => '14b', 'date' => '17 Nov 2022' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -18,6 +17,7 @@ bootstrap([
 	'theme' => 'biz-land',
 	'uses' => 'custom-image-background',
 	'og:image' => '%url%assets/yieldmore-opengraph.jpg?fver=2',
+	'image-in-logo' => '-rectangle.jpg',
 
 	'email' => 'team@yieldmore.org',
 	'phone' => '+919841223313',
@@ -37,6 +37,13 @@ bootstrap([
 		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
 	],
 
+	'incubating' => [
+		[ 'name' => 'Courses at YM', 'url' => $local ? replace_vars('http://localhost%port%/subsites/courses/', 'port') : 'https://courses.yieldmore.org/' ],
+		[ 'name' => 'Labours of Love', 'url' => $local ? replace_vars('http://localhost%port%/subsites/love/', 'port') : 'https://love.yieldmore.org/' ],
+		[ 'name' => 'Affirm Life', 'url' => $local ? replace_vars('http://localhost%port%/subsites/affirm/', 'port') : 'https://affirm.yieldmore.org/' ],
+		[ 'name' => 'Farmers\' Recipes', 'url' => $local ? replace_vars('http://localhost%port%/subsites/farmers/', 'port') : 'https://farmers.yieldmore.org/' ],
+	],
+
 	'styles' => ['styles',
 		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min',
 		'https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap',
@@ -49,6 +56,5 @@ bootstrap([
 	'path' => SITEPATH,
 ]);
 
-if (!am_var('sub-site'))
-	render();
+render();
 ?>
