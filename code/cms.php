@@ -29,7 +29,7 @@ bootstrap([
 		[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
 		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
 		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
-		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@YieldMoreLove', 'name' => 'youtube: main channel love / new' ],
+		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@AmadeusYieldsMore', 'name' => 'youtube: main channel love / new' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@FacesOfYieldMore', 'name' => 'youtube: faces / 2018 and 2019' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@ImranYieldsMore', 'name' => 'youtube: legacy / imran' ],
 		[ 'type' => 'linkedin','link' => 'https://www.linkedin.com/company/yieldmore/' ],

@@ -27,6 +27,7 @@ if (array_search(am_var('node'), [
 		'model',
 		'nuggets',
 		'serenity',
+		'smart-joy-venture',
 		'spaces',
 		'sri-bagavath',
 		'words',
