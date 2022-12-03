@@ -8,7 +8,7 @@ bootstrap([
 	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '14b', 'date' => '17 Nov 2022' ],
+	'version' => [ 'id' => '15', 'date' => '3 Dec 2022' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -24,9 +24,10 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
+		[ 'type' => 'workers-group', 'link' => 'https://drive.google.com/drive/folders/1sFhctiwBRnmTI-ctXI5kCkuChN3Ahs7z?usp=sharing', 'name' => 'praise for Imran and Team' ],
 		[ 'type' => 'email', 'link' => 'mailto:team@yieldmore.org', 'name' => 'Imran\'s Email' ],
 		[ 'type' => 'phone', 'link' => 'tel:+919841223313', 'name' => 'Imran\'s Mobile (India)' ],
-		[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
+		//[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
 		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
 		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@AmadeusYieldsMore', 'name' => 'youtube: main channel love / new' ],

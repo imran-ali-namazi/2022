@@ -29,6 +29,9 @@ am_var('courseUrl', $courseUrl = am_var('local') ? replace_vars('http://localhos
 	</li>
 	<li>|</li>
 	<li class="drop-down"><a>About</a>
-		<?php menu('/content/about/'); ?>
+		<?php menu('/content/about/', [ 'exclude-files' => ['execution'] ]); ?>
 	</li>
+	<?php if (am_var('local')) { ?><li class="drop-down"><a>Private</a>
+		<?php menu('/content/private/'); ?>
+	</li><?php } ?>
 </ul>
