@@ -38,4 +38,4 @@ Facilitator Charges 1000 - 20% to Company, 20% to Imran.
 8. Investor's Assign: ___
 9. 2 Marketing People
 10. 2 Support People
-(totals at 12, grow more of core execution team)
+(totals at 15, grow more of core execution team to reach cap of 20)

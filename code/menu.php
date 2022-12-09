@@ -2,9 +2,8 @@
 	<li class="drop-down"><a>Ideas</a>
 		<?php menu('/content/ideas/'); ?>
 	</li>
-	<li class="drop-down"><a>Incubating</a>
+	<li class="drop-down"><a>Subsites</a>
 		<ul>
-			<li><a href="<?php echo am_var('url');?>present/">All Possible Workshops</a></li>
 			<?php foreach(am_var('incubating') as $item) echo sprintf('<li><a href="%s" target="_blank">%s</a></li>', $item['url'], $item['name']); ?>
 		</ul>
 	</li>
@@ -19,13 +18,13 @@ am_var('courseUrl', $courseUrl = am_var('local') ? replace_vars('http://localhos
 		</ul>
 	</li>
 	<li>|</li>
-	<li class="drop-down"><a>Global Growth</a>
+	<li class="drop-down"><a>Friends (Webring)</a>
 		<ul>
-			<?php menu('/content/grow/', ['no-ul' => true]); ?>
+			<li><a href="<?php echo am_var('url');?>help/"><strong>Help</strong> by Kindly Acts</a></li>
+			<li><a href="<?php echo am_var('url');?>interact/"><strong>Interact</strong> with Us Online and Physically</a></li>
+			<li><hr /></li>
+			<?php menu('/content/webring/', ['no-ul' => true]); ?>
 		</ul>
-	</li>
-	<li class="drop-down"><a>Webring</a>
-		<?php menu('/content/webring/'); ?>
 	</li>
 	<li>|</li>
 	<li class="drop-down"><a>About</a>
