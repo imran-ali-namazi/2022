@@ -34,7 +34,7 @@ if (array_search(am_var('node'), [
 	]) !== false) { ?>
 	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
 <hr />
-<?php } else if (am_var('node') == 'children') { ?>
+<?php } else if (am_var('node') == 'children' && am_var('page_parameter1') == false) { ?>
 <div id="slideshow">
 	<div><img src="../assets/pages/yieldmore-children1.jpg" class="img-fluid" /></div>
 	<div><img src="../assets/pages/yieldmore-children2.jpg" class="img-fluid" /></div>

@@ -104,6 +104,15 @@ function before_render() {
 
 	am_var('description', humanize(am_var('node'), 'description'));
 
+	$fol = am_var('path') . '/content/programs/' . am_var('node') . '/';
+	$program = $fol . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
+	if (file_exists($program)) {
+		am_var('fol', $fol);
+		am_var('section', 'programs/');
+		am_var('file', $program);
+		return;
+	}
+
 	$sections = array_merge(am_var('sections'), array_keys(am_var('idea-sections')));
 	foreach ($sections as $slug) {
 		$path = am_var('path') . '/content/' . $slug . '/';
