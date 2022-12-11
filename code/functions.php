@@ -46,6 +46,8 @@ function before_file() {
 	$deckExists = file_exists(SITEPATH . '/decks/' . am_var('node') . '.md');
 	if ($deckExists)
 		echo sprintf('<div class="deck-container"><iframe src="%spresent/%s/embed/"></iframe></div>', am_var('url'), am_var('node'));
+	else if (am_var('deck-url'))
+		echo sprintf('<div class="deck-container"><iframe src="%s"></iframe></div>', am_var('deck-url'));
 }
 
 function after_file() {
@@ -87,14 +89,20 @@ function site_humanize($txt, $field = 'title') {
 
 function before_render() {
 	if (am_var('node') == 'present') {
-		$deck = am_var('page_parameter1');
+		if (am_var('page_parameter3')) {
+			$deck = SITEPATH . '/content/' . str_replace('present/', '', str_replace('/embed', '', am_var('all_page_parameters'))) . '.md';
+		} else {
+			$deck = am_var('page_parameter1');
 
-		if (!$deck) {
-			am_var('deck-listing', true);
-			return;
+			if (!$deck) {
+				am_var('deck-listing', true);
+				return;
+			}
+
+			$deck = SITEPATH . '/decks/' . $deck . '.md';
 		}
 
-		am_var('deck', SITEPATH . '/decks/' . $deck . '.md');
+		am_var('deck', $deck);
 		am_var('deck-name', am_var('page_parameter1'));
 		am_var('embed', true);
 		return;
@@ -110,6 +118,9 @@ function before_render() {
 		am_var('fol', $fol);
 		am_var('section', 'programs/');
 		am_var('file', $program);
+		$deck = $fol . 'decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
+		if (file_exists($deck))
+			am_var('deck-url', am_var('url') . 'present/programs/' . am_var('node') . '/decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '/embed/');
 		return;
 	}
 
