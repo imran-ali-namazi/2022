@@ -1,5 +1,6 @@
 <?php
-if (array_search(am_var('node'), [
+$pageName = am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node');
+if (array_search($pageName, [
 		//portrait + horizontal resolution based banners
 		'alliances',
 		'earth',
@@ -9,11 +10,11 @@ if (array_search(am_var('node'), [
 		'words',
 	]) !== false) { ?>
 	<div>
-		<img src="../assets/pages/<?php echo am_var('node');?>-portrait.jpg" class="img-fluid show-in-portrait" />
-		<img src="../assets/pages/<?php echo am_var('node');?>.jpg?fver=2" class="img-fluid show-in-landscape" />
+		<img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>-portrait.jpg" class="img-fluid show-in-portrait" />
+		<img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>.jpg?fver=2" class="img-fluid show-in-landscape" />
 	</div>
 <hr />
-<?php } else if (array_search(am_var('node'), [
+<?php } else if (array_search($pageName, [
 		//single image horizontal only page banners
 		'common-planet',
 		'crises',
@@ -32,7 +33,7 @@ if (array_search(am_var('node'), [
 		'sri-bagavath',
 		'words',
 	]) !== false) { ?>
-	<div><img src="../assets/pages/<?php echo am_var('node');?>.jpg" class="img-fluid" /></div>
+	<div><img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>.jpg" class="img-fluid" /></div>
 <hr />
 <?php } else if (am_var('node') == 'children' && am_var('page_parameter1') == false) { ?>
 <div id="slideshow">

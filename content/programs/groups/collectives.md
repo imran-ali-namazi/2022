@@ -21,17 +21,18 @@ Collective Healing
 Collective Companies
 
 As groups of
- • friends
- • relatives
- • religions
- • flats and communities
- • colonies
- • same employer
- • foreigners to the city like nepalis
- • same profession families like audio drivers
- • support groups like families of alcoholics
- • social workers
- • schoolgoers
+
+* friends
+* relatives
+* religions
+* flats and communities
+* colonies
+* same employer
+* foreigners to the city like nepalis
+* same profession families like audio drivers
+* support groups like families of alcoholics
+* social workers
+* schoolgoers
 
 Technology.md
  - 

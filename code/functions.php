@@ -20,9 +20,11 @@ function before_file() {
 	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
 
 	$pages = am_var('pages');
-	$pageName = strip_hyphens(am_var('node'));
+	
+	$pageName = strip_hyphens(am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node'));
 	$page = isset($pages[$pageName]) ? $pages[$pageName] : [ 'title' => ucwords($pageName), 'description' => '...Description...' ];
 
+	if (am_var('section') == 'programs/' && am_var('page_parameter1')) echo '<h3><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a></h3>';
 	echo '      <h1 class="page-name">' . $prefix . $page['title'] . '</h1>' . am_var('nl');
 
 	//#2 - description

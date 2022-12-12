@@ -1,14 +1,19 @@
 <ul class="nav-menu">
-	<li class="drop-down"><a>Programs and Courses</a>
-		<?php menu('/content/programs/', [ 'list-only-folders' => true ] ); ?>
+	<li class="drop-down"><a>Programs and Courses</a></a>
+		<?php //menu('/content/programs/', [ 'list-only-folders' => true ] ); ?>
+		<ul>
+			<?php $folders = scandir(SITEPATH . '/content/programs/');
+			natsort($folders); unset($folders[0]); unset($folders[1]);
+			foreach ($folders as $item) { ?>
+			<li class="drop-down"><a href="<?php echo am_var('url') . $item;?>/"><?php echo humanize($item);?></a>
+				<?php menu('/content/programs/' . $item . '/', [ 'parent-slug' => $item  . '/' ] ); ?>
+			</li><?php } ?>
+		</ul>
 	</li>
-	<?php if (am_var('section') == 'programs/') { ?><li class="drop-down"><a href="<?php echo am_var('url') . am_var('node') . '/' ;?>" style="background-color: yellow; padding: 4px;"><?php echo humanize(am_var('node')); ?></a>
+	<?php if (am_var('section') == 'programs/') { ?><li class="drop-down"><a href="<?php echo am_var('url') . am_var('node') . '/' ;?>" style="background-color: yellow;"><?php echo humanize(am_var('node')); ?></a>
 		<?php menu('/content/programs/' . am_var('node') . '/', [ 'parent-slug' => am_var('node') . '/' ] ); ?>
 	</li><?php } ?>
 	<li>|</li>
-	<li class="drop-down"><a>Ideas</a>
-		<?php menu('/content/ideas/'); ?>
-	</li>
 	<li class="drop-down"><a>Subsites</a>
 		<ul>
 			<?php foreach(am_var('incubating') as $item) echo sprintf('<li><a href="%s" target="_blank">%s</a></li>', $item['url'], $item['name']); ?>
