@@ -1,6 +1,9 @@
 <img src="https://archives.yieldmore.org/services/assets/ianamazi.jpg" width="150" style="float: right; padding: 4px; border: 1px solid grey; background-color: #fff; margin: 0 8px;" />
-<i>Full Stack Developer & Solution Architect</i> specializing in .Net and Azure - from Chennai, India.
-<a href="tel:+919841223313">+91-98412-23313</a> / <a target="_blank" href="mailto:team@yieldmore.org">team@yieldmore.org</a> / Resume: <a href="https://yieldmore.org/imrans-resume/">yieldmore.org/imrans-resume/</a>
+
+<i>Full Stack Developer & Solution Architect</i><br />specializing in .Net, Php and JS - from Chennai, India.<br />
+<a href="tel:+919841223313">+91-98412-23313</a> / <a target="_blank" href="mailto:team@yieldmore.org">team@yieldmore.org</a><br />
+Resume: <a href="https://yieldmore.org/imrans-resume/">yieldmore.org/imrans-resume/</a><br />
+<a class="btn btn-large" href="../imrans-profile/">Imran's Non Tech Profile</a>
 
 <div id="content" class="toc">
 	<h1>Personal Statement</h1>

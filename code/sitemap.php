@@ -4,15 +4,6 @@ if (am_var('local')) $var_sections[] = 'private'; //imrans private notes, exclud
 
 am_var('sections', $var_sections);
 
-am_var('idea-sections', [
-	'children' => 'and',
-	'serenity' => 'in',
-	'spaces' => 'at',
-	'spirit' => 'from',
-	'words' => 'from',
-	//moved to course => professional 'work' => 'in',
-]);
-
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
 am_var('pages', [
@@ -71,6 +62,7 @@ am_var('pages', [
 
 	'about', //section
 	'about us' => ['title' => '<strong>About YieldMore.org</strong> and it\'s Spirit', 'description' => 'A candid look at why YieldMore.org exists, it\'s Spirit and Imran\'s intentions.'],
+	'imrans profile' => ['title' => 'Profile of <strong>Imran Ali</strong> Namazi', 'description' => 'The Non Tech Profile of founder, trainer, ideator - Imran Ali Namazi.'],
 	'imrans resume' => ['title' => 'Resume of <strong>Imran Ali</strong> Namazi', 'description' => 'The Technical Profile of programmer founder, Imran Ali Namazi.'],
 	'joyland' => ['title' => 'The Proliferation of <strong>Joyland</strong>', 'description' => 'Old 2019/20 notes on how Joyous Lands could be setup, the forerunner to Spaces for Growth and Healing'],
 	'marketplace' => ['title' => 'A Conscious <strong>Marketplace</strong>', 'description' => 'Ideas to start a marketplace for people to promote their products and services in a sustainable ecosystem.'],

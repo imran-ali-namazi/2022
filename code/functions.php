@@ -16,16 +16,13 @@ function before_file() {
 
 	echo '    <div class="page-heading">' . am_var('nl');
 	//#1 - heading
-	$ideas = am_var('idea-sections');
-	$prefix = am_var('section') && isset($ideas[am_var('section')]) ? '<a href="../' . am_var('section') . '/">' . ucwords(am_var('section')) . '</a> ' . $ideas[am_var('section')] . ' ' : '';
-
 	$pages = am_var('pages');
 	
 	$pageName = strip_hyphens(am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node'));
 	$page = isset($pages[$pageName]) ? $pages[$pageName] : [ 'title' => ucwords($pageName), 'description' => '...Description...' ];
 
 	if (am_var('section') == 'programs/' && am_var('page_parameter1')) echo '<h3><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a></h3>';
-	echo '      <h1 class="page-name">' . $prefix . $page['title'] . '</h1>' . am_var('nl');
+	echo '      <h1 class="page-name">' . $page['title'] . '</h1>' . am_var('nl');
 
 	//#2 - description
 	echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $page['description']);
@@ -126,8 +123,7 @@ function before_render() {
 		return;
 	}
 
-	$sections = array_merge(am_var('sections'), array_keys(am_var('idea-sections')));
-	foreach ($sections as $slug) {
+	foreach (am_var('sections') as $slug) {
 		$path = am_var('path') . '/content/' . $slug . '/';
 		$file = $path . am_var('node') . '.md';
 		if (file_exists($file)) {
