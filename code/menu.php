@@ -6,12 +6,15 @@
 			natsort($folders); unset($folders[0]); unset($folders[1]);
 			foreach ($folders as $item) { ?>
 			<li class="drop-down"><a href="<?php echo am_var('url') . $item;?>/"><?php echo humanize($item);?></a>
-				<?php menu('/content/programs/' . $item . '/', [ 'parent-slug' => $item  . '/' ] ); ?>
+				<ul>
+					<li><a href="<?php echo am_var('url') . $item . '/' ;?>" style="background-color: pink;">Home</a></li>
+					<?php menu('/content/programs/' . $item . '/', [ 'no-ul' => true, 'parent-slug' => $item  . '/' ] ); ?>
+				</ul>
 			</li><?php } ?>
 		</ul>
 	</li>
 	<?php if (am_var('section') == 'programs/') { ?><li class="drop-down"><a href="<?php echo am_var('url') . am_var('node') . '/' ;?>" style="background-color: yellow;"><?php echo humanize(am_var('node')); ?></a>
-		<?php menu('/content/programs/' . am_var('node') . '/', [ 'parent-slug' => am_var('node') . '/' ] ); ?>
+			<?php menu('/content/programs/' . am_var('node') . '/', [ 'parent-slug' => am_var('node') . '/' ] ); ?>
 	</li><?php } ?>
 	<li>|</li>
 	<li class="drop-down"><a>Subsites</a>
