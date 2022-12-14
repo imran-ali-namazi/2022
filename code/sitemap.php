@@ -25,6 +25,8 @@ am_var('pages', [
 		//peace making
 
 	'serenity' => ['title' => '<strong>Serenity</strong>, Harmony and Healing for All', 'description' => 'Various Resources on Healing ourselves, families and the whole world with strong focus on alternate healing methods and practitioners.'],
+		'cancer' => ['title' => 'How to <strong>Combat Cancer</strong>', 'description' => 'Helping people take Informed Decisions, Rootcausing it etc'],
+		'resources' => ['title' => '<strong>Health Resources</strong>', 'description' => 'Various Health Resources and Links to Mental Health Professionals'],
 		'words' => ['title' => '<strong>Words</strong> for Inspiration and Healing', 'description' => 'with an intent to heal individual and societal hurts and project a positive outcome for the future.'],
 
 	'sunlight' => ['title' => '<strong>Evolving Sunlight</strong> and Soulful Moonlight', 'description' => 'Don\'t Repeat Same Mistakes in Corporate Life and share IT Wisdom and Volunteers to NGOs and Charities.', 'video' => '5XR0HGG_iws'],
