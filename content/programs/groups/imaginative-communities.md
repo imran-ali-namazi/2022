@@ -1,31 +1,37 @@
-<div style="text-align: center;">
+<div style="text-align: center; margin: 30px auto 30px auto; max-width: 600px; padding: 30px; border-radius: 30px; background-color: tan;">
 	<h1>Chennai Storytelling Festival</h1>
 	<h3>Storytelling-related Workshop on</h3>
-	<h2>Imaginative Communities"</h2>
+	<h2>"Imaginative Communities"</h2>
 	<i>Sat 18th Feb, 10:30am - Noon (90 minutes)</i>
 </div>
 
+> Facilitators: [Eric](https://yieldmore.org/eric/) [the storyteller](https://storytellinginstitute.org/) and [Imran](https://yieldmore.org/imrans-profile/) [the writer](https://imran.yieldmore.org/about-imran/) who emphatically say never to [lose hope](https://www.youtube.com/watch?v=jm0wz0ZlYqc)
+
 ----
 
-# 1) General Introduction (5 minutes)
+# Prelude: General Introduction (5 minutes)
 
 What is a community? What are some purposes of communities? What makes a community great? What makes a community unsatisfying? Quickly understand that some are communities we are born into and some are of choice.
 
 > Pause for people to think, and take responses.
 
-<p class="speakable">1.1 Welcome and Tone-setting</p>
+> <u>Facilitators' Request</u>: During the two thinking exercises, if participants would each send in a single word that occurs to them or that they are dwelling on, [Imran](https://imran.yieldmore.org/about-imran/) would be honoured to stitch them all into a poem to commemorate the event.
+
+> Our mantra for this workshop is to encourage people to think as imaginatively about communities as possible. Hence, keep thinking **What behaviours will improve communities**.
+
+<p class="speakable">1 Welcome and Tone-setting</p>
 
 1. This workshop is going give examples --- heroes to imitate, look up to, be inspired by -- regarding creating, nurturing, developing and linking communities.
 2. We are going to invite you to think about ways individuals and communities -- and cross-sections of communities -- can change and grow together, including possibilities that you belong to and know about, and also can imagine -- Imaginative Communities.
 3. This will involve community members showing compassion to each other, and between communities, with various communities co-existing harmoniously.
 4. This is all regarding communities. Things communities can do, and ways community members can build a better tomorrow.
 
-<p class="speakable">1.2 Characters to look up to, so that we can follow their examples.</p>
+<p class="speakable">2 Characters to look up to, so that we can follow their examples.</p>
 
 1. John Keating - Dead Poets Society
-2. etc
+2. TODO: etc
 
-<p class="speakable">1.3 Hoped-for Outcomes include</p>
+<p class="speakable">3 Hoped-for Outcomes include</p>
 
 1. Planning ways to take action to bring thoughts into reality, and
 2. Taking spontaneous action to bring thoughts into reality in small and large groups.
@@ -36,33 +42,37 @@ What is a community? What are some purposes of communities? What makes a communi
 
 ----
 
-# 2) Examples (5 minutes)
+# Round 1: Communities we do and do not belong to
 
-<p class="speakable">2.1 Examples of dis-harmonious (discordant) action.</p>
+[TODO: introduction]
 
-1. One
+## Round 1a: Examples (5 minutes)
+
+<p class="speakable">1 Examples of dis-harmonious (discordant) action.</p>
+
+1. TODO: One
 2. Two
 3. Three
 
-<p class="speakable">2.1 Examples of loving-inspired action.</p>
+<p class="speakable">1 Examples of loving-inspired action.</p>
 
-1. One
+1. TODO: One
 2. Two
 3. Three
 
 ----
 
-# 3) Individual Writing (5 minutes)
+## Round 1b: Individual Writing (5 minutes)
 
-<p class="speakable">3.1 List communities one belongs to (see examples).</p>
+<p class="speakable">1 List communities one belongs to (see examples).</p>
 
-1. One
+1. TODO: One
 2. Two
 3. Three
 
-<p class="speakable">3.2 List communities that you see / know of bu do not belong to (see examples).</p>
+<p class="speakable">2 List communities that you see / know of bu do not belong to (see examples).</p>
 
-1. One
+1. TODO: One
 2. Two
 3. Three
 
@@ -72,7 +82,7 @@ All of these communities are not always in harmony... Wonder why?
 
 ----
 
-# 4) Going into Breakout Rooms, 1 (10 minutes)
+## Round 1c: Going into Breakout Rooms, 1st time (10 minutes)
 
 <p class="speakable">Things to discuss in Breakout Rooms</p>
 
@@ -86,41 +96,59 @@ All of these communities are not always in harmony... Wonder why?
 
 ----
 
-# 5) Return to Main Room, 1 (5 minutes)
+## Round 1d: Return to Main Room, 1 (5 minutes)
 
 Discussion. Sharing.
 
-> OBJECTIVE: What new communities would we lend our support to. How could existing one's learn from them. Can [yieldmore.org/alliances/](https://yieldmore.org/alliances/) and its way of working help cross pollinate the ones we belong to, and in the grand scheme of Mother Nature's plans, what new communities would we form.
+
+# Round 2: Communities we'd like to create or improve
+
+[TODO: introduction]
+
+## Round 2a: Our Need and Demand (5 minutes)
+
+> OBJECTIVE: What new communities would we lend our support to. How could existing one's learn from them. Can groups of rgoups and a new way of working help cross pollinate the ones we belong to, and in the grand scheme of Mother Nature's plans, what new communities would we form.?
 
 ----
 
-# 6) Topics, Individual Writing, 2 (5 minutes)
+## Round 2b: Topics, Individual Writing, 2 (5 minutes)
 
-[UNPLANNED]
-
-----
-
-# 7) Going into Breakout Rooms, 2 (10 minutes)
-
-[UNPLANNED]
+[TODO: UNPLANNED]
 
 ----
 
-# 8) Return to Main Room, 2 (5 minutes)
+## Round 2c: Going into Breakout Rooms, 2 (10 minutes)
 
-[UNPLANNED]
-
-----
-
-# Some advertisements from Imran
-
-* [AmadeusWeb.com](https://amadeusweb.com/)
-* [YieldMore.org](https://yieldmore.org/sitemap/)
-* [Inspiration](../inspiration/)
-* [Help](https://yieldmore.org/help/)
+[TODO: UNPLANNED]
 
 ----
 
-# VOTE OF THANKS
+## Round 2d: Return to Main Room, 2 (5 minutes)
 
-INVITATION TO USE/TEACH THE COURSE FREE, PAY IT FORWARD EACH TIME YOU DO]
+[TODO: UNPLANNED]
+
+----
+
+# In Closing
+
+Few takeaways - would the participants care to comment on.
+
+* What behaviours and actions will improve communities (our mantra)
+
+## Some advertisements from Imran
+
+[YieldMore.org](https://yieldmore.org/) - a quick walkthrough (TODO: video to be made)
+
+[yieldmore.org/symphony/alliances/](https://yieldmore.org/symphony/alliances/) - hoping to have your old and new communities here each updating one another (a group of groups).
+
+INVITATION TO USE/TEACH THE COURSE [FREEISH](https://yieldmore.org/symphony/growing-together/), and make videos of them freely available.
+
+----
+
+## VOTE OF THANKS
+
+* My family - for helping shape me and who continue to encourage me, and to similar degree the friends who love me unconditionally.
+* The master teachers who have taught me all I know through story and those few patient and loving in conversation.
+* Dr Eric Miller for mentoring me through this, my first workshop.
+* Robert Govers, cofounder of the Good Country Index wrote [this book: Imaginative Communities](https://www.imaginativecommunities.com/) and though I havent read it yet. The title iteself is soo inspiring!
+

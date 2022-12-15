@@ -18,6 +18,7 @@ am_var('pages', [
 		//new age education
 
 	'groups' => ['title' => 'Ideas and Programs for <strong>Groups</strong>', 'description' => 'Close Knit Activities and Ideas for Groups.'],
+		'imaginative communities' => ['title' => 'Thinking about all <strong>Communities Imaginatively</strong>', 'description' => 'With the mantra: What behaviours / actions will improve our myriad communities!'],
 		'inherent divinity' => ['title' => '<strong>Inherent Divinity</strong> means a level playing field for all', 'description' => 'When we recognize everyone\'s Inherent Divinity we will help the WORKING CLASS Rise in Stature', 'video' => 'KiT63DB1m30'],
 		'intimate gatherings' => ['title' => '<strong>Intimate Gatherings</strong> for Inspiration, Abundance, Healing and Expression', 'description' => 'Workshops to: ENJOY | EXPLORE | HEAL | EXPRESS and SHARE a WISDOM WITH WORDS.', 'video' => 'S6E-gzDqmgs'],
 		'spaces' => ['title' => '<strong>Spaces</strong> for Growth and Healing', 'description' => 'Physical spaces for rejuvenation and overhauling. Work variant, School variant etc.'],
@@ -38,10 +39,6 @@ am_var('pages', [
 		'earth' => ['title' => 'Dare we Save our Planet <strong>Earth</strong>', 'description' => 'For all things environmental, worldy and with thoughts of harmony and unification'],
 		'growing together' => ['title' => '400 people <strong>Growing Together</strong> in 2 years', 'description' => 'A Blueprint that "shares everything equally after compensation"', 'video' => 'DM_xGyzcYxI'],
 		'spirit' => ['title' => 'Instituting a <strong>Spirituality</strong> that Liberates', 'description' => 'A new-age integrative, harmonious and holistic approach to religion, philosophy, spirituality and governance.'],
-
-
-	'imaginative communities' => ['title' => '<strong>Imaginative Communities</strong> in Model Groups, Towns and Organizations', 'description' => 'Based on the Robert Govers book of the same name'],
-
 
 	'webring', //section
 	'world pattern of process' => ['title' => 'A thesis about the <strong>World Pattern of Process</strong>', 'description' => 'A conversation with Rasunah Marsden.'],
