@@ -9,7 +9,13 @@ function before_file() {
 	echo '<hr class="above-header-content" />' . am_var('nl');
 
 	include 'header-content.php';
-
+	$pageNameWebSafe = am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node');
+	$header = SITEPATH . '/content/_headers/' . $pageNameWebSafe . '.md';
+  if (file_exists($header)) {
+		echo '<div id="header" class="container">' . am_var('nl') . am_var('nl');
+		echo renderFile($header);
+		echo '</div>' . am_var('nl');
+  } else if (am_var('node') != 'index') {
 	echo '<div id="pre-content-wrapper" class="header-bgd">' . am_var('nl');
 
 	echo '  <header id="pre-content" class="container no-speakable-item-underline">' . am_var('nl');
@@ -18,7 +24,7 @@ function before_file() {
 	//#1 - heading
 	$pages = am_var('pages');
 	
-	$pageName = strip_hyphens(am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node'));
+	$pageName = strip_hyphens($pageNameWebSafe);
 	$page = isset($pages[$pageName]) ? $pages[$pageName] : [ 'title' => ucwords($pageName), 'description' => '...Description...' ];
 
 	if (am_var('section') == 'programs/' && am_var('page_parameter1')) echo '<h3><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a></h3>';
@@ -28,7 +34,6 @@ function before_file() {
 	echo sprintf('      <p class="page-description">%s</p>' . am_var('nl'), $page['description']);
 
 	echo '    </div>' . am_var('nl');
-
 	/*
 	//#3 - speakable menus
 	menu_speakables();
@@ -39,6 +44,7 @@ function before_file() {
 	echo '</div>' . am_var('nl');
 
 	echo '<hr class="page-heading-separator" />';
+  }
 
 	echo '<div id="content" class="container">';
 

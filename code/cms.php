@@ -12,6 +12,7 @@ bootstrap([
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
+	'page_parameter1_in_title' => true,
 	'start_year' => '2013',
 
 	'theme' => 'biz-land',

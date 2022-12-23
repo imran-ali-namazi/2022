@@ -1,4 +1,4 @@
-This page discusses the spirit in which an organization may be formed or run and is our **blueprint for conscious businesses** which would adopt a "shared-by-all" model. We insist our collaborators adopt this / a variation of this model for ideas that we work on together.
+This page discusses the spirit in which an organization may be formed or run and is our **blueprint for conscious businesses** which would adopt a "shared-by-all" model. We insist our collaborators adopt this / a variation of this model for ideas that we work on together. Dont miss the [backing attitude page](../../sunlight/attitude/).
 
 <p class="speakable">1# INSPIRATION: Chinmaya Mission Pledge</p>
 1. We stand as one family, bound to each other with love and respect.
