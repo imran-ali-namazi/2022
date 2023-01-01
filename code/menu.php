@@ -24,10 +24,11 @@
 	<li>|</li>
 	<li class="drop-down"><a>Friends / Network</a>
 		<ul>
+			<li><a href="<?php echo am_var('url');?>alliances/"><strong>Alliances</strong> between Organizationa</a></li>
 			<li><a href="<?php echo am_var('url');?>help/"><strong>Help</strong> by Kindly Acts</a></li>
 			<li><a href="https://love.yieldmore.org">Labours of <strong>Love</strong></a></li>
 			<li><hr /></li>
-			<?php menu('/content/webring/', ['no-ul' => true, 'exclude-files' => ['help', 'interact'] ]); ?>
+			<?php menu('/content/webring/', ['no-ul' => true, 'exclude-files' => ['help', 'interact', 'alliances'] ]); ?>
 		</ul>
 	</li>
 	<li>|</li>

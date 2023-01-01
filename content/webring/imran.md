@@ -6,8 +6,7 @@ I would like to use this gift to:
 * Help individuals and communities to heal.
 * Inspire people to ACT for the common good.
 * Find some organisation that would use my writing to further their visions.
-* Make money writing for the right [“conscious communities” (SADB Evolve post)](https://sriaurobindodhama.org/evolve/)
-* Make my writing career become full time?
+* Make my writing career become full time!
 
 Tathasthu (So shall it be!)
 

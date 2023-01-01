@@ -1,20 +1,17 @@
-Idea) Collectives and Quality Time as used by Communities... Vasudha
+# Collectives and Quality Time as used by Communities
 
-What's in it for each person. Crystal clear
+Notes from a dialogue from 2022
 
-Family Building Forums
-All types of families
-Barrier between corporate and family
+MAKE CLEAR: What's in it for each person. Crystal clear
 
-Self help groups...
- - Mumbai moms...
- - 
+Points Discussed
 
-Social Experiment Agency
- - neeya naana
- - spoke to kids about careers at lower schools.
-
-Swap families and stayovers
+* Family Building Forums
+* All types of families
+* Barrier between corporate and family
+* Self help groups...
+* Social Experiment Agency <!--neeya naana, spoke to kids about careers at lower schools-->
+* Swap families and stayovers
 
 Collective Parenting
 Collective Healing
@@ -28,13 +25,13 @@ As groups of
 * flats and communities
 * colonies
 * same employer
-* foreigners to the city like nepalis
+* foreigners to the city like Nepalis
 * same profession families like audio drivers
 * support groups like families of alcoholics
 * social workers
 * schoolgoers
 
-Technology.md
- - 
+What could be the role of
 
-Group of groups.md
+* Technology
+* Group of groups
