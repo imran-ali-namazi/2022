@@ -8,14 +8,21 @@ am_var('footer-message', 'Connect people, share ideas, create a platform for col
 
 am_var('pages', [
 
+//TODO: turn on bit by bit, newest on top:
+//https://developers.facebook.com/docs/plugins/comments/
+
 //	'' => ['title' => '', 'description' => ''],
 	'index' => ['title' => 'YieldMore.org for Children, Growth and Healing', 'description' => am_var('footer-message'), 'video' => 'PTIqjpkF5Ss'],
 
 	'programs', //section
 	'children' => ['title' => '<strong>Children</strong> for Inner Development', 'description' => 'Curation Based Education, Creative Expression and Project ARYA, aimed at emotional, social and personal development of families.'],
-		'collective parenting' => ['title' => '<strong>Collective Parenting</strong> as meaningful activity for groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
-		//forward thinkers
-		//new age education
+		'programmes' => ['title' => 'Bond-strengthening <strong>Programmes for Children</strong> ', 'description' => 'Programs that put the child on exploration, expression and service.'],
+		'why and how' => ['title' => 'More detail about our <strong>Children\'s Programmes</strong> ', 'description' => 'Devling into our way of working and why we do so.'],
+		'collective parenting' => ['title' => '<strong>Collective Parenting</strong> for groups of families', 'description' => 'Contemplate PROJECT ARYA and the spontaneous formation of Multi Family Learning Pods.'],
+		'forward thinkers' => ['title' => 'Notable <strong>Forward Thinkers</strong> in Education', 'description' => 'Who stand for progressive thinking and better education'],
+		'new age education' => ['title' => 'Notes on <strong>New Age Education</strong> ', 'description' => 'Written by a suppotive Mother/Teacher this page brings up many points to consider.'],
+		'the good generation' => ['title' => 'Simon Anholt and <strong>The Good Generation</strong> ', 'description' => 'A man who wishes to live in a "good country" addressing educators'],
+		//'' => ['title' => ' <strong></strong> ', 'description' => ''],
 
 	'groups' => ['title' => 'Ideas and Programs for <strong>Groups</strong>', 'description' => 'Close Knit Activities and Ideas for Groups.'],
 		'imaginative communities' => ['title' => 'Thinking about all <strong>Communities Imaginatively</strong>', 'description' => 'With the mantra: What behaviours / actions will improve our myriad communities!'],

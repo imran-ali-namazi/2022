@@ -1,5 +1,5 @@
 <a name="curation"></a>
-<p class="speakable">#1 About Music Led Classroom Discussion</p>
+<p class="speakable">#1 Music Led Classroom Discussion</p>
 
 1. The teacher or facilitator chooses music that speaks of different themes which they would like to introduce the class to. This may include inspiration, philosophic, tales of war and peace, themes of everyday living, global awareness, cultures from other places, exemplary art and musical talent, popular culture etc.
 2. The children are asked to close their eyes and let the music and words tickle their imagination. The song may be played a second time.
@@ -17,21 +17,33 @@
 
 <a class="btn btn-large" href="https://docs.google.com/document/d/1gM-SVYgkrtnkdGaY3mIcXLvlmv6AU5mZhzV7qEjHxvY/edit?usp=sharing">CURRICULUM: Music Led Classroom Discussion (English) - 2021, Imran</a>.<br /><br />
 
+----
+
 <a name="expression"></a>
 <p class="speakable">#2 Creative Expression Program</p>
 
+<p class="speakable">#2b Notes on Creative Expression Program</p>
+
 1. Initiated in 2022 and developed as a parallel program to CBE, [Creative Expression](https://archives.yieldmore.org/creative-expression/) starts with writing but could go on to so many activities and hobbies.
+
+----
 
 <a name="arya"></a>
 <p class="speakable">#3 Project ARYA</p>
 
 1. An awareness program where children work on advocating social causes, we see this a coming full circle of their emotional and social development. [ARYA = **Awareness Resulting in Your Action**](../symhony/arya/).
 
+----
+
 <a name="entheos"></a>
 <p class="speakable">#4 ENTHEOS for Youngsters</p>
 
 1. Aimed at a healthy, explorative and enquiring mindset that can be cultivated among youth by exposing them to various devotional prayers, songs and hymns.
 2. [Christianity](https://www.hclutheran.net/) always reminds me of the power of it's Hymns like [Make Me a Channel of Your Peace](https://www.youtube.com/watch?v=2svZhZT6Pro) and [All Things Bright and Beautiful](https://en.wikipedia.org/wiki/All_Things_Bright_and_Beautiful).
+
+* Touch upon patriotism and ideological divides
+
+----
 
 <a name="physical-education"></a>
 <p class="speakable">#5 PHYSICAL EDUCATION and TEAM SPIRIT</p>

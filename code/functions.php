@@ -12,7 +12,7 @@ function before_file() {
 	$pageNameWebSafe = am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node');
 	$header = SITEPATH . '/content/_headers/' . $pageNameWebSafe . '.md';
   if (file_exists($header)) {
-		echo '<div id="header" class="container">' . am_var('nl') . am_var('nl');
+		echo '<div id="header" class="container" style="padding: 20px; margin-bottom: 30px; font-size: 130%;">' . am_var('nl') . am_var('nl');
 		echo renderFile($header);
 		echo '</div>' . am_var('nl');
   } else if (am_var('node') != 'index') {
