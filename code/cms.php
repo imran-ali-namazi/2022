@@ -41,7 +41,6 @@ bootstrap([
 	],
 
 	'incubating' => [
-		[ 'name' => 'Courses at YM', 'url' => $local ? replace_vars('http://localhost%port%/subsites/courses/', 'port') : 'https://courses.yieldmore.org/' ],
 		[ 'name' => 'Labours of Love', 'url' => $local ? replace_vars('http://localhost%port%/subsites/love/', 'port') : 'https://love.yieldmore.org/' ],
 		[ 'name' => 'Affirm Life', 'url' => $local ? replace_vars('http://localhost%port%/subsites/affirm/', 'port') : 'https://affirm.yieldmore.org/' ],
 		[ 'name' => 'Farmers\' Recipes', 'url' => $local ? replace_vars('http://localhost%port%/subsites/farmers/', 'port') : 'https://farmers.yieldmore.org/' ],
