@@ -1,9 +1,38 @@
-<p class="speakable">Remunerating Imran and YieldMore.org for starting a space</p>
+<ul class="sticky">
+	<li><a href="#children">Children</a></li>
+	<li><a href="#spaces">Spaces</a></li>
+	<li><a href="#team">Teams</a></li>
+	<li><a href="#individuals">Individuals</a></li>
+</ul>
+
+Here we define the **DNA / Growing Together** Model whose spirit guides all our money decisions.
+
+<a name="children"></a>
+# Children
+
+<p class="speakable start-expanded">Rural Schools and Groups of Schools</p>
+
+1. No copyright infringement by using mp3 files except for preview.
+2. Spotify premium, or other in offline mode if connectivity is an issue.
+3. Support and Love to one and all. Reports of Goodwill to be meticulously kept.
+4. To spontaneously and progressively use growing together model for successful work style.
+5. Children's creativity to be encouraged.
+6. In place and remote training sessions on a base fee or donation basis. Facilitators time to be valued.
+7. Teachers are strengthened and guru dakshina given as frequently as possible.
+8. Adopt any other ideas that Imran or his network may suggest, on trust.
+9. 1200 per school per year. Half paid out to Rani Venugopal (or other assign) at beginning, rest whenever available or school is happy with results.
+10. Imran may ask for Random Donations or Additional Money as his need and will gauge whether it can be refused or not based on the school or group's **sincere goodwill done**.
+
+
+<a name="spaces"></a>
+# Growth and Healing Spaces
+
+<p class="speakable start-expanded">Remunerating Imran and YieldMore.org for starting a space</p>
 1. A one time fee is charged for the training / collaboration. This amount is non refundable.
 2. It would include an amount up front and a montly commitment for 3 to 6 months. In the case of defaulting more than 2 months, the M.o.U. / Contract stands cancelled.
 3. Imran, Yield More or it's assigns will enter the collaboration, each as a "fully comitted" contributing member and his/their time is reckoned by it. Here is where he/they too risk income on the success of the effort.
 5. Charges to Imran/Yield More may be reckoned as expenses in the model, so also rent/lease for places etc.
-6. All these collaborations / the right to conduct classes, programs and trainings will be allowed for one year only from the date of signing the M.o.U. / Contract and will be subject to changes make to the general policies outlined here and solely at the discretion of Imran.
+6. All these collaborations / the right to conduct classes, programs and trainings will be allowed for one year only from the date of signing the M.o.U. / Contract and will be subject to changes made to the general policies outlined here and solely at the discretion of Imran.
 7. Transparency / a full statement of accounts will be mandated every quarter and monies owed from profits to be paid to all parties from both sides to be paid every month.
 8. Illegal and unethical activities will void the arrangements. Imran will choose an arbitrator in the event some dispute / problem arises. 
 9. Taxes will be charged extra as per the statutes and regulations.
@@ -13,7 +42,10 @@
 13. All content remains owned solely and in totality by Imran and Yield More, even the portions and items contributed by the Team / Collaboration.
 14. Frugality, Thrift, Sustainability and other public and eco friendly practices are encouraged.
 
-<p class="speakable">Stipulations, Guidelines and Definitions for Tightly Knit Teams</p>
+<a name="team"></a>
+# Starting a Team / Moving it to the YM DNA
+
+<p class="speakable start-expanded">Stipulations, Guidelines and Definitions for Tightly Knit Teams</p>
 
 1. **Effort x Value = Remuneration** for that Individual (for that type of work done). Ideas can have an initial value and it's value can be updated as the project enters predetermined phases. This value to be encashed at the end of each phase / pro rata at the time of parting ways.
 2. **Revenue - Operations = Income** If Income &lt; Remuneration, remuneration is paid first (in ratio of total value to efforts put in) until we are break even. This also, done monthly.
@@ -30,7 +62,11 @@
 13. **Death** Nominee to continue receiving commission, remuneration accrued and to be given "Parting Ways" profit at time of 2 years from death of teammate after which, only commission (as per Clause 6) is due. Copyrights to go to nominee and they are invited to join in stead / nominate a replacement team member.
 14. **Cap Size and Spawning** At formation, a cap size is determined and as the org approaches half it's limit, it starts to think of spawning another org. Idea is to keep spawning orgs in this same shared-by-all model rather than grow to a massive size. 
 
-<p class="speakable">For Trainers and Consultants not part of  a space / group</p>
+<a name="individuals"></a>
+# Individuals who Charge
+
+<p class="speakable start-expanded">For Trainers and Consultants not part of  a space / group</p>
+
 1. A Consultant is equipped by us to conduct a class, program or training.
 2. A one time fee is charged by Imran, Yield More or any of his asssigns for access to the material, training and expert pool.
 3. The person is free to set their charges and be affiliated to seniors / organizations.

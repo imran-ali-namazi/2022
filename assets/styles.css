@@ -75,9 +75,13 @@ p.answer { font-size: 80%; margin-left: 15px; border-left: #999 solid 4px; paddi
 }
 
 .above-header-content { margin: 150px 0 0 0;  }
+.sticky { position: sticky; top: 150px; }
 @media screen and (max-width: 994px) { /* responsive snap */
 	.above-header-content { margin: 70px 0 0 0; }
+	.sticky { top: 70px; }
 }
+ul.sticky li { display: inline-block; margin: 0 10px 10px 0; }
+ul.sticky { padding: 5px 5px 5px 15px; background-color: #eec; border-bottom: 3px ridge maroon; }
 
 .video-bgd { background-color: #000; }
 /* https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */

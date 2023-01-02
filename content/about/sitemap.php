@@ -12,12 +12,6 @@ foreach (am_var('pages') as $slug => $item) {
 ?>
 </ol>
 
-<?php $courseUrl = am_var('courseUrl'); ?>
-<p class="speakable start-expanded">Courses on this website</p>
-<ol>
-	<?php foreach(am_var('course-pages') as $slug => $item) if ($slug != 'index') echo sprintf('<li><a href="%s" target="_blank">%s</a><p>%s</p></li>' . am_var('nl'), $courseUrl . urlize($slug) . '/', $item['title'], $item['description']);; ?>
-</ol>
-
 <h2>Websites over the years</h2>
 <ol>
 	<li><a class="btn-large" href="https://legacy.yieldmore.org/sitemap/" target="_blank">Legacy Site - Sitemap</a><br /><br /></li>
