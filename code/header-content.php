@@ -1,6 +1,7 @@
 <?php
 $pageName = am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node');
 if ($pageName == 'index') $pageName = 'words';
+
 if (array_search($pageName, [
 		//portrait + horizontal resolution based banners
 		'alliances',
@@ -10,6 +11,9 @@ if (array_search($pageName, [
 		'sunlight',
 		'spirit',
 		'words',
+		//groups
+		'imaginative-communities',
+		'intimate-gatherings',
 	]) !== false) { ?>
 	<div>
 		<img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>-portrait.jpg" class="img-fluid show-in-portrait" />
@@ -34,6 +38,10 @@ if (array_search($pageName, [
 		'spaces',
 		'sri-bagavath',
 		'words',
+		//sunlight
+		'attitude',
+		'gearing-up',
+		'organizational-excellence',
 	]) !== false) { ?>
 	<div><img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>.jpg" class="img-fluid" /></div>
 <hr />

@@ -20,7 +20,7 @@
 	} else {
 		recursive_menu(get_sheet('sitemap'), 'menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
 		if (am_var('section') == 'programs/') { ?><li class="drop-down"><a href="<?php echo am_var('url') . am_var('node') . '/' ;?>" style="background-color: yellow;"><?php echo humanize(am_var('node')); ?></a>
-			<?php recursive_menu(get_sheet('sitemap'), am_var('node'), 1); }
+			<?php recursive_menu(get_sheet('sitemap'), am_var('node'), 1, ['section-prefix' => true]); }
 	} ?>
 	</li>
 	<li>|</li>
