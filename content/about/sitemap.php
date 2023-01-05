@@ -7,7 +7,7 @@ foreach (am_var('pages') as $slug => $item) {
 	if (is_string($item))
 		echo sprintf('<a name="%s"></a><h3>Section: %s</h3>' . am_var('nl'), $item, humanize($item));
 	else
-		echo sprintf('<li><a href="%s/">%s</a> - %s</li>' . am_var('nl'), am_var('url') . $slug, $item['title'], $item['description']);
+		echo sprintf('<li><a href="%s">%s</a> - %s</li>' . am_var('nl'), am_var('url') . $item['url'], $item['title'], $item['description']);
 }
 ?>
 </ol>

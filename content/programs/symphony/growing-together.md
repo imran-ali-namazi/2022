@@ -3,6 +3,7 @@
 	<li><a href="#spaces">Spaces</a></li>
 	<li><a href="#team">Teams</a></li>
 	<li><a href="#individuals">Individuals</a></li>
+	<li><a href="#money">Money and it's Possibilities</a></li>
 </ul>
 
 Here we define the **DNA / Growing Together** Model whose spirit guides all our money decisions.
@@ -71,3 +72,17 @@ Here we define the **DNA / Growing Together** Model whose spirit guides all our 
 2. A one time fee is charged by Imran, Yield More or any of his asssigns for access to the material, training and expert pool.
 3. The person is free to set their charges and be affiliated to seniors / organizations.
 4. Comissions are kept low. 20% to Imran or Yield More and 20% to the organization (if there is one)
+
+----
+
+<a name="money"></a>
+
+# Money Making Possibilities
+
+Facilitator Charges 1000 - 20% to Company, 20% to Imran.
+
+1. [Children - Training](https://yieldmore.org/children/) - N teachers doing 20 classes a month at 2000 per class => 8k per month per teacher
+2. [Spaces - Consulting](https://yieldmore.org/spaces/) - N spaces doing 6000 (6 x 1000) per day. 20 working days x 1200. same 20/20 => 2.4 lakhs per month per space
+3. [Work - Course](https://courses.yieldmore.org/professional/) - 8000 per day / 5k per person in team. .2 * 8k = 1.6k. 10 consults per month => 1.6 lakhs per 10 consults
+4. [Trainer Training](https://yieldmore.org/) - 1000 per month subscription + 40% when using it for training / facilitating. 200 per class x 10 class. 2000 per trainer => numbers keep growing
+5. [Amadeus Consulting](https://amadeusweb.com/) (only to Life's Missions) - 25 to 50k per website. 10 / 20k per website. Avg 60k per 4 websites 20% => 12k

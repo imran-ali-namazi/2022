@@ -11,11 +11,14 @@ function setup_pages() {
 	$pages = [];
 	foreach ($sheet->rows as $row) {
 		$slug = strip_hyphens(urlize($row[$sheet->columns['name']]));
+		$section = $row[$sheet->columns['section']];
+		$url = ($section != 'menu' && $section != 'menu' && $section != 'blank' ? $section . '/' : '') . $slug . '/';
 		$pages[$slug] = [
 			'title' => $row[$sheet->columns['title']],
 			'description' => $row[$sheet->columns['description']],
 			'video' => $row[$sheet->columns['video']],
-			'section' => $row[$sheet->columns['section']],
+			'section' => $section,
+			'url' => urlize($url),
 		];
 	}
 	am_var('pages', $pages);
