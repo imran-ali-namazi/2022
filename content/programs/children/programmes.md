@@ -3,7 +3,7 @@
 
 1. The teacher or facilitator chooses music that speaks of different themes which they would like to introduce the class to. This may include inspiration, philosophic, tales of war and peace, themes of everyday living, global awareness, cultures from other places, exemplary art and musical talent, popular culture etc.
 2. The children are asked to close their eyes and let the music and words tickle their imagination. The song may be played a second time.
-3. A few minutes is given to absorb the experience and reflect on the feelings. Then the children are asked to write notes for upto 5 minutes.
+3. A few minutes is given to absorb the experience and reflect on the feelings. The children are asked to write a few lines that may come to mind spontaneously.
 4. The Teacher then asks for feelings had and parts of the song which the children could relate to.
 5. A discussion evolves then the children are asked to make (as lengthy as possible) essays out of it.
 6. Once this is done, the teacher leads the discussion into the topics they may have had in mind when selecting the song.
@@ -20,11 +20,29 @@
 ----
 
 <a name="expression"></a>
-<p class="speakable">#2 Creative Expression Program</p>
+<p class="speakable">#2 Creative Expression</p>
 
-<p class="speakable">#2b Notes on Creative Expression Program</p>
+1. First outlined in 2020, CX believes in the triad - Classroom Comfort and Encouragement | Exploring Viewpoints and Discussion | Higher Order Thinking.
+2. To facilitate this, we use Stimulating Music and Audio Programs | Child planned activities, and encourage additions to their Routine and Journaling.
+3. Children are exposed to various forms of music, writing and art, from the world, our network, the teacher’s selection and even from the teacher's own writing. The last 2 make it a lot more relatable with the students.
+4. Children are requested to write on their own, feeling inspired by all that the teacher has presented in that class. Teachers give feedback as they finish their writing and help make their thoughts flow when they get stuck.
+5. Additionally a “topic for writing” may have been chosen beforehand - this may vary from class to class.
+6. In the spirit of ENTHEOS, devotional prayers may feature in these classes, especially that it gives students an opportunity to articulate and discuss their various faiths.
+7. To form healthy [worldviews](https://noetic.org/experience/worldview-explorations/).
+
+
+<p class="speakable">#2b Notes on Creative Expression</p>
 
 1. Initiated in 2022 and developed as a parallel program to CBE, [Creative Expression](https://archives.yieldmore.org/creative-expression/) starts with writing but could go on to so many activities and hobbies.
+
+<a class="btn-large" href="https://docs.google.com/document/d/1Re-K9o0Yu_P_NN-Cy9mB4JfW8lX2MFyauPojYaEbQIc/edit?usp=sharing">Creative Expression (English) - 2022, Imran</a>.<br /><br />
+
+----
+
+<a name="love"></a>
+<p class="speakable">#3 Labours of Love</p>
+
+https://love.yieldmore.org/
 
 ----
 
@@ -60,5 +78,4 @@
 <a name="curriculum"></a>
 <p class="speakable">Curriculum</p>
 
-2. <a class="btn-large" href="https://docs.google.com/document/d/1Re-K9o0Yu_P_NN-Cy9mB4JfW8lX2MFyauPojYaEbQIc/edit?usp=sharing">Creative Expression (English) - 2022, Imran</a>.<br /><br />
 3. <a class="btn-large" href="https://docs.google.com/document/d/1oyaoqUtlghtTnFkkXTQjkCIVWm7reNxrT-EszuNPQRM/edit?usp=sharing">Social Awareness (English) - 2022, Team PACT</a>.

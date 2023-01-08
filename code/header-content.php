@@ -14,6 +14,15 @@ if (array_search($pageName, [
 		//groups
 		'imaginative-communities',
 		'intimate-gatherings',
+		'children',
+			'why-and-how',
+			'new-age-education',
+			'collective-parenting',
+			'healing-apprentices',
+			'programmes',
+			'the-good-generation',
+			'in-tamil',
+			'programmes',
 	]) !== false) { ?>
 	<div>
 		<img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>-portrait.jpg" class="img-fluid show-in-portrait" />
@@ -45,7 +54,7 @@ if (array_search($pageName, [
 	]) !== false) { ?>
 	<div><img src="<?php echo am_var('url');?>assets/pages/<?php echo $pageName;?>.jpg" class="img-fluid" /></div>
 <hr />
-<?php } else if (am_var('node') == 'children' && am_var('page_parameter1') == false) { ?>
+<?php } if (am_var('node') == 'children' && am_var('page_parameter1') == false) { ?>
 <div id="slideshow11">
 	<div><img src="../assets/pages/yieldmore-children1.jpg" class="img-fluid" /></div>
 	<div><img src="../assets/pages/yieldmore-children2.jpg" class="img-fluid" /></div>
