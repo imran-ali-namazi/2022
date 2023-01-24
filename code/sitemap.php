@@ -6,6 +6,13 @@ am_var('sections', $var_sections);
 
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
+am_var('programmes', [
+	'children' => 'Sophia',
+	'groups' => 'Swabhava',
+	'healing' => 'Serenity',
+	'work' => 'Sunlight',
+]);
+
 function setup_pages() {
 	$sheet = get_sheet('sitemap');
 	$pages = [];
