@@ -10,6 +10,9 @@ recursive_menu(
 		'visible' => function($item, $cols) {
 			return $item[$cols['section']] == 'menu' || $item[$cols['audience']];
 		},
+		'url-prefix' => function($item, $cols) {
+			return $item[$cols['section']] == 'menu' ? '' : $item[$cols['section']] . '/';
+		},
 		'prefix' => function($item, $cols) {
 			if ($item[$cols['section']] == 'menu') return '<hr />';
 			return '<u>' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . '</u>: ';

@@ -8,7 +8,7 @@ am_var('footer-message', 'Connect people, share ideas, create a platform for col
 
 am_var('programmes', [
 	'children' => 'Sophia',
-	'groups' => 'Swabhava',
+	'groups' => 'Symphony',
 	'healing' => 'Serenity',
 	'work' => 'Sunlight',
 ]);
