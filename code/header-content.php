@@ -1,6 +1,6 @@
 <?php
 $pageName = am_var('page_parameter1') ? am_var('page_parameter1') : am_var('node');
-if ($pageName == 'index') $pageName = 'words';
+if ($pageName == 'index') $pageName = 'growing-together';
 
 if (array_search($pageName, [
 		//portrait + horizontal resolution based banners
@@ -36,6 +36,7 @@ if (array_search($pageName, [
 		'earth',
 		'enabler',
 		'eric',
+		'growing-together',
 		'help',
 		'imran',
 		'interact',
