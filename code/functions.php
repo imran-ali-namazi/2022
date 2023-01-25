@@ -118,18 +118,24 @@ function before_render() {
 	am_var('description', humanize(am_var('node'), 'description'));
 
 
-	$fol = am_var('path') . '/content/programs/' . am_var('node') . '/';
-	$fol2 = am_var('path') . '/content/ideas/';
+	$fols = [
+		am_var('path') . '/content/programs/' . am_var('node') . '/',
+	];
+
+	if (am_var('node') == 'ideas')
+		$fols[] = am_var('path') . '/content/ideas/';
+
 	$node = (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
-	$program = $fol . $node;
-	if (file_exists($program) || file_exists($program = $fol2 . $node)) {
-		am_var('fol', $fol);
-		am_var('section', 'programs/');
-		am_var('file', $program);
-		$deck = $fol . 'decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
-		if (file_exists($deck))
-			am_var('deck-url', am_var('url') . 'present/programs/' . am_var('node') . '/decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '/embed/');
-		return;
+	foreach ($fols as $fol) {
+		if (file_exists($program = $fol . $node)) {
+			am_var('fol', $fol);
+			am_var('section', 'programs/');
+			am_var('file', $program);
+			$deck = $fol . 'decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
+			if (file_exists($deck))
+				am_var('deck-url', am_var('url') . 'present/programs/' . am_var('node') . '/decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '/embed/');
+			return;
+		}
 	}
 
 	foreach (am_var('sections') as $slug) {
