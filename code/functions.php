@@ -119,17 +119,19 @@ function before_render() {
 
 
 	$fols = [
-		am_var('path') . '/content/programs/' . am_var('node') . '/',
+		'programs' => am_var('path') . '/content/programs/' . am_var('node') . '/',
+		'projects' => am_var('path') . '/content/projects/' . am_var('node') . '/',
+		'teams' => am_var('path') . '/content/teams/' . am_var('node') . '/',
 	];
 
 	if (am_var('node') == 'ideas')
-		$fols[] = am_var('path') . '/content/ideas/';
+		$fols['ideas'] = am_var('path') . '/content/ideas/';
 
 	$node = (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
-	foreach ($fols as $fol) {
+	foreach ($fols as $slug => $fol) {
 		if (file_exists($program = $fol . $node)) {
 			am_var('fol', $fol);
-			am_var('section', 'programs/');
+			am_var('section', $slug . '/');
 			am_var('file', $program);
 			$deck = $fol . 'decks/' . (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
 			if (file_exists($deck))

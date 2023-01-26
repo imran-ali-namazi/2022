@@ -1,6 +1,4 @@
-<a class="btn-large" href="../assets/resources/yieldmore-tarangini-invitation-flyer.pdf">Invitation to Tarangini Center, Kotagiri</a>
-
-<iframe style="width: 100%; height: 85vh;" src="../assets/resources/yieldmore-tarangini-invitation-flyer.pdf"></iframe>
+In time we will inhabit a space in Kotagiri with the following design
 
 # Material
 
