@@ -23,6 +23,25 @@ body { cursor: default; }
 #pre-content p.speakable { text-align: center; background-color: var(--amw-hf-heading-bgd);  font-weight: bold; }
 #pre-content p.description { font-size: 90%; margin-top: 6px; }
 
+:root {
+	--programme1: #fcc;
+	--programme2: #ccF;
+	--programme3: #cfc;
+	--programme4: #ffc;
+}
+
+#content .level-1-menu, #content .level-1-menu ul { margin: 0; padding: 0; list-style-type: none; }
+#content .level-1-menu > li { margin-top: 25px; }
+#content .level-2-menu > li { border-top: 4px ridge #666; list-style-type: decimal; margin: 0 0 10px 35px; }
+#content .level-2-menu > li > blockquote { margin: 0 5px 0 0; border: 2px solid #333; }
+
+.why-head { padding: 10px; display: block; }
+.why-text { background-color: #eee; }
+#content .level-1-menu > li:nth-child(1) { background-color: var(--programme1); }
+#content .level-1-menu > li:nth-child(2) { background-color: var(--programme2); }
+#content .level-1-menu > li:nth-child(3) { background-color: var(--programme3); }
+#content .level-1-menu > li:nth-child(4) { background-color: var(--programme4); }
+
 #hero .container { opacity: .7; background-color: #C3D7E7; padding: 15px!important; }
 #hero.custom-image-background {
   background: url('mixed/intimate-gatherings-invocation-niggles-mountains-by-maria.jpg') top right;

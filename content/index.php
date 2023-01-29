@@ -2,6 +2,8 @@
 
 <?php
 
+renderFile(__DIR__ . '/_headers/2023.md');
+
 recursive_menu(
 	get_sheet('sitemap'),
 	'menu',
@@ -14,17 +16,17 @@ recursive_menu(
 			return $item[$cols['section']] == 'menu' ? '' : $item[$cols['section']] . '/';
 		},
 		'prefix' => function($item, $cols) {
-			if ($item[$cols['section']] == 'menu') return '<hr />';
-			return '<u>' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . '</u>: ';
+			if ($item[$cols['section']] == 'menu') return '<span class="why-head">';
+			return 'For: <u style="margin-right: 15px;">' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . ':</u> ';
 		},
 		'suffix' => function($item, $cols) {
-			if ($item[$cols['section']] == 'menu') return '';
+			if ($item[$cols['section']] == 'menu') return '</span>';
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
 			$programmes = am_var('programmes');
 			$programme = isset($programmes[$section]) ? $programmes[$section] : 'XYZ';
 			$why = str_replace('%programme%', $programme, $why);
-			return '<br /><blockquote class="why">' . $why . '</blockquote>';
+			return '<br /><blockquote class="why-text">' . $why . '</blockquote>';
 		},
 	]
 );
