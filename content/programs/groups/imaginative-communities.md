@@ -9,15 +9,23 @@
 
 ----
 
-# Prelude: General Introduction (5 minutes)
+# General Introduction (5 minutes)
 
-What is a community? What are some purposes of communities? What makes a community great? What makes a community unsatisfying? Quickly understand that some are communities we are born into and some are of choice.
+This workshop is gonna be about communities. So we will be asking and accepting questions along the following lines.
+
+> The mantra for this workshop is to encourage people to think as imaginatively about communities as possible. Hence, keep thinking **What behaviours and action will improve communities**.
+
+* What is a community?
+* What are some purposes of communities?
+* What makes a community great?
+* What makes a community unsatisfying?
+* Quickly understand that some are communities we are born into and some are of choice.
+
+<!--imran to elaborate-->
 
 > Pause for people to think, and take responses.
 
-> <u>Facilitators' Request</u>: During the two thinking exercises, if participants would each send in a single word that occurs to them or that they are dwelling on, [Imran](https://imran.yieldmore.org/about-imran/) would be honoured to stitch them all into a poem to commemorate the event.
-
-> Our mantra for this workshop is to encourage people to think as imaginatively about communities as possible. Hence, keep thinking **What behaviours will improve communities**.
+> <u>Facilitators' Request</u>: Anytime during the workshop, if would each sent in a single word, I [Imran](https://imran.yieldmore.org/about-imran/) would be honoured to stitch them all into a poem to commemorate the event. Just say: "for Poem: [word]"
 
 <p class="speakable">1 Welcome and Tone-setting</p>
 
@@ -42,9 +50,9 @@ What is a community? What are some purposes of communities? What makes a communi
 
 ----
 
-# Round 1: Communities we do and do not belong to
+# Round 1: Communities we do belong to and what communities we do not belong to (Present and Past).
 
-[TODO: introduction]
+<!--introduction-->
 
 ## Round 1a: Examples (5 minutes)
 
@@ -101,13 +109,13 @@ All of these communities are not always in harmony... Wonder why?
 Discussion. Sharing.
 
 
-# Round 2: Communities we'd like to create or improve
+# Round 2: Communities we'd like to create or improve (Future)
 
-[TODO: introduction]
+<!--introduction-->
 
 ## Round 2a: Our Need and Demand (5 minutes)
 
-> OBJECTIVE: What new communities would we lend our support to. How could existing one's learn from them. Can groups of rgoups and a new way of working help cross pollinate the ones we belong to, and in the grand scheme of Mother Nature's plans, what new communities would we form.?
+> OBJECTIVE: What new communities would we lend our support to. How could existing one's learn from them. Can groups of communities with a new way of working and interacting help cross pollinate the ones we belong to. In the grand scheme of Mother Nature's plans, what new communities would we form?
 
 ----
 
