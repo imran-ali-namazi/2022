@@ -35,7 +35,8 @@ body { cursor: default; }
 #content .level-2-menu > li { border-top: 4px ridge #666; list-style-type: decimal; margin: 0 0 10px 35px; }
 #content .level-2-menu > li > blockquote { margin: 0 5px 0 0; border: 2px solid #333; }
 
-.why-head { padding: 10px; display: block; }
+.why-head, .why-name { padding: 10px; display: block; }
+.why-name { margin-left: 30px; }
 .why-text { background-color: #eee; }
 #content .level-1-menu > li:nth-child(1) { background-color: var(--programme1); }
 #content .level-1-menu > li:nth-child(2) { background-color: var(--programme2); }

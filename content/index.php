@@ -16,16 +16,30 @@ recursive_menu(
 			return $item[$cols['section']] == 'menu' ? '' : $item[$cols['section']] . '/';
 		},
 		'prefix' => function($item, $cols) {
-			if ($item[$cols['section']] == 'menu') return '<span class="why-head">';
-			return 'For: <u style="margin-right: 15px;">' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . ':</u> ';
+			if ($item[$cols['section']] !== 'menu')
+				return 'For: <u style="margin-right: 15px;">' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . ':</u> ';
+
+			$nameLC = urlize($item[$cols['name']]);
+			$name = humanize($nameLC, 'no-site');
+
+			$programmes = am_var('programmes');
+			if (!isset($programmes[$nameLC])) die('Programme: ' . $nameLC . ' not defined in code/sitemap.php');
+			$programme = $programmes[$nameLC];
+
+			$form = sprintf('<a href="%s">help us by submitting this form</a>', 'https://youtube.com/#' . $programme['video']);
+			$video = sprintf('<iframe src="%s"></iframe>', 'https://youtube.com/#' . $programme['video']);
+			$toggleIdeas = ' | <a class="toggle-ideas" href="javascript:;">show ideas</a>';
+
+			return '<span class="why-name"><strong>' . renderFile($name . '</strong>: '. $form . $toggleIdeas, [], false) . $video . '</span><br /><span class="why-head">';
 		},
 		'suffix' => function($item, $cols) {
 			if ($item[$cols['section']] == 'menu') return '</span>';
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
 			$programmes = am_var('programmes');
-			$programme = isset($programmes[$section]) ? $programmes[$section] : 'XYZ';
-			$why = str_replace('%programme%', $programme, $why);
+			if (!isset($programmes[$section])) die('Programme' . $section . ' not defined in code/sitemap.php');
+			$programme = $programmes[$section];
+			$why = str_replace('%programme%', $programme['name'], $why);
 			return '<br /><blockquote class="why-text">' . $why . '</blockquote>';
 		},
 	]

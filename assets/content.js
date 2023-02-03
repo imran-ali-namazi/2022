@@ -11,6 +11,19 @@ $(document).ready(function() {
 });
 
 
+//toggle ideas - recursive menu on YM home page
+$(document).ready(function() {
+	var togglers = $('.toggle-ideas');
+	if (togglers.length == 0) return;
+	togglers.click(toggleIdea).trigger('click');
+	function toggleIdea() {
+		var list = $(this).parent().parent().next().next().next('ul');
+		var show = list.toggle().is(':visible');
+		$(this).text(show ? 'hide ideas' : 'show ideas');
+	}
+});
+
+
 //engage and fill
 $(document).ready(function() {
 	var div = $('.engage');
