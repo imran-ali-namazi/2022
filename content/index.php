@@ -26,14 +26,14 @@ recursive_menu(
 			if (!isset($programmes[$nameLC])) die('Programme: ' . $nameLC . ' not defined in code/sitemap.php');
 			$programme = $programmes[$nameLC];
 
-			$form = sprintf('<a href="%s">help us by submitting this form</a>', 'https://youtube.com/#' . $programme['video']);
-			$video = sprintf('<iframe src="%s"></iframe>', 'https://youtube.com/#' . $programme['video']);
-			$toggleIdeas = ' | <a class="toggle-ideas" href="javascript:;">show ideas</a>';
+			$form = sprintf('<a href="%s">help us by submitting this form</a>', '#' . $programme['form']);
+			$video = sprintf('<div class="video-container"><iframe src="%s"></iframe></div>', 'https://www.youtube.com/embed/' . $programme['video']);
 
-			return '<span class="why-name"><strong>' . renderFile($name . '</strong>: '. $form . $toggleIdeas, [], false) . $video . '</span><br /><span class="why-head">';
+			return '<span class="why-name"><strong>' . renderFile($name . '</strong>: '. $form, [], false) . $video . '</span><span class="why-head">';
 		},
 		'suffix' => function($item, $cols) {
-			if ($item[$cols['section']] == 'menu') return '</span>';
+			$toggleIdeas = ' | <a class="toggle-ideas" href="javascript:;">show ideas</a>';
+			if ($item[$cols['section']] == 'menu') return $toggleIdeas . '</span>';
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
 			$programmes = am_var('programmes');

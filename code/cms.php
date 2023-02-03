@@ -8,7 +8,7 @@ bootstrap([
 	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '17b', 'date' => '29 Jan 2023' ],
+	'version' => [ 'id' => '17d', 'date' => '29 Jan 2023' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,

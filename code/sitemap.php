@@ -7,10 +7,10 @@ am_var('sections', $var_sections);
 am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
 
 am_var('programmes', [
-	'children' => ['name' => 'Sophia', 'form' =>'#c', 'video' => 'c'],
-	'groups' => ['name' => 'Symphony', 'form' =>'#g', 'video' => 'g'],
-	'healing' => ['name' => 'Serenity', 'form' =>'#h', 'video' => 'h'],
-	'work' => ['name' => 'Sunlight', 'form' =>'#w', 'video' => 'w'],
+	'children' => ['name' => 'Sophia', 'form' =>'c', 'video' => 'OG_pE7d8dj8'],
+	'groups' => ['name' => 'Symphony', 'form' =>'g', 'video' => 'SFLytWs4OKc'],
+	'healing' => ['name' => 'Serenity', 'form' =>'h', 'video' => 'MWAK3K7A6_Y'],
+	'work' => ['name' => 'Sunlight', 'form' =>'w', 'video' => 'Qu4HxrmZExg'],
 ]);
 
 function setup_pages() {

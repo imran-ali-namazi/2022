@@ -17,7 +17,7 @@ $(document).ready(function() {
 	if (togglers.length == 0) return;
 	togglers.click(toggleIdea).trigger('click');
 	function toggleIdea() {
-		var list = $(this).parent().parent().next().next().next('ul');
+		var list = $(this).parent().next('ul');
 		var show = list.toggle().is(':visible');
 		$(this).text(show ? 'hide ideas' : 'show ideas');
 	}
