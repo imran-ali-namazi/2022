@@ -120,7 +120,6 @@ function before_render() {
 
 	$fols = [
 		'programs' => am_var('path') . '/content/programs/' . am_var('node') . '/',
-		'projects' => am_var('path') . '/content/projects/' . am_var('node') . '/',
 		'teams' => am_var('path') . '/content/teams/' . am_var('node') . '/',
 	];
 
@@ -146,6 +145,7 @@ function before_render() {
 		if (file_exists($file)) {
 			am_var('fol', $path);
 			am_var('section', $slug);
+			am_var('simple-section', true);
 			am_var('file', $file);
 			break;
 		} else if (file_exists($file = $path . am_var('node') . '.php')) {
