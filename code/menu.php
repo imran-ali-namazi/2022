@@ -20,10 +20,10 @@
 	?>
 	<li class="drop-down"><a>More+</a></a>
 		<ul>
-			<?php  recursive_menu(get_sheet('sitemap'), 'menu2', 1, ['section-prefix' => true, 'home-link-to-section' => true, 'no-ul-al-level1' => true ]); ?>
+			<?php  //recursive_menu(get_sheet('sitemap'), 'menu2', 1, ['section-prefix' => true, 'home-link-to-section' => true, 'no-ul-al-level1' => true ]); ?>
+			<li><a href="<?php echo am_var('url');?>growing-together/"><strong>Growing Together</strong></a></li>
 			<li class="drop-down"><a>Network</a>
 				<ul>
-					<li><a href="<?php echo am_var('url');?>alliances/"><strong>Alliances</strong> between Organizationa</a></li>
 					<li><a href="<?php echo am_var('url');?>help/"><strong>Help</strong> by Kindly Acts</a></li>
 					<li><a href="https://love.yieldmore.org">Labours of <strong>Love</strong></a></li>
 					<li><hr /></li>
@@ -31,7 +31,7 @@
 				</ul>
 			</li>
 			<li class="drop-down"><a>About</a>
-				<?php menu('/content/about/', [ 'exclude-files' => ['execution'] ]); ?>
+				<?php menu('/content/about/'); ?>
 			</li>
 			<?php if (am_var('local')) { ?><li class="drop-down"><a>Private</a>
 				<?php menu('/content/private/'); ?>
