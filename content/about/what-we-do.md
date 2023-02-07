@@ -1,10 +1,10 @@
 # What We Provide
 
-Student Interactions which leave them motivated and charged
-Organized network of PTAs
-Training to Teachers and would be Facilitators
-Mentoring students while explore and develop skills their career would require
-Giving them the larger picture so they understand the ecosystem, their relation to it and their duty to it.
+* Student Interactions which leave them motivated and charged
+* Organized network of PTAs
+* Training to Teachers and would be Facilitators
+* Mentoring students while explore and develop skills their career would require
+* Giving them the larger picture so they understand the ecosystem, their relation to it and their duty to it.
 
 # Need for People Like Us
 YieldMore.org's Project Sophia for Children

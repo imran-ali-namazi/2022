@@ -43,7 +43,7 @@ Remember, as atheism and rationalism keep gaining ground, that, I believe, as sc
 
 ----
 
-# Unspoken Prayer by Shasa in 2017
+# Unspoken Prayer by Shasa (Imran) in Nov 2015
 
 Dear God, give man the fortitude to listen to the words of peace and love in his heart and not be swayed by the evil forces that abound in the world around him and incite him to commit acts against the very principles that his religion and beliefs are founded upon.
 Grant him the understanding that each man is free to choose his religion, that none is superior to the other, that each man understands the will of God according to his own nature and the truth of his being.
@@ -88,7 +88,7 @@ Two young boys lives were changed by the book ["Lila: An Enquiry into Morality"]
 
 "Morality, Idealism, Religion and Yoga: The meaning of Spirituality" is a [compilation by AS Dalal](https://www.sabda.in/catalog/bookinfo.php?websec=ENGC-AA-052) from the works of the Mother and Sri Aurobindo. A brilliant book that helps put things in perspective, it proclaims boldly on page 56 that "All Religions have helped Mankind".
 
-<img class="img-fluid" src="../assets/mixed/all-religions.jpg" />
+<img class="img-fluid" src="../../assets/mixed/all-religions.jpg" />
 
 # Renaissance in the Last Frontier
 
