@@ -1,4 +1,4 @@
-<img class="img-fluid" src="../assets/friends/vidzeal.jpg" />
+<img class="img-fluid" src="../../assets/friends/vidzeal.jpg" />
 
 There's the seed of a healer deep inside each one of us but before it can germinate, we need pain to **help break the seed**.
 
@@ -20,7 +20,7 @@ Visit [vidzeal.yieldmore.org/order/](https://vidzeal.yieldmore.org/order/) to se
 
 <img class="img-fluid" src="https://vidzeal.yieldmore.org/assets/home/hero1.jpg" />
 
-<img class="img-fluid" src="../assets/friends/vidzeal-catalogue.jpg" />
+<img class="img-fluid" src="../../assets/friends/vidzeal-catalogue.jpg" />
 
 Read about this wonderful woman here:
 

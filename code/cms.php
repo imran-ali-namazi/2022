@@ -6,7 +6,7 @@ include_once 'functions.php';
 bootstrap([
 	'name' => 'YieldMore.org',
 	'byline' => 'Have Enthusiasm, Touch Lives',
-	'safeName' => 'yieldmore',
+	'safeName' => 'yieldmore2',
 
 	'version' => [ 'id' => '17e', 'date' => '29 Jan 2023' ],
 
@@ -17,7 +17,7 @@ bootstrap([
 
 	'theme' => 'biz-land',
 	'uses' => 'custom-image-background',
-	'og:image' => '%url%assets/yieldmore-opengraph.jpg?fver=2',
+	'og:image' => '%url%assets/yieldmore2-opengraph.jpg?fver=2',
 	'image-in-logo' => '-rectangle.jpg',
 
 	'email' => 'team@yieldmore.org',
