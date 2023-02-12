@@ -1,5 +1,10 @@
 <?php
-section_menu('<div id="footer-section-menu" class="container">', '</div>');
+echo '<div id="footer-section-menu" class="container">';
+if (!section_menu()) {
+	echo '<h2>YM\'s Programmes and Sessions</h2>';
+	menu('/content/programs/', ['list-only-folders' => true]);
+}
+echo '</div>';
 
 if (am_var('node') == 'spirit')
 	echo file_get_contents(__DIR__ . '/imran-religious.html');

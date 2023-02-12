@@ -63,7 +63,7 @@ function after_file() {
 
 function section_menu($before = '', $after = '') {
 	$yes = (am_var('node') != 'index' && am_var('section') && !am_var('simple-section'));
-	if (!$yes) return;
+	if (!$yes) return false;
 
 	echo $before;
 	echo '<li class="drop-down"><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a>';
@@ -75,6 +75,7 @@ function section_menu($before = '', $after = '') {
 
 	echo '</li>';
 	echo $after;
+	return true;
 }
 
 function menu_speakables() {
