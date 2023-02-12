@@ -4,14 +4,7 @@
 		recursive_menu(get_sheet('sitemap'), 'menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
 	?>
 	</li>
-	<?php
-		if (am_var('node') != 'index' && am_var('section') && !am_var('simple-section')) { ?><li class="drop-down"><a href="<?php echo am_var('url') . am_var('node') . '/' ;?>" style="background-color: yellow;"><?php echo humanize(am_var('node')); ?></a>
-		<?php 
-		if (am_var('section') == 'teams/')
-			menu('/content/' . am_var('section') . '/' . am_var('node') . '/', ['parent-slug' => am_var('node') . '/']);
-		else
-			recursive_menu(get_sheet('sitemap'), am_var('node'), 1, ['section-prefix' => true]); }
-	?>
+	<?php section_menu(); ?>
 	<li class="drop-down"><a>About</a>
 		<?php menu('/content/about/'); ?>
 	</li>

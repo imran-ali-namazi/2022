@@ -39,6 +39,7 @@ if (array_search($pageName, [
 		'help',
 		'imran',
 		'interact',
+		'intimate-families',
 		'index',
 		'marketplace',
 		'model',

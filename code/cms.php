@@ -8,7 +8,7 @@ bootstrap([
 	'byline' => 'Have Enthusiasm, Touch Lives',
 	'safeName' => 'yieldmore2',
 
-	'version' => [ 'id' => '17e', 'date' => '29 Jan 2023' ],
+	'version' => [ 'id' => '18', 'date' => '12 Feb 2023' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -51,7 +51,7 @@ bootstrap([
 		'https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap',
 		'https://fonts.googleapis.com/css2?family=Pattaya&display=swap',
 	],
-	'scripts' => ['textToSpeech', 'groups', 'content'],
+	'scripts' => ['textToSpeech', 'content'],
 	'google-analytics' => 'UA-166048963-1',
 
 	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/', 'port') : 'https://yieldmore.org/',

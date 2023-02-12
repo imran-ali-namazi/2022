@@ -61,6 +61,22 @@ function after_file() {
 	echo '</div>';
 }
 
+function section_menu($before = '', $after = '') {
+	$yes = (am_var('node') != 'index' && am_var('section') && !am_var('simple-section'));
+	if (!$yes) return;
+
+	echo $before;
+	echo '<li class="drop-down"><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a>';
+
+	if (am_var('section') == 'teams/')
+		menu('/content/' . am_var('section') . '/' . am_var('node') . '/', ['parent-slug' => am_var('node') . '/']);
+	else
+		recursive_menu(get_sheet('sitemap'), am_var('node'), 1, ['section-prefix' => true]);
+
+	echo '</li>';
+	echo $after;
+}
+
 function menu_speakables() {
 	$pages = am_var('pages');
 	$possibilities = ['intimate-gatherings', 'growing-together', 'collective-parenting', 'sunlight-and-moonlight', 'imaginative-communities', 'work-and-cancer', 'tech-and-web'];
@@ -183,7 +199,6 @@ function did_render_page() {
 
 	return false;
 }
-
 function item_r($col, $item, $return = false) {
 	$cols = am_var('sectionColumns');
 

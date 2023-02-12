@@ -1,4 +1,6 @@
 <?php
+section_menu('<div id="footer-section-menu" class="container">', '</div>');
+
 if (am_var('node') == 'spirit')
 	echo file_get_contents(__DIR__ . '/imran-religious.html');
 ?>

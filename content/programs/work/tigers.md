@@ -41,7 +41,7 @@ As you plan level by level / department by department, use the team to identify 
 
 Don't forget to overlook help from people who can make suggestions but are bound with work that limits their involvement.
 
-## Process Information and Tools
+## Process, Information and Tools
 
 Remember, Process, Information and Tools are a key factor. And information is useless unless it can be put at the fingertips of the person who needs it.
 
@@ -126,4 +126,4 @@ This could be tools, painful process, environmental factors (including people) a
 	* Strategy
 	* Game Plan
 
-[Such were my thoughts 10 years ago, visit [WORK](../work/) to see it in action today.]
+[Such were my thoughts 10 years ago, visit [WORK](../) to see it in action today.]
