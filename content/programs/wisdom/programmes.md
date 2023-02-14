@@ -1,3 +1,6 @@
+(programs - 1 and 2)
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/EhEuC7OkL6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 # Implementation Possibilities
 
 1. Take sessions first for a subset of a class for those interested.
@@ -45,6 +48,11 @@
 1. Initiated in 2022 and developed as a parallel program to CBE, [Creative Expression](https://archives.yieldmore.org/creative-expression/) starts with writing but could go on to so many activities and hobbies.
 
 <a class="btn-large" href="https://docs.google.com/document/d/1Re-K9o0Yu_P_NN-Cy9mB4JfW8lX2MFyauPojYaEbQIc/edit?usp=sharing">Creative Expression - 2022, Imran</a>.<br /><br />
+
+----
+
+(all programs - 1 to 7)
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZAYvIMC-Mk0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 ----
 

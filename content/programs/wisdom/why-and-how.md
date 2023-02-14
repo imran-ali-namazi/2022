@@ -12,6 +12,8 @@
 
 Inspired by the Sanskrit Word "Rahasyam" for "Secret", We call this the "Life's Secrets for Children series of Programs".
 
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/FcTiaFrnNN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 <p class="speakable">Why another Educational Programme?</p>
 1. Not too many places offer structured emotional and social development for children. While we are certainly no experts in this field, rather a group of individuals with our children's best interests at heart.
 2. The [first program](#curation) deals with exploring the world through music and art and children beginning to identify themes of importance to themselves and their environment.

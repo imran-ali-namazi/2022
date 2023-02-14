@@ -1,4 +1,4 @@
-<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/PTIqjpkF5Ss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/aJlLb1Lrj9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 <?php
 
@@ -36,10 +36,6 @@ recursive_menu(
 			if ($item[$cols['section']] == 'menu') return $toggleIdeas . '</span>';
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
-			$programmes = am_var('programmes');
-			if (!isset($programmes[$section])) die('Programme' . $section . ' not defined in code/sitemap.php');
-			$programme = $programmes[$section];
-			$why = str_replace('%programme%', $programme['name'], $why);
 			return '<br /><blockquote class="why-text">' . $why . '</blockquote>';
 		},
 	]
