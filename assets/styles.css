@@ -71,7 +71,8 @@ ol.possibilities, ol.ideas, #pre-content ol { background-color: var(--amw-hf-hea
 blockquote a { background-color: #FFE792; padding: 4px 8px 4px 8px; font-weight: bold; border-radius: 10px }
 
 .hidden, a[name=speak] { display: none; }
-p.speakable, a.btn-large { border: teal solid; border-width: 1px 6px 1px 6px; padding: 8px; border-radius: 12px; cursor: pointer; background-color: #CAE8FF; }
+p.speakable, a.btn-large, span.btn-nota { border: teal solid; border-width: 1px 6px 1px 6px; padding: 8px; border-radius: 12px; cursor: pointer; background-color: #CAE8FF; }
+span.btn-nota { background-color: #DCACC0; cursor: default; }
 p.speakable:after, a.btn-large:after { content:'\21CA'; font-weight: 900; color: teal; }
 p.speakable:after { font-size: 130%; float: right; }
 a.btn-large:after { content: '\2197'; padding-left: 15px; }
