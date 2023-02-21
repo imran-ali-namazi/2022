@@ -5,7 +5,8 @@ include_once 'functions.php';
 
 bootstrap([
 	'name' => 'YieldMore.org',
-	'byline' => 'Have Enthusiasm, Touch Lives',
+	'byline' => 'Enrich Your Soul',
+	'footer-message' => 'there is more to you than you know... be ready to yield more!',
 	'safeName' => 'yieldmore2',
 
 	'version' => [ 'id' => '18', 'date' => '12 Feb 2023' ],

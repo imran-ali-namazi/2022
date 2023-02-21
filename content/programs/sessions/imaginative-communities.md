@@ -11,6 +11,8 @@
 
 # General Introduction (5 minutes)
 
+Good Morning, this is Imran - a programmer turning writer. I've created a website / web ideation space called yieldmore.org and am looking forward to the next phase of my career with more people interaction in it.
+
 This workshop is going to be about communities. So we will be asking and accepting questions along those lines.
 
 > The mantra for this workshop is to encourage people to think as imaginatively about communities as possible. Hence, keep thinking **what behaviours and action will improve communities**.
@@ -141,8 +143,6 @@ Discussion. Sharing.
 <!--introduction-->
 
 <p class="speakable">Round 2a: Topics, Individual Writing, 2 (5 minutes)</p>
-
-Please consider and write about the following
 
 1. What new communities would we lend our support to? Why
 2. How could existing one's learn from them (assuming the new formed one's are better).

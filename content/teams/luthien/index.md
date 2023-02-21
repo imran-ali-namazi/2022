@@ -1,1 +1,0 @@
-The Core Team of YieldMore, we are named after a character of JRR Tolkien.

@@ -4,8 +4,6 @@ if (am_var('local')) $var_sections[] = 'private'; //imrans private notes, exclud
 
 am_var('sections', $var_sections);
 
-am_var('footer-message', 'Connect people, share ideas, create a platform for collaboration and harmony.');
-
 am_var('programmes', [
 	'wisdom' => [ 'form' =>'c', 'video' => 'ZAYvIMC-Mk0'], //Sophia
 	'serve' => [ 'form' =>'g', 'video' => 'SFLytWs4OKc'], //Symphony
