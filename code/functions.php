@@ -69,9 +69,9 @@ function section_menu($before = '', $after = '') {
 	echo '<li class="drop-down"><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a>';
 
 	if (startsWith(am_var('section'), 'people'))
-		menu('/content/' . am_var('section') . '/' . am_var('node') . '/', ['parent-slug' => am_var('node') . '/']);
+		menu('/content/' . am_var('section') . '/' . am_var('node') . '/', ['parent-slug' => am_var('node') . '/', 'home-link-to-section' => true]);
 	else
-		recursive_menu(get_sheet('sitemap'), am_var('node'), 1, ['section-prefix' => true]);
+		recursive_menu(get_sheet('sitemap'), am_var('node'), 2, ['section-prefix' => true, 'home-link-to-section' => true]); //Needs 2 to show home
 
 	echo '</li>';
 	echo $after;
