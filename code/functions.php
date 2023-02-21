@@ -68,7 +68,7 @@ function section_menu($before = '', $after = '') {
 	echo $before;
 	echo '<li class="drop-down"><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a>';
 
-	if (am_var('section') == 'teams/')
+	if (startsWith(am_var('section'), 'people'))
 		menu('/content/' . am_var('section') . '/' . am_var('node') . '/', ['parent-slug' => am_var('node') . '/']);
 	else
 		recursive_menu(get_sheet('sitemap'), am_var('node'), 1, ['section-prefix' => true]);
@@ -137,11 +137,8 @@ function before_render() {
 
 	$fols = [
 		'programs' => am_var('path') . '/content/programs/' . am_var('node') . '/',
-		'teams' => am_var('path') . '/content/teams/' . am_var('node') . '/',
+		'people' => am_var('path') . '/content/people/' . am_var('node') . '/',
 	];
-
-	if (am_var('node') == 'ideas')
-		$fols['ideas'] = am_var('path') . '/content/ideas/';
 
 	$node = (am_var('page_parameter1') ? am_var('page_parameter1') : 'index') . '.md';
 	foreach ($fols as $slug => $fol) {
@@ -162,7 +159,8 @@ function before_render() {
 		if (file_exists($file)) {
 			am_var('fol', $path);
 			am_var('section', $slug);
-			am_var('simple-section', true);
+			$hasDirectory = is_dir($path . am_var('node'));
+			am_var('simple-section', !$hasDirectory);
 			am_var('file', $file);
 			break;
 		} else if (file_exists($file = $path . am_var('node') . '.php')) {

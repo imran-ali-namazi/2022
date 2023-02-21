@@ -26,19 +26,21 @@ bootstrap([
 	'address' => 'Devakalam,<br />Chennai, India',
 
 	'social' => [
-		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/YieldMoreOrg', 'name' => 'facebook: main group' ],
+		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
+		[ 'type' => 'facebook', 'link' => 'https://www.facebook.com/groups/yieldmore/', 'name' => 'facebook: main group' ],
+		/*
 		[ 'type' => 'workers-group', 'link' => 'https://drive.google.com/drive/folders/1sFhctiwBRnmTI-ctXI5kCkuChN3Ahs7z?usp=sharing', 'name' => 'praise for Imran and Team' ],
+		//[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
+		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
+		[ 'type' => 'github',  'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
+		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
+		*/
 		[ 'type' => 'email', 'link' => 'mailto:team@yieldmore.org', 'name' => 'Imran\'s Email' ],
 		[ 'type' => 'phone', 'link' => 'tel:+919841223313', 'name' => 'Imran\'s Mobile (India)' ],
-		//[ 'type' => 'workers-group', 'link' => 'https://us.yieldmore.org', 'name' => 'our community by tribe.so' ],
-		[ 'type' => 'group', 'link' => 'https://groups.io/g/yieldmore/topics', 'name' => 'Mailing List from groups.io' ],
-		[ 'type' => 'google-talk', 'link' => 'https://www.clubhouse.com/@imran_ym', 'name' => 'Clubhouse of Imran' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@YieldMore', 'name' => 'youtube: main channel love / new' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@FacesOfYieldMore', 'name' => 'youtube: faces / 2018 and 2019' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@ImranYieldsMore', 'name' => 'youtube: legacy / imran' ],
 		[ 'type' => 'linkedin','link' => 'https://www.linkedin.com/company/yieldmore/' ],
-		[ 'type' => 'github',  'link' => 'https://bitbucket.org/amadeusweb/yieldmore/', 'name' => 'bitbucket' ],
-		[ 'type' => 'spotify', 'link' => 'https://open.spotify.com/show/2jvWo6nVSLbcpJIIv35fcT' ],
 	],
 
 	'incubating' => [
