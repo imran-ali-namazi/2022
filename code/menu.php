@@ -9,7 +9,14 @@
 		<?php menu('/content/about/'); ?>
 	</li>
 	<li class="drop-down"><a>People</a>
-		<?php menu('/content/people/'); ?>
+		<?php $friends = ['eric', 'christine', 'ritu', 'srividya'];?>
+		<ul>
+			<?php menu('/content/people/', ['no-ul' => true, 'exclude-files' => $friends]); ?>
+			<li><hr /></li>
+			<li class="drop-down"><a>Friends</a>
+				<?php menu('/xyz', ['files' => $friends]); ?>
+			</li>
+		</ul>
 	</li>
 	<li class="drop-down"><a>More+</a></a>
 		<ul>
