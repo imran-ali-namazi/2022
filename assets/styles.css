@@ -7,6 +7,9 @@ body { cursor: default; }
 
 .header-bgd, .footer-bgd { background-color: var(--amw-hf-bgd); }
 .footer-message { font-size: 24px; text-align: center; font-weight: 900; }
+
+#topbar { height: 36pt!important; vertical-align: middle; }
+#topbar .social-links { font-size: 26pt; line-height: 30pt; }
 #footer-content .social-links { font-size: 40pt; text-align: center; }
 #footer-content .social-links a { text-decoration: none!important; }
 

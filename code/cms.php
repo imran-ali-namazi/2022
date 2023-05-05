@@ -9,7 +9,7 @@ bootstrap([
 	'footer-message' => 'there is more to you than you know... be ready to yield more!',
 	'safeName' => 'yieldmore2',
 
-	'version' => [ 'id' => '19', 'date' => '3 Apr 2023' ],
+	'version' => [ 'id' => '19b', 'date' => '3 Apr 2023' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
