@@ -2,8 +2,8 @@
 
 <i>Full Stack Developer & Solution Architect</i><br />specializing in .Net, Php and JS - from Chennai, India.<br />
 <a href="tel:+919841223313">+91-98412-23313</a> / <a target="_blank" href="mailto:team@yieldmore.org">team@yieldmore.org</a><br />
-Resume: <a href="https://yieldmore.org/imrans-resume/">yieldmore.org/imrans-resume/</a><br />
-<a class="btn btn-large" href="../imrans-profile/">Imran's Non Tech Profile</a>
+Resume: <a href="https://yieldmore.org/imran/resume/">yieldmore.org/imrans-resume/</a><br />
+<a class="btn btn-large" href="../profile/">Imran's Non Tech Profile</a>
 
 <div id="content" class="toc">
 	<h1>Personal Statement</h1>

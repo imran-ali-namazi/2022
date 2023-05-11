@@ -1,6 +1,6 @@
 <img src="https://archives.yieldmore.org/services/assets/ianamazi.jpg" width="200" style="float: right; padding: 4px; border: 1px solid grey; background-color: #fff; margin: 0 8px;" />
 
-Still a [decent programmer](../imrans-resume/) I have evolved the various ideas and programs of [YieldMore.org](../sitemap/) - built over 9 years and 5+ iterations and nearly  a 1000 pages if you include [my writing](https://imran.yieldmore.org/about-imran/).
+Still a [decent programmer](../resume/) I have evolved the various ideas and programs of [YieldMore.org](../../sitemap/) - built over 9 years and 5+ iterations and nearly  a 1000 pages if you include [my writing](https://imran.yieldmore.org/about-imran/).
 
 I also evolved the tech for these and many more websites using [Amadeus Web](https://amadeusweb.com/) which is a baseline for my web blogging and tech learning courses. No, I do not use wordpress anymore.
 
@@ -9,8 +9,8 @@ Today I am interested in
 * Encouraging youngsters to [express](https://imran.yieldmore.org/poems/category/children/) themselves and find their [unique swing](https://www.youtube.com/watch?v=git61nISYK8).
 * Watch as they [keep smiling](https://imran.yieldmore.org/keep-smiling/) and [face the world](https://www.youtube.com/watch?v=URwXr144hlI).
 * Explore abilities in [electronics and programming](https://love.yieldmore.org/teachers/imran/) as a means of [achieving something](https://legacy.yieldmore.org/books/beyond-man/25-auroville/) with the acquired skill.
-* Help the devising of [spaces](../groups/spaces/) and the trying of multiple modalities of [healing](../serenity/).
-* Propping upto 20 odd teams with a model of [Growing Together](../symphony/growing-together/).
+* Help the devising of [spaces](../../healing/spaces/) and the trying of multiple modalities of [healing](../../healing/).
+* Propping upto 20 odd teams with a model of [Growing Together](../../how/).
 
 From my experiences as a writer, I feel inspired to run my own workshops but need some support from a few co-facilitators and encouragement from the first batches of attendees.
 
