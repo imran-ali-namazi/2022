@@ -7,7 +7,7 @@ if (!section_menu()) {
 echo '</div>';
 
 if (am_var('node') == 'spirit')
-	echo file_get_contents(__DIR__ . '/imran-religious.html');
+	echo disk_file_get_contents(__DIR__ . '/imran-religious.html');
 ?>
 
 <div id="footer-content" class="footer-bgd" style="margin-top: 30px;">

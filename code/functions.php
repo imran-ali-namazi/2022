@@ -57,7 +57,7 @@ function before_file() {
 
 function after_file() {
 	if (am_var('embed')) return;
-	echo file_get_contents(SITEPATH . '/assets/speech-ui.html');
+	echo disk_file_get_contents(SITEPATH . '/assets/speech-ui.html');
 	echo '</div>';
 }
 
@@ -130,6 +130,13 @@ function before_render() {
 		return;
 	}
 
+	if (am_var('node') == 'blurbs') {
+		$blurbs = SITEPATH . '/blurbs/' . am_var('page_parameter1') . '.txt';
+		am_var('blurbs-file', $blurbs);
+		am_var('embed', true);
+		return;
+	}
+
 	if (am_var('node') == 'go') { include_once 'resources.php'; exit; }
 
 	am_var('description', humanize(am_var('node'), 'description'));
@@ -185,14 +192,19 @@ function did_render_page() {
 		return true;
 	}
 
+	if (am_var('blurbs-file')) {
+		load_amadeus_module('blurbs');
+		return true;
+	}
+
 	if ($section = am_var('section')) {
-		render_txt_or_md(am_var('file'));
+		renderFile(am_var('file'));
 		return true;
 	} else if (am_var('file')) {
-		include_once am_var('file');
+		disk_include_once(am_var('file'));
 		return true;
 	} else if (am_var('deck-listing')) {
-		include_once 'present.php';
+		disk_include_once(__DIR__ . '/present.php');
 		return true;
 	}
 
