@@ -1,7 +1,7 @@
 <ul class="nav-menu">
 	<li class="drop-down"><a>Programmes</a></a>
 	<?php 
-		recursive_menu(get_sheet('sitemap'), 'menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
+		recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
 	?>
 	</li>
 	<?php section_menu(); ?>

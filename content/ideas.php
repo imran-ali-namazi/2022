@@ -6,20 +6,17 @@ renderFile(__DIR__ . '/_headers/2023.md');
 
 recursive_menu(
 	get_sheet('sitemap'),
-	'menu',
+	'ideas-menu',
 	1,
 	[
 		'visible' => function($item, $cols) {
-			$ideas = ['wisdom', 'healing', 'work', 'serve', 'sessions'];
-			$nameLC = urlize($item[$cols['name']]);
-			$isIdea = array_search($nameLC, $ideas) !== false;
-			return $isIdea || $item[$cols['audience']];
+			return $item[$cols['section']] == 'ideas-menu' || $item[$cols['audience']];
 		},
 		'url-prefix' => function($item, $cols) {
-			return $item[$cols['section']] == 'menu' ? '' : $item[$cols['section']] . '/';
+			return $item[$cols['section']] == 'ideas-menu' ? '' : $item[$cols['section']] . '/';
 		},
 		'prefix' => function($item, $cols) {
-			if ($item[$cols['section']] !== 'menu')
+			if ($item[$cols['section']] !== 'ideas-menu')
 				return 'For: <u style="margin-right: 15px;">' . $item[$cols['audience']]  . ' / ' . $item[$cols['role']] . ':</u> ';
 
 			$nameLC = urlize($item[$cols['name']]);
@@ -36,7 +33,7 @@ recursive_menu(
 		},
 		'suffix' => function($item, $cols) {
 			$toggleIdeas = ' | <a class="toggle-ideas" href="javascript:;">hide ideas</a>';
-			if ($item[$cols['section']] == 'menu') return $toggleIdeas . '</span>';
+			if ($item[$cols['section']] == 'ideas-menu') return $toggleIdeas . '</span>';
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
 			return '<br /><blockquote class="why-text">' . $why . '</blockquote>';

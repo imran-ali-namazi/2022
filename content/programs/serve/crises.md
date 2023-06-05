@@ -20,7 +20,7 @@ First conceived as a "ticketing system" to manage aid efforts during lockdown 2,
 
 # Various Causes
 
-<img src="../assets/mixed/prevent-child-abuse.jpg" class="img-fluid" /><br />
+<img src="../../assets/mixed/prevent-child-abuse.jpg" class="img-fluid" /><br />
 
 <p class="speakable">Child Abuse - Awareness and Prevention*</p>
 1. There's all kinds of depraved and deranged out there and one of the most heinous of crimes is the sexual abuse of a child, which in some cases is repeated over years.
