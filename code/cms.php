@@ -49,12 +49,12 @@ bootstrap([
 		[ 'name' => 'Farmers\' Recipes', 'url' => $local ? replace_vars('http://localhost%port%/subsites/farmers/', 'port') : 'https://farmers.yieldmore.org/' ],
 	],
 
-	'styles' => ['styles',
+	'styles' => ['styles', 'iviewer',
 		'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min',
 		'https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap',
 		'https://fonts.googleapis.com/css2?family=Pattaya&display=swap',
 	],
-	'scripts' => ['textToSpeech', 'content'],
+	'scripts' => ['textToSpeech', 'content', 'iviewer'],
 	'google-analytics' => 'UA-166048963-1',
 
 	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/', 'port') : 'https://yieldmore.org/',

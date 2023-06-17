@@ -1,5 +1,5 @@
 <?php
-$var_sections = ['about', 'people', 'webring'];
+$var_sections = ['about', 'learn', 'people', 'webring'];
 if (am_var('local')) $var_sections[] = 'private'; //imrans private notes, excluded from FTPSync. Needs local to be defined before functions.php is included
 
 am_var('sections', $var_sections);

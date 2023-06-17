@@ -1,13 +1,18 @@
 <ul class="nav-menu">
-	<li class="drop-down"><a>Programmes</a></a>
+	<li class="drop-down"><a>Ideas</a></a>
 	<?php 
 		recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
 	?>
 	</li>
 	<?php section_menu(); ?>
-	<li class="drop-down"><a>About</a>
+	<li class="drop-down"><a>More</a>
 		<ul>
 			<li><a href="<?php echo am_var('url');?>ideas/">Ideas</a></li>
+			<li class="drop-down"><a>Learn</a>
+				<ul>
+					<?php menu('/content/learn/', ['no-ul' => true]); ?>
+				</ul>
+			</li>
 			<?php menu('/content/about/', ['no-ul' => true]); ?>
 			<li class="drop-down"><a>People</a>
 				<?php $friends = ['eric', 'christine', 'ritu', 'srividya'];?>
@@ -26,6 +31,7 @@
 			</li>
 		</ul>
 	</li>
+	<li><a href="<?php echo am_var('url');?>search/">Search</a></li>
 	<li><a href="<?php echo am_var('url');?>sitemap/">Sitemap</a></li>
 	<?php if (am_var('local')) { ?>
 	<li class="drop-down"><a>Private</a>

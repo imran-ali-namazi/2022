@@ -162,7 +162,8 @@ function before_render() {
 
 	foreach (am_var('sections') as $slug) {
 		$path = am_var('path') . '/content/' . $slug . '/';
-		$file = $path . am_var('node') . '.md';
+		$extension = $slug == 'learn' ? '.html' : '.md';
+		$file = $path . am_var('node') . $extension;
 		if (file_exists($file)) {
 			am_var('fol', $path);
 			am_var('section', $slug);
