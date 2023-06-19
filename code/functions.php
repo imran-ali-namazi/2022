@@ -23,8 +23,19 @@ function before_file() {
 	echo '    <div class="page-heading">' . am_var('nl');
 	//#1 - heading
 	$pages = am_var('pages');
-	
 	$pageName = strip_hyphens($pageNameWebSafe);
+
+	if (am_var('node') == 'community') {
+		$personName = humanize($pageNameWebSafe);
+		$people = get_sheet('community/directory', 'name');
+		am_var('community-people', $people);
+
+		$person = $people->sections[$personName][0];
+		am_var('community-person', $person);
+
+		$pages[$pageName] = [ 'title' => item_r('name', $person, true), 'description' => item_r('heading', $person, true) ];
+	}
+
 	$page = isset($pages[$pageName]) ? $pages[$pageName] : [ 'title' => ucwords($pageName), 'description' => '...Description...' ];
 
 	if (am_var('section') == 'programs/' && am_var('page_parameter1')) echo '<h3><a href="' . am_var('url') . am_var('node') . '/" style="background-color: yellow;">' . humanize(am_var('node')) . '</a></h3>';
@@ -211,6 +222,7 @@ function did_render_page() {
 
 	return false;
 }
+
 function item_r($col, $item, $return = false) {
 	$cols = am_var('sectionColumns');
 
@@ -220,6 +232,10 @@ function item_r($col, $item, $return = false) {
 	$r = simplify_encoding($r);
 	$r = replace_vars($r);
 	$r = str_replace('<a href', '<a target="_blank" href', $r);
+
+	if ($col == 'introduction')
+		$r = markdown($r);
+
 	if ($return) return $r;
 
 	echo $r;

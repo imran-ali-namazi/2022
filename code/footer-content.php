@@ -1,13 +1,24 @@
 <?php
 echo '<div id="footer-section-menu" class="container">';
-if (!section_menu()) {
+
+if ($people = am_var('community-people')) {
+	am_var('sectionColumns', $people->columns);
+	echo renderFile('<h2><a href="%url%community">YM Community</a></h2><ul>');
+	foreach ($people->rows as $person) {
+		am_var('community-person', $person);
+		if (info('name') == 'Community') continue;
+		echo '<li><a href="' . am_var('page-url') . 'community/' . urlize(info('name')) . '/">' . info('name') . '</a></li>';
+
+	}
+	echo '</ul>';
+} else if (!section_menu()) {
 	echo '<h2>YM\'s Programmes and Sessions</h2>';
 	menu('/content/programs/', ['list-only-folders' => true]);
 }
 echo '</div>';
 
-if (am_var('node') == 'spirit')
-	echo disk_file_get_contents(__DIR__ . '/imran-religious.html');
+if (am_var('page_parameter1') == 'on-religion')
+	echo '<hr />' . disk_file_get_contents(__DIR__ . '/imran-religious.html');
 ?>
 
 <div id="footer-content" class="footer-bgd" style="margin-top: 30px;">

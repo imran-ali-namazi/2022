@@ -1,4 +1,5 @@
 <ul class="nav-menu">
+	<li><a href="<?php echo am_var('url');?>community/">Community</a></li>
 	<li class="drop-down"><a>Ideas</a></a>
 	<?php 
 		recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
