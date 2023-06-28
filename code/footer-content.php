@@ -7,7 +7,7 @@ if ($people = am_var('community-people')) {
 	foreach ($people->rows as $person) {
 		am_var('community-person', $person);
 		if (info('name') == 'Community') continue;
-		echo '<li><a href="' . am_var('page-url') . 'community/' . urlize(info('name')) . '/">' . info('name') . '</a></li>';
+		echo '<li><a href="' . am_var('url') . 'community/' . urlize(info('name')) . '/">' . info('name') . '</a></li>';
 
 	}
 	echo '</ul>';

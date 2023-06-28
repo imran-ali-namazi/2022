@@ -4,10 +4,10 @@ am_var('local', $local = startsWith($_SERVER['HTTP_HOST'], 'localhost')); //NOTE
 include_once 'functions.php';
 
 bootstrap([
-	'name' => 'YieldMore.org',
+	'name' => 'YieldMore.org Ideas',
 	'byline' => 'Enrich Your Soul',
 	'footer-message' => 'there is more to you than you know... be ready to yield more!',
-	'safeName' => 'yieldmore2',
+	'safeName' => 'yieldmore',
 
 	'version' => [ 'id' => '20', 'date' => '5 Jun 2023' ],
 
@@ -18,7 +18,7 @@ bootstrap([
 
 	'theme' => 'biz-land',
 	'uses' => 'custom-image-background',
-	'og:image' => '%url%assets/yieldmore2-opengraph.jpg?fver=2',
+	'og:image' => '%url%assets/yieldmore-opengraph.jpg?fver=2',
 	'image-in-logo' => '-rectangle.jpg',
 
 	'email' => 'team@yieldmore.org',
@@ -57,7 +57,7 @@ bootstrap([
 	'scripts' => ['textToSpeech', 'content', 'iviewer'],
 	'google-analytics' => 'UA-166048963-1',
 
-	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/', 'port') : 'https://yieldmore.org/',
+	'url' => $local ? replace_vars('http://localhost%port%/ideas/', 'port') : '//ideas.yieldmore.org/',
 	'path' => SITEPATH,
 ]);
 

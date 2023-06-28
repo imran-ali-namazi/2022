@@ -117,6 +117,13 @@ function site_humanize($txt, $field = 'title') {
 	if (array_key_exists($key = strtolower($txt), $pages = am_var('pages')))
 		return $pages[$key][$field];
 
+	$pages = [
+		'pact' => 'PACT Education Forum',
+	];
+
+	if (array_key_exists($key = strtolower($txt), $pages))
+		return $pages[$key];
+
 	return $txt;
 }
 

@@ -1,5 +1,8 @@
 <ul class="nav-menu">
-	<li><a href="<?php echo am_var('url');?>community/">Community</a></li>
+	<li class="drop-down">
+		<a href="<?php echo am_var('url');?>community/">Community</a>
+		<?php menu('/data/community/', ['exclude-files' => ['directory'], 'parent-slug' => 'community/' ]); ?>
+	</li>
 	<li class="drop-down"><a>Ideas</a></a>
 	<?php 
 		recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
@@ -9,26 +12,21 @@
 	<li class="drop-down"><a>More</a>
 		<ul>
 			<li><a href="<?php echo am_var('url');?>ideas/">Ideas</a></li>
-			<li class="drop-down"><a>Learn</a>
-				<ul>
-					<?php menu('/content/learn/', ['no-ul' => true]); ?>
-				</ul>
+			<li class="drop-down"><a>About</a>
+				<?php menu('/content/about/'); ?>
 			</li>
-			<?php menu('/content/about/', ['no-ul' => true]); ?>
+			<li class="drop-down"><a>Learn</a>
+				<?php menu('/content/learn/'); ?>
+			</li>
 			<li class="drop-down"><a>People</a>
 				<?php $friends = ['eric', 'christine', 'ritu', 'srividya'];?>
-				<ul>
-					<?php menu('/content/people/', ['no-ul' => true, 'exclude-files' => $friends]); ?>
-					<li><hr /></li>
-					<li class="drop-down"><a>Friends</a>
-						<?php menu('/xyz', ['files' => $friends]); ?>
-					</li>
-				</ul>
+				<?php menu('/content/people/', ['exclude-files' => $friends]); ?>
+			</li>
+			<li class="drop-down"><a>Friends</a>
+				<?php menu('/xyz', ['files' => $friends]); ?>
 			</li>
 			<li class="drop-down"><a>Webring</a>
-				<ul>
-					<?php menu('/content/webring/', ['no-ul' => true]); ?>
-				</ul>
+				<?php menu('/content/webring/'); ?>
 			</li>
 		</ul>
 	</li>
