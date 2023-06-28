@@ -2,6 +2,8 @@
 
 <?php
 
+renderFile(__DIR__ . '/_introduction.md');
+
 renderFile(__DIR__ . '/_headers/2023.md');
 
 recursive_menu(

@@ -4,14 +4,11 @@
 		<?php menu('/data/community/', ['exclude-files' => ['directory'], 'parent-slug' => 'community/' ]); ?>
 	</li>
 	<li class="drop-down"><a>Ideas</a></a>
-	<?php 
-		recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]);
-	?>
+		<?php recursive_menu(get_sheet('sitemap'), 'ideas-menu', 1, ['section-prefix' => true, 'home-link-to-section' => true ]); ?>
 	</li>
 	<?php section_menu(); ?>
 	<li class="drop-down"><a>More</a>
 		<ul>
-			<li><a href="<?php echo am_var('url');?>ideas/">Ideas</a></li>
 			<li class="drop-down"><a>About</a>
 				<?php menu('/content/about/'); ?>
 			</li>
@@ -19,7 +16,7 @@
 				<?php menu('/content/learn/'); ?>
 			</li>
 			<li class="drop-down"><a>People</a>
-				<?php $friends = ['eric', 'christine', 'ritu', 'srividya'];?>
+				<?php $friends = ['eric', 'ritu'];?>
 				<?php menu('/content/people/', ['exclude-files' => $friends]); ?>
 			</li>
 			<li class="drop-down"><a>Friends</a>
