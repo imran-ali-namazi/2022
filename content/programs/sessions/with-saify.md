@@ -1,3 +1,21 @@
+# Retreats and Workshops with Saify Saraiya
+
+# Facilitator Profile
+
+# Calendar
+
+# Locations
+
+* [Monastery Guest House](https://maps.app.goo.gl/ZPThHXJ9tnrFjxeC6) at Bylakuppe **. (88 Km from Mysore Railway Station)
+
+** Bylakuppe is an area in Karnataka which is home to several Tibetan settlements, established by Lugsum Samdupling and Dickyi Larsoe. Bylakuppe is the second largest Tibetan Settlement outside Tibet after Dharamshala.
+
+----
+
+# Intimate Families
+
+<img class="img-fluid" src="../../assets/sessions/intimate-families.jpg" />
+
 # 5D Dynamics
 
 * Discover
