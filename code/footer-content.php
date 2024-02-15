@@ -3,7 +3,7 @@ echo '<div id="footer-section-menu" class="container">';
 
 if ($people = am_var('community-people')) {
 	am_var('sectionColumns', $people->columns);
-	echo renderFile('<h2><a href="%url%community">YM Community</a></h2><ul>');
+	echo renderAny('<h2><a href="%url%community">YM Community</a></h2><ul>');
 	foreach ($people->rows as $person) {
 		am_var('community-person', $person);
 		if (info('name') == 'Community') continue;

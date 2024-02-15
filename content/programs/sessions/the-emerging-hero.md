@@ -1,3 +1,5 @@
+<!--TODO: include material inspired by fury/fantasy-->
+
 # Introduction
 
 Inspired by the title of the [Robert Govers' book of the same name](https://www.imaginativecommunities.com/), I intend this workshop in 3 parts, each with a interlude into breakout rooms.

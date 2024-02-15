@@ -2,9 +2,9 @@
 
 <?php
 
-renderFile(__DIR__ . '/_introduction.md');
+renderAnyFile(__DIR__ . '/_introduction.md');
 
-renderFile(__DIR__ . '/_headers/2023.md');
+renderAnyFile(__DIR__ . '/_headers/2023.md');
 
 recursive_menu(
 	get_sheet('sitemap'),
@@ -31,11 +31,12 @@ recursive_menu(
 			$form = '[FORM]'; //sprintf('<a href="%s">help us by submitting this form</a>', '#' . $programme['form']);
 			$video = '[VIDEO]'; //sprintf('<div class="video-container"><iframe src="%s"></iframe></div>', 'https://www.youtube.com/embed/' . $programme['video']);
 
-			return '<span class="why-name"><strong>' . renderFile($name . '</strong>: '. $form, [], false) . $video . '</span><span class="why-head">';
+			return '<span class="why-name"><strong>' . renderAny($name . '</strong>: '. $form, ['echo' => false]) . $video . '</span><span class="why-head">';
 		},
 		'suffix' => function($item, $cols) {
 			$toggleIdeas = ' | <a class="toggle-ideas" href="javascript:;">hide ideas</a>';
 			if ($item[$cols['section']] == 'ideas-menu') return $toggleIdeas . '</span>';
+
 			$why = $item[$cols['why']];
 			$section = $item[$cols['section']];
 			return '<br /><blockquote class="why-text">' . $why . '</blockquote>';

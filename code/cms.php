@@ -40,7 +40,7 @@ bootstrap([
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@YieldMore', 'name' => 'youtube: main channel love / new' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@FacesOfYieldMore', 'name' => 'youtube: faces / 2018 and 2019' ],
 		[ 'type' => 'youtube', 'link' => 'https://www.youtube.com/@ImranYieldsMore', 'name' => 'youtube: legacy / imran' ],
-		[ 'type' => 'linkedin','link' => 'https://www.linkedin.com/company/yieldmore/' ],
+		[ 'type' => 'linkedin','link' => 'https://www.linkedin.com/groups/14012871/', 'name' => 'YieldMore.org Group on LinkedIn' ],
 	],
 
 	'incubating' => [
@@ -57,7 +57,7 @@ bootstrap([
 	'scripts' => ['textToSpeech', 'content', 'iviewer'],
 	'google-analytics' => 'UA-166048963-1',
 
-	'url' => $local ? replace_vars('http://localhost%port%/ideas/', 'port') : '//ideas.yieldmore.org/',
+	'url' => $local ? replace_vars('http://localhost%port%/subdomains/yieldmore/ideas/', 'port') : 'https://ideas.yieldmore.org/',
 	'path' => SITEPATH,
 ]);
 

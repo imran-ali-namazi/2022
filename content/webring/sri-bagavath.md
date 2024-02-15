@@ -2,8 +2,8 @@ Sri Bagavath Iyya, from the --- tradition, is a native of --- and has spent his 
 
 Here, at YM, one of his students is compiling resources and is just beginning her journey as an Acharya (Teacher).
 
-* [Ego pdf](http://yieldmore.org/assets/resources/sri-bagavath-ego.pdf)
-* [Form and Formless State of the Mind pdf](http://yieldmore.org/assets/resources/sri-bagavath-form-and-formless-state-of-the-mind.pdf)
+* [Ego pdf](%url%assets/resources/sri-bagavath-ego.pdf)
+* [Form and Formless State of the Mind pdf](%url%assets/resources/sri-bagavath-form-and-formless-state-of-the-mind.pdf)
 
 And the official resources
 

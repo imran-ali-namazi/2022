@@ -29,9 +29,4 @@
 	</li>
 	<li><a href="<?php echo am_var('url');?>search/">Search</a></li>
 	<li><a href="<?php echo am_var('url');?>sitemap/">Sitemap</a></li>
-	<?php if (am_var('local')) { ?>
-	<li class="drop-down"><a>Private</a>
-		<?php menu('/content/private/'); ?>
-	</li>
-	<?php } ?>
 </ul>
