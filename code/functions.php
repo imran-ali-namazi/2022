@@ -58,6 +58,7 @@ function before_file() {
   }
 
 	echo '<div id="content" class="container">';
+	echo '<section>';
 
 	$deckExists = file_exists(SITEPATH . '/decks/' . am_var('node') . '.md');
 	if ($deckExists)
@@ -69,6 +70,7 @@ function before_file() {
 function after_file() {
 	if (am_var('embed')) return;
 	echo disk_file_get_contents(SITEPATH . '/assets/speech-ui.html');
+	echo '<section>';
 	echo '</div>';
 }
 

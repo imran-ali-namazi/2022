@@ -9,7 +9,7 @@ bootstrap([
 	'footer-message' => 'there is more to you than you know... be ready to yield more!',
 	'safeName' => 'yieldmore',
 
-	'version' => [ 'id' => '20', 'date' => '5 Jun 2023' ],
+	'version' => [ 'id' => '21', 'date' => '27 Aug 2024' ],
 
 	'folder' => 'content/',
 	'support_page_parameters' => true,
@@ -57,7 +57,7 @@ bootstrap([
 	'scripts' => ['textToSpeech', 'content', 'iviewer'],
 	'google-analytics' => 'UA-166048963-1',
 
-	'url' => $local ? replace_vars('http://localhost%port%/subdomains/yieldmore/ideas/', 'port') : 'https://ideas.yieldmore.org/',
+	'url' => $local ? replace_vars('http://localhost%port%/yieldmore/ideas/', 'port') : 'https://ideas.yieldmore.org/',
 	'path' => SITEPATH,
 ]);
 

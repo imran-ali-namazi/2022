@@ -34,6 +34,18 @@ body { cursor: default; }
 	--programme5: #cff;
 }
 
+body {
+    cursor: default;
+    background-color: #B6D8FE!important;
+}
+
+#content section, footer section, footer .engage {
+    border-radius: 30px;
+    background-color: #fff!important;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
 #content .level-1-menu, #content .level-1-menu ul { margin: 0; padding: 0; list-style-type: none; }
 #content .level-1-menu > li { margin-top: 25px; }
 #content .level-2-menu > li { border-top: 4px ridge #666; list-style-type: decimal; margin: 0 0 10px 35px; }
